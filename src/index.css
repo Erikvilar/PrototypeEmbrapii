@@ -4,18 +4,24 @@
   padding: 0;
 }
 
+
+
 body {
-  background-color: white;
+  background-image: linear-gradient(to top, #9ba0ff, #b8b7ff, #d2ceff, #e9e6ff, #ffffff);
 
 }
 
+html ::-webkit-scrollbar {
+  scrollbar-width: none;
+}
+
 header {
-  position: fixed;
   display: flex;
   flex-direction: column;
+
   width: 100%;
-  background-color: white;
-  z-index: 1;
+
+
   justify-content: center;
   align-items: center;
 
@@ -25,68 +31,129 @@ nav {
   background-color: black;
   border-top: 5px solid rgb(102, 102, 102);
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
 }
 
-.tables nav table {
-  color: white;
+nav img {
+  width: 100px;
+
+
 }
 
-.tables nav {
+main {
+  margin: auto;
+
+  display: flex;
+
+}
+
+.section-tables {
+  margin: auto;
+
+  max-width: 1280px;
+
+
+}
+
+.content button {
+  border: none;
   color: white;
+  transform: none;
+
+  font-family: 'Tahoma',sans-serif;
   height: 50px;
-  border-top: 5px solid red;
+  background-color: transparent;
+
 }
 
-.tables nav td {
+.content button:active {
+  border-top: 1px solid orange;
+}
+
+.content button:hover {
+  border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+header div img {
+  width: 190px;
+}
+
+.content .search-bar {
+  width: 360px;
+  height: 100px;
+
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
+}
+
+.content .search-bar input[type=text] {
+  width: 350px;
+  height: 45px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  background-color: transparent;
+border-bottom: 2px solid white;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+  padding: 8px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 
-  width: 175px;
-  padding: 10px;
-  transition: 0.5s;
+}
+.content .search-bar input[type=text]:focus{
+outline: none;
+
+}
+.content .search-bar input[type=text]:active{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+
+.content .search-bar input[type=placeholder] {
+  color: red;
+}
+
+.content .search-bar label {
+  font-size: 20px;
   font-family: 'Tahoma', sans-serif;
-
-
 }
 
-.tables nav td:hover {
-
-
-  color: rgb(244, 188, 119);
-
-}
-
-.search-bar {
-  width: 250px;
-
-  margin: auto;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-
-}
-
-.search-bar input[type=text] {
-  width: 250px;
-  padding: 8px;
-}
-
-.search-bar button[type=submit] {
+.content .search-bar button[type=submit] {
   padding: 8px;
   color: orange;
+
   background-color: black;
 
 }
 
 nav ul {
-  margin: auto
+margin: auto;
+width:600px;
+
 }
 
 nav ul li {
   list-style: none;
+  height: 35px;
+  margin: 10px;
   display: inline-block;
+}
+nav ul li:hover{
+border-bottom: 1px solid white;
+}
+nav ul li:active{
+border-bottom: 1px solid orange
 }
 
 nav ul li a {
@@ -102,108 +169,134 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
-main {
-  width: 1500px;
-  margin: auto;
-
-}
-
-section {
-  margin: auto;
-
-  width: 1500px;
-  position: absolute;
-  top: 320px;
-  left: 100px;
-
-
-}
 
 .tables {
-  border: 2px solid rgb(0, 0, 0);
-  width: 1700px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 1280px;
   height: 500px;
   overflow: scroll;
+  background-color: black;
+  border: 5px solid rgb(0, 0, 0);
 
 }
-.tables::-webkit-scrollbar{
+
+.tables::-webkit-scrollbar {
   display: none;
 }
-.tables table{
-width: 1700px;
-height: 100px;
+
+.tables table thead tr{
+
+
+  width: 100%;
 
 }
 
-.tables thead {
-  position: fixed;
-
-  z-index: 1;
-  background-color: black;
+.tables thead td{
   color: white;
-  margin: 0;
-
-  margin-top: -50px;
-  left:100px;
-  right:120px;
-  padding: 0;
+  font-family: 'Tahoma',sans-serif;
 
 }
-
-.tables thead tr {
-  height: 50px;
-  background-color: black;
-
+.tables thead tr{
+background-color: black;
 }
 
-.tables thead td, .tables tbody td{
-  width: 214px;
-  text-align: center;
-  height: 40px;
-  border-bottom: 2px solid black;
 
-}.tables thead tr{
-  width: 214px;
+
+.tables thead button:nth-child(1) {
+  width: 100%;
+}
+
+.tables table thead tr {
   border: 2px solid red;
-  text-align: center;
-  height: 40px;
-  border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
+}
+.tables table tbody tr {
+height: 50px;
+transition: 0.5s ease;
+}
+.tables table tbody tr:hover {
+
+  font-weight: 700;
+  color: rgb(55, 55, 55);
+  border-bottom: 2px solid rgb(255, 255, 255);
+
 }
 
 
 
 
 
-.tables tbody td:nth-child(1), .tables tbody td:nth-child(1) {
-  font-weight: 800;
-  width: 214px;
-  color: black;
+
+
+.tables tbody td {
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+
 }
-
-
 
 .tables tbody td:hover {
-  color: orange;
-  font-size: 20px;
+  height: 60px;
+
+}
+
+.tables thead td,
+.tables tbody td {
+  text-align: center;
+
+  transition: 0.3s smooth;
+  border-bottom: 2px solid black;
+}
+
+.tables thead td:nth-child(1),
+.tables tbody td:nth-child(1) {
+
+
+  width: 100px;
+  color: rgb(255, 255, 255);
+}
+.tables thead td:nth-child(2),
+.tables tbody td:nth-child(2) {
+
+  width: 200px;
+  color: rgb(255, 255, 255);
+}
+.tables thead td:nth-child(4),
+.tables tbody td:nth-child(4) {
+
+  width: 130px;
+  color: rgb(255, 255, 255);
+}
+.tables thead td:nth-child(6),
+.tables tbody td:nth-child(6) {
+
+  width: 130px;
+  color: rgb(255, 255, 255);
+}
+.tables thead td:nth-child(7){
+
+  width: 10px;
+  color: rgb(255, 255, 255);
+}
+.tables thead td:nth-child(8),
+.tables tbody td:nth-child(8) {
+
+  width: 170px;
+  color: rgb(255, 255, 255);
 }
 
 .tables tbody tr:nth-child(even) {
-
   background-color: rgba(175, 175, 172, 0.236);
-
 }
-.tables tbody tr:last-child() td{
 
-border-bottom: 0px;
-
-}
 footer {
   background-color: black;
   color: white;
-  height: 100px;
+  height: 50px;
   display: flex;
   align-items: center;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   border-bottom: 5px solid rgb(102, 102, 102);

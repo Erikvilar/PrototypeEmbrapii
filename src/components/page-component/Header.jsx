@@ -1,30 +1,19 @@
 import { useEffect, useState } from "react";
-
-
-
-
 function Header() {
-    const [valueInput, setValueInput] = useState('')
-    const  HandleValueInputChange = (event)=>{
-        setValueInput(event.target.value);
-        
-    }
-    console.log(HandleValueInputChange.value)
     return (
         <header>
             <nav>
+                <img src="./assets/images/1.png" alt="" />
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Assign</a></li>
-                    <li><a href="#">Answers</a></li>
-                    <li><a href="#">Apollo</a></li>
+                    <li><a href="#">Pesquisar</a></li>
+                    <li><a href="#">Adicionar</a></li>
+                    <li><a href="#">Informações</a></li>
+                    <li><a href="#">Instruções de uso</a></li>
+                    <li><a href="#">Sobre</a></li>
                 </ul>
             </nav>
-            <h1>LTAD - Patrimonios</h1>
-            <div className="search-bar">
-                <form action="">
-                <input type="text" placeholder="Search..." onChange={HandleValueInputChange} />
-                </form>
+            <div>
+            <img src="./assets/images/1.png" alt="" />
             </div>
         </header>
     );

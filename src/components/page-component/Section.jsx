@@ -5,7 +5,7 @@ function Section(){
 
 
     return (
-        <section >
+        <section className="section-tables">
             <Tables/>
         </section>
     );
