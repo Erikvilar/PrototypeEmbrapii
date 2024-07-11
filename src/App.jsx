@@ -1,16 +1,16 @@
 
 
-import Header from './components/page-component/Header.jsx';
-import Footer from './components/page-component/Footer.jsx';
-import Main from './components/page-component/Main.jsx';
+import Header from './components/header.jsx';
+import Main from './components/main.jsx';
+
 
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
-    <Footer/>
+      <Main/>
+   
     </>
  
   );

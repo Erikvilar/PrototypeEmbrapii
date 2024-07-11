@@ -1,0 +1,50 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+  width: 100%;
+    display: flex;
+    margin-top: 100px;
+
+    padding: none;
+
+  .embrapii-content{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    .embrapii-outlet{
+
+        width:200px;
+        height: 100vh;
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+
+        img{
+            padding: 5px;
+        }
+
+    }
+    .embrapii-roll{
+        width: 800px;
+        height: 100vh;
+   
+
+        .carousel{
+          
+            width: 800px;
+            height: 500px;
+            
+            img{
+                width: 800px;
+                height: 450px;
+            }
+        }
+    }
+  }
+}
