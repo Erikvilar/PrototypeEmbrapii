@@ -1,0 +1,39 @@
+.icon{
+    border-top: 5px solid #2c66ce;
+
+    
+    width: 155px;
+    height: 165px;
+
+    img{
+        width: 117px;
+        height: 117px;
+  
+    }
+    .icon-title{
+        width: 145;
+        height: 42px;
+        border-top: 5px solid #2c66ce;
+        background-color: #2c66ce;
+        color: white;
+        text-align: center;
+      
+    }
+    ;
+
+
+
+}
+.exposition{
+    padding: 10px;
+    p:nth-child(1){
+        
+        color: #2c66ce;
+        font-weight: 600;
+    }
+    p:nth-child(2){
+
+        font-weight: 600;
+        color: #2c66ce;
+    }
+}
