@@ -1,0 +1,77 @@
+
+.embrapii-roll {
+
+img{
+    width: 712px;
+    height: 403px;
+}
+    .carousel {
+        width: 712px;
+        height: 450px;
+        margin-bottom: 20px;
+   
+        .carousel-control-prev-icon {
+            background-color: black;
+            border-radius: 30px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .carousel-control-next-icon {
+            background-color: black;
+
+            border-radius: 20px;
+            height: 30px;
+            width: 30px;
+
+        }
+
+        .carousel-indicators {
+            position: relative;
+            top: 380px;
+            button {
+                width: 10px;
+                height: 10px;
+                border-radius: 360px;
+                border: 2px solid rgb(95, 87, 87);
+                transform: rotate(360deg);
+
+            }
+          
+        }
+        img {
+            width: 710px;
+  
+            height: 420px;
+        }
+
+
+  
+
+        .caption {
+
+            background-color: rgba(0, 0, 0, 0.461);
+            justify-content: center;
+            position: relative;
+            left: 0px;
+            top: -40px;
+            
+            height: 20px;
+            width: 712px;
+       
+            h1{
+                font-family: "Rawline",sans-serif;
+                position: relative;
+                top: -12px;
+                left: 10px;
+                font-size:20px;
+                line-height: 1.5;
+                font-weight: 400;
+                text-align: start;
+            }
+
+
+
+        }
+    }
+}

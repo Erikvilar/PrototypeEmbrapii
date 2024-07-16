@@ -1,0 +1,86 @@
+
+.embrapii-outlet {
+
+    width: 180px;
+    height: auto;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    .logo-embrapii {
+        margin-top: 5px;
+        img {
+            margin: auto;
+            width: 150px;
+        }
+    }
+
+    .listLink {
+      
+        padding: 0px;
+        margin-top: 20px;
+        width: 180px;
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        cursor: pointer;
+
+        li {
+    
+            padding: 8px;
+            width: 100%;
+            font-size: 18px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        li:nth-child(1) {
+            border-top: 2px solid blue;
+            border-bottom: 3px solid blue;
+            background-color: white;
+        }
+
+        li:nth-child(2):hover {
+            cursor: pointer;
+            border-top: 2px solid blue;
+            border-bottom: 3px solid blue;
+
+        }
+
+        li:nth-child(5):hover {
+            cursor: pointer;
+            border-top: 2px solid blue;
+            border-bottom: 3px solid blue;
+
+        }
+
+        li:nth-child(2) {
+            background-color: #f4f4f4;
+
+        }
+
+        li:nth-child(3) {
+            background-color: #f4f4f4;
+
+        }
+
+        li:nth-child(4) {
+            background-color: #f4f4f4;
+
+        }
+
+        li:nth-child(5) {
+            background-color: #f4f4f4;
+        }
+
+        li:nth-last-child {
+            border-bottom: 2px solid blue;
+        }
+
+        li:hover {
+            background-color: #eaeaea;
+        }
+    }
+}
