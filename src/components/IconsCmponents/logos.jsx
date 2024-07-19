@@ -1,8 +1,8 @@
 import React from 'react'
 
- const logos = ({link_to}) => {
+ const logos = (props) => {
   return (
-        <div><a href={link_to}><img src={img_to} alt="" /></a></div>
+        <div><a href={props.link}><img src={props.img} alt="" width={18} /></a></div>
   )
 }
 export default logos

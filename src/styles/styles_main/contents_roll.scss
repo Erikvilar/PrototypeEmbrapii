@@ -77,6 +77,9 @@
         list-style: none;
         padding: 0px
     }.logos_to{
-
+        display: flex;
+        div{
+            margin: 5px;
+        }
     }
 }
