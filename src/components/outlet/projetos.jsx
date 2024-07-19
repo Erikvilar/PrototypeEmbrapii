@@ -3,7 +3,7 @@ import Notes_titles from '../main/notes_titles'
 import Expostion from '../IconsCmponents/expostion'
 const projetos = () => {
   return (
-    <div className='projetos'>
+    <section className='projetos'>
         <Notes_titles title="Dados tribometricos"/>
         <Expostion type="Portal Embrapii" update="15/07/2024 - atualizado em 18/05/2024 -23:12"/>
         <img src="https://www.nucleodoconhecimento.com.br/wp-content/uploads/2022/06/Modelos-tribologicos-com-rugosidade-da-ferramenta-Sa-075%C2%B5-onde-A-Sem-deformacao-plastica-e-B-Com-deformacao-plastica-da-chapa.jpg" alt="" />
@@ -29,8 +29,7 @@ III - a produção de mudanças na própria instituição superior e nos demais 
 <p>"Fundamentals of Tribology" por S.K. Basu</p>
 
 
-    </div>
-  )
+    </section> )
 }
 
 export default projetos

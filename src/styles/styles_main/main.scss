@@ -5,7 +5,9 @@
 * {
     padding: 0;
     margin: 0;
-}.general-content{
+}
+
+.general-content{
     display: flex;
     flex-direction: column;
     height: auto;
@@ -20,23 +22,8 @@ main{
     padding-top: 40px;
     height: auto;
     margin: auto;
-
-.extensao{
-    width: 712px;
-
-
-    .extensao-icons{
-     display: flex;
-     margin-top: 20px;
-     flex-wrap: wrap;
-        div{
-            cursor: pointer;
-            margin: 10px;
-       
-        } 
-    }
 }
-}
+
 
 .notes_title {
     border-top: 5px solid #2c66ce;
@@ -54,7 +41,9 @@ main{
     }
    
 }
+
 .projetos{
+
 .group-projects{
     display: flex;
 
@@ -63,12 +52,16 @@ main{
         height: 300px;
     }
 }
+
 }
 .parcerias{
     img{
         margin-bottom: 30px;
     }
 }
+
+
+
 
 
 

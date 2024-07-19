@@ -2,7 +2,7 @@ import React from 'react'
 import Notes_titles from '../main/notes_titles'
 const parcerias = () => {
   return (
-    <div className='parcerias'>
+    <section lassName='parcerias'>
      <Notes_titles title="Parcerias"/>
       <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2021/01/19/1200x800/1__refinaria_duque_de_caxias___reduc-6489176.jpg?20220516164903?20220516164903" alt="" />
       <h5>Petrobrás</h5>
@@ -22,7 +22,7 @@ const parcerias = () => {
         <li>Eng. Felipe Oliveira Caixeta.</li>
         <li>Eng. Fernando Buiatti Rodrigues.</li>
        </ul>
-    </div>
+    </section>
   )
 }
 

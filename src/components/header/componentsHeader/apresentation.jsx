@@ -3,9 +3,8 @@ import React from 'react'
 function apresentation () {
   return (
     <div className='apresentation'>
-    <p>Laboratorio de</p>
-    <h1>Tecnologia em Atrito e Desgaste</h1>
-    <span>UNIVERSIDADE FEDERAL DE UBERLÂNDIA</span>
+    <h1>UNIDADE EMBRAPII FEMEC UFU</h1>
+    <span>Empresa Brasileira de Pesquisa e Inovação Industrial</span>
   </div>
   )
 }
