@@ -1,13 +1,13 @@
 import React from 'react'
 
-function nav (){
+function nav_header (){
   return (
 
         <nav className="nav-style">
           <div>
             <div className='logo'>
               <img src="https://cdn.icon-icons.com/icons2/1694/PNG/512/brbrazilflag_111698.png" alt=""  />
-              <span>Brasil</span>
+              <span href="#menu">Brasil</span>
             </div>
             <ul>
           
@@ -27,4 +27,4 @@ function nav (){
     </nav>
   )
 }
-export default nav
+export default nav_header
