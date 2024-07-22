@@ -2,18 +2,14 @@ import React from 'react'
 
 
 
-import "/src/styles/styles_main/main.scss"
+import "/src/styles/styles_main/principal_layout.scss"
 import "/src/styles/styles_main/contents_embrapii.scss"
-import "/src/styles/styles_main/contents_outlet.scss"
-import "/src/styles/styles_main/contents_roll.scss"
-
-import Box_left_links from './main/box_left_links'
-import Notes_titles from './main/elementsCompose/notes_titles'
-
+import "/src/styles/styles_main/static_compose.scss"
+import "/src/styles/styles_main/dynamic_layout.scss"
+import  Static_compose from './main/static_compose/static_compose'
+import Notes_titles from './main/elements_compose/notes_titles'
+import Static_links from './main/static_compose/static_links'
 import { Outlet } from 'react-router-dom'
-
-
-
 
 
 
@@ -23,23 +19,11 @@ function main() {
 
     
   return (
-    <main>
+    <main className="principal_layout">
       
         <section className='embrapii-content'>
-        <div className='embrapii-outlet'>
-
-            <div className='logo-embrapii'>
-              <a href="./src/images/icons/logo oficial horizontal.jpg">
-              <img src="./src/images/icons/logo oficial horizontal.jpg" alt="" />
-            </a>
-            </div>
-            <Notes_titles title=""/>
-            <Box_left_links/>
-            <Notes_titles title="Central de conteudos"/>
-            <img src="./src/images/iconsoutlet.png" alt="" />
-        </div>
-      
-        <div className='embrapii-roll'>
+        <Static_compose notes={<Notes_titles title="LTAD"/>} links={<Static_links/>}/>
+        <div className="dynamic_layout">
         <Outlet/>
         </div>
         </section>

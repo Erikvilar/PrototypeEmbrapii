@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "/src/styles/styles_header/nav_header.scss"
 function nav_header (){
   return (
 

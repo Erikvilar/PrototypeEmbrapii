@@ -4,7 +4,8 @@ import React from 'react'
   return (
         <div>
             <a href={props.link} target= "_blank"><img src={props.img} alt=""  width={18} />
-            </a></div>
+            </a>
+        </div>
   )
 }
 export default logos

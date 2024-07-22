@@ -5,10 +5,10 @@ import Main from './components/main.jsx';
 import Footer from './components/footer/footer.jsx';
 
 
-import "/src/styles/styles_main/main.scss"
+import "/src/styles/styles_main/principal_layout.scss"
 import "/src/styles/styles_main/contents_embrapii.scss"
-import "/src/styles/styles_main/contents_roll.scss"
-import "/src/styles/styles_main/contents_outlet.scss"
+import "/src/styles/styles_main/dynamic_layout.scss"
+import "/src/styles/styles_main/static_compose.scss"
 
 import "/src/styles/styles_footer/footer.scss"
 

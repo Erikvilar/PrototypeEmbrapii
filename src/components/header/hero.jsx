@@ -1,5 +1,5 @@
 import React from 'react'
-import Apresentation from './componentsHeader/apresentation'
+import Presentation from './componentsHeader/principal_title'
 import Baseboard from './componentsHeader/baseboard'
 import Searcher from './componentsHeader/searcher'
 function hero() {
@@ -8,14 +8,14 @@ function hero() {
       <div className='content'>
       <Baseboard/>
         {/* Alinhar apresentação e search */}
-        <div className='apresentation-align'>
-         <Apresentation/>
+        <div className="presentation-align">
+         <Presentation/>
          <Searcher/>
         </div>
 
       </div>
-      <div className='apresentation-baseboard-main'>
-        <div className='apresentation-baseboard-2'>
+      <div className="presentation-baseboard-main">
+        <div className="presentation-baseboard-2">
           <ul>
             <li> Dados abertos </li>
             <li>Serviços</li>

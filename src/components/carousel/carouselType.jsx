@@ -6,26 +6,26 @@ function carouselType() {
     return (
         <Carousel>
             <Carousel.Item >
-                <a href="https://comunica.ufu.br/noticias/2024/06/unidade-embrapii-femec-ufu-e-senai-uberlandia-iniciam-colaboracao" target='blank'>
-                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto1.jpeg" alt="" />
+                <a href="https://comunica.ufu.br/noticias/2024/06/exercito-brasileiro-busca-cooperacao-tecnologica-com-pesquisadores-da-ufu" target='blank'>
+                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/20240514_091431.jpg" alt="" />
                 </a>
 
                 <Carousel.Caption className='caption'>
-                    <ContentCarousel title="Unidade Embrapii Femec UFU e Senai Uberlândia iniciam colaboraçãos " />
+                    <ContentCarousel title="Exército Brasileiro busca cooperação tecnológica com pesquisadores da UFU" />
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item >
                 <a href="https://comunica.ufu.br/noticias/2024/06/unidade-femec-ufu-recebe-classificacao-ouro-da-embrapii" target='_blank'>
-                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/galpao-embrapii.png" alt="" />
+                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg" alt="" />
                 </a>
                 <Carousel.Caption className='caption'>
-                    <ContentCarousel title="Unidade Femec UFU recebe classificação ouro da Embrapii" />
+                    <ContentCarousel title="Comitiva da região das mineradoras visita laboratório da Unidade Embrapii Femec UFU" />
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item >
-                    <a href="https://comunica.ufu.br/noticias/2024/04/presidente-da-fapemig-visita-laboratorios-da-ufu-e-conversa-com-pesquisadores" target='_blank'>
+                    <a href="https://comunica.ufu.br/noticias/2024/06/comitiva-da-regiao-das-mineradoras-visita-laboratorio-da-unidade-embrapii-femec" target='_blank'>
                     <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-04/20240410_141431%20%281%29.jpg" alt="" />
                     </a>
                 <Carousel.Caption className='caption'>

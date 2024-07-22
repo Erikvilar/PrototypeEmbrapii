@@ -1,0 +1,40 @@
+
+.static_compose {
+
+    width: 180px;
+    height: auto;
+    margin-right: 38px;
+    display: flex;
+    flex-direction: column;
+    .logo_static_compose {
+        img {
+            margin: auto;
+            width: 150px;
+        }
+    }
+
+    .listLink {
+      
+        padding: 0px;
+        margin-top: 20px;
+        width: 180px;
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        cursor: pointer;
+
+        li {
+    
+            padding: 8px;
+            width: 100%;
+            font-size: 18px;
+            list-style: none;
+            color: #2c66ce;
+            a{
+                text-decoration: none;
+                color: #2c66ce;
+            }
+        }
+
+    }
+}

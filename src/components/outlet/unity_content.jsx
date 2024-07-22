@@ -4,11 +4,14 @@ import CarouselType from '../carousel/carouselType'
 
 import  Box1  from '../main/unity_content/box1'
 import Box2  from '../main/unity_content/box2'
+
+import Notes_titles from '../main/elements_compose/notes_titles';
+
 import Box3  from '../main/unity_content/box3'
 
 function unity_content() {
   return (
-    <section>
+    <section className='dinamic_layout'>
 
 
       <div className="carousel">
@@ -16,6 +19,7 @@ function unity_content() {
 
         {/* Conteudo principal */}
       </div>
+      <Notes_titles title="Conheça a unidade"/>
       <Box1 text1="A Unidade FEMEC UFU foi uma das primeiras Unidades da Embrapii, inaugurada em 2016 está localizada no Campus Santa Mônica da Universidade Federal de Uberlândia.  
 Ela foi credenciada para desenvolver soluções industriais no contexto de equipamentos, metodologias e ferramentas de análise e desenvolvimentos tecnológicos. 
 "
@@ -28,8 +32,6 @@ Nossa unidade é formada pelo laboratório de Tecnologia em Atrito e Desgaste (L
 
 
       <Box3 />
-
-
 
     </section>
   )

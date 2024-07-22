@@ -1,6 +1,6 @@
 import React from 'react'
-import Notes_titles from '../elementsCompose/notes_titles'
-import Logos from '../elementsCompose/logos'
+import Notes_titles from '../elements_compose/notes_titles'
+import Logos from '../elements_compose/logos'
  const box3 = () => {
   return (
     <div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Notes_titles from '../elementsCompose/notes_titles'
+import Notes_titles from '../elements_compose/notes_titles'
  const box2= () => {
   return (
     <div>
