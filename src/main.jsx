@@ -5,6 +5,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 
 import Unity_content from './components/outlet/unity_content.jsx'
 import  Presentation  from './components/outlet/presentation.jsx'
+import Team from './components/outlet/team.jsx'
 
 const Routing  = ()=>{
   return(
@@ -13,6 +14,7 @@ const Routing  = ()=>{
         <Route path="/" element={<App/>}>
           <Route path="/" element={<Unity_content/>}/>
           <Route path="apresentacao" element={<Presentation/>}/>
+          <Route path="equipe" element={<Team/>}/>
         </Route>
       </Routes>
     </HashRouter>

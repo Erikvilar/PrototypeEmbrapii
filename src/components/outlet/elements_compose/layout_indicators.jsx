@@ -6,9 +6,8 @@ const layout_indicators = () => {
     <div className="layout_indicators"> 
 
          
-            <h3>UNIDADE EMBRAPII FEMEC UFU</h3>
-          
-         <div className='indicators'>
+           <div className='title_indicators'> <img src="./src/images/icons/ouro.png" alt="" width={50} /><h3>UNIDADE EMBRAPII FEMEC UFU</h3></div> 
+            <div className='indicators'>
             <div>
             <p>+ <CountUp end={20} duration={5} /></p>
             <span>Projetos desenvolvidos</span>

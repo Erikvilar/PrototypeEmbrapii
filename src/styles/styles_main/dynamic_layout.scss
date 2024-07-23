@@ -2,9 +2,15 @@
 .dynamic_layout{
     width: 722px;
     height: auto;
-    
  
-}
+    .apresentation_movie{
+        display: flex;
+        
+
+        iframe{
+            margin: auto;
+        }
+    }
     .carousel {
         width: 722px;
         height: 450px;
@@ -81,3 +87,4 @@
             margin: 0.3rem;
         }
     }
+}

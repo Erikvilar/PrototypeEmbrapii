@@ -27,6 +27,7 @@
             margin: 5px;
             height: 200px;
             border: 2px solid rgba(0, 0, 0, 0.149);
+            padding: 0px 10px 0px 10px;
     
             p{
                 font-size: 40px;
@@ -34,9 +35,21 @@
                 font-family: "Poppins",sans-serif;
                 color: #2c66ce;
             }
+        }div:nth-child(4){
+            max-width: 350px;
+        }div:nth-child(5){
+            max-width: 350px;
         }
+     
     }
-   
+    .title_indicators{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        align-items: center;
+        margin: auto;
+       
+    }
 
 
 }

@@ -1,9 +1,9 @@
 import React from 'react'
-import Notes_titles from '../elements_compose/notes_titles'
+import { Notes_titles } from '../../../props/props_main'
  const box2= () => {
   return (
     <div>
-    <Notes_titles title="Responsavel"/>
+    <Notes_titles title="Responsavel" class_style="notes_title"/>
     <p><b>Coordenador da unidade</b></p>
     <p>Louriel Oliveira Vilarinho</p>
     <p>Cargo: Professor Titular - Dedicação Exclusiva</p>
