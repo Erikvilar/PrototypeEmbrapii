@@ -15,6 +15,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
     .box_team{
 
         display: flex;
@@ -23,7 +24,8 @@
         justify-content: start;
         width: 230px;
         margin: 5px;
-        height: 120px;
+        height: 160px;
+
         .person_name{
             font-size: 15px;
             font-weight: 600;
@@ -37,8 +39,21 @@
             color: #2c66ce;
             
 
-        }.person_email::before{
-            content: "✉︎";
+        }  .person_lattes{
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-left: 10px;
+            color: #2c66ce;
+            
+
+        } .person_lattes::before{
+            content: "📝";
+            
+
+        }
+        
+        .person_email::before{
+            content: "✉";
         }
     }
 }

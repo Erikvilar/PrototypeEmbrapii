@@ -4,8 +4,9 @@ import App from './App.jsx'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 
 import Unity_content from './components/outlet/unity_content.jsx'
-import  Presentation  from './components/outlet/presentation.jsx'
+import  Institutional  from './components/outlet/institutional.jsx'
 import Team from './components/outlet/team.jsx'
+import Teste from './components/outlet/teste.jsx'
 
 const Routing  = ()=>{
   return(
@@ -13,8 +14,9 @@ const Routing  = ()=>{
       <Routes>
         <Route path="/" element={<App/>}>
           <Route path="/" element={<Unity_content/>}/>
-          <Route path="apresentacao" element={<Presentation/>}/>
+          <Route path="institucional" element={<Institutional/>}/>
           <Route path="equipe" element={<Team/>}/>
+          <Route path="teste" element={<Teste/>}/>
         </Route>
       </Routes>
     </HashRouter>

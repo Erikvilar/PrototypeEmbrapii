@@ -9,7 +9,10 @@
     .logo_static_compose {
         img {
             margin: auto;
-            width: 150px;
+            width: 180px;
+            height: 100px;
+       
+        
         }
     }
 
@@ -30,11 +33,31 @@
             font-size: 18px;
             list-style: none;
             color: #2c66ce;
+            border-bottom: 1.5px solid #EDEFF1;
+          
             a{
                 text-decoration: none;
                 color: #2c66ce;
             }
         }
 
+    }.notes_static {
+        border-top: 5px solid #2c66ce;
+        color: #2c66ce;
+        background-color: #EDEFF1;
+        padding: 10px;
+        height:70px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      
+        width: 100%;
+        h1 {
+            margin: 12px;
+            font-size: 18px;
+          
+          
+    
+        }
     }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import { Notes_titles, Text_to_principal } from '../props/props_main'
 import  Layout_indicators  from './elements_compose/layout_indicators'
 
- const presentation = () => {
+ const institutional = () => {
   return (
     <div className='dynamic_layout'>
 
@@ -19,4 +19,4 @@ import  Layout_indicators  from './elements_compose/layout_indicators'
     </div>
   )
 }
-export default presentation
+export default institutional
