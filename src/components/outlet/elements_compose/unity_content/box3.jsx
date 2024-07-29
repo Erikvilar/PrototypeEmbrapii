@@ -14,8 +14,8 @@ import "/src/styles/styles_main/team_layout.css"
     </div>
     <p>Av. João Naves de Ávila, 2121 - Bairro Santa Mônica - Bloco 5F - CEP: CEP 38400-902</p>
 
-    {/* Transaformar em component */}
-    <p><b>Contato: </b><a href="mailto:embrapii@femec.ufu.br">embrapii@femec.ufu.br</a></p>
+
+
 
     <div className="anchor">
       <p><a href="#">&#9652; Volta ao topo</a></p>
