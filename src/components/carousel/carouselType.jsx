@@ -16,7 +16,7 @@ function carouselType() {
             </Carousel.Item>
 
             <Carousel.Item >
-                <a href="https://comunica.ufu.br/noticias/2024/06/unidade-femec-ufu-recebe-classificacao-ouro-da-embrapii" target='_blank'>
+                <a href="https://comunica.ufu.br/noticias/2024/06/comitiva-da-regiao-das-mineradoras-visita-laboratorio-da-unidade-embrapii-femec" target='_blank'>
                     <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg" alt="" />
                 </a>
                 <Carousel.Caption className='caption'>
@@ -25,11 +25,11 @@ function carouselType() {
             </Carousel.Item>
 
             <Carousel.Item >
-                    <a href="https://comunica.ufu.br/noticias/2024/06/comitiva-da-regiao-das-mineradoras-visita-laboratorio-da-unidade-embrapii-femec" target='_blank'>
+                    <a href="https://comunica.ufu.br/noticias/2024/04/presidente-da-fapemig-visita-laboratorios-da-ufu-e-conversa-com-pesquisadores" target='_blank'>
                     <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-04/20240410_141431%20%281%29.jpg" alt="" />
                     </a>
                 <Carousel.Caption className='caption'>
-                    <ContentCarousel title="Embrapii com novos projetos" />
+                    <ContentCarousel title="Presidente da Fapemig visita laboratórios da UFU e conversa com pesquisadores sobre investimentos em centros de excelência e Unidade Embrapii" />
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >

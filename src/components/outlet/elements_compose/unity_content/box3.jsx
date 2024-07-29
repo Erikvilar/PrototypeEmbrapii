@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { Logos, Notes_titles } from '../../../props/props_main'
+import { Notes_titles } from '../../../props/props_main'
+import "/src/styles/styles_main/team_layout.css"
  const box3 = () => {
   return (
     <div>
@@ -9,20 +10,7 @@ import { Logos, Notes_titles } from '../../../props/props_main'
 
 
     <div className="logos_to">
-{/* 
-      <Logos link="https://www.youtube.com/?app=desktop&hl=pt"
-        img="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" />
 
-      <Logos link="https://www.instagram.com/"
-        img="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" />
-
-
-      <Logos link="https://www.linkedin.com/"
-        img="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=w240-h480-rw" /> */}
-
-      {/* <Logos link="mailto:embrapii@femec.ufu.br"
-        img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vtphMtxRWfK6nO2CIbGfSETyEs79Dr6oPw&s" /> */}
-      <p></p>
     </div>
     <p>Av. João Naves de Ávila, 2121 - Bairro Santa Mônica - Bloco 5F - CEP: CEP 38400-902</p>
 

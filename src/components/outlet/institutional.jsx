@@ -1,19 +1,21 @@
 import React from 'react'
 import { Notes_titles, Text_to_principal } from '../props/props_main'
-import  Layout_indicators  from './elements_compose/layout_indicators'
 
- const institutional = () => {
+
+const institutional = () => {
   return (
     <div className='dynamic_layout'>
 
-    <Notes_titles title="Apresentação" class_style="notes_title"/>
-    <Text_to_principal text1="A Unidade FEMEC UFU é formada por equipes multidisciplinares com professores, pesquisadores e colaboradores contratados de diversas áreas, somando mais de 100 profissionais e alunos envolvidos nos projetos de PD&I para os setores de óleo e gás e metalmecânico. 
-    "
-    text2="Em 2023 conquistou a nota máxima de satisfação do cliente, e dentro do Programa de Excelência Operacional da Embrapii, recebeu a classificação ouro. "
-    text3="No mesmo ano implantou dois novos setores: o de escritório de projetos para o acompanhamento sistemático da evolução das etapas de todos os projetos garantindo eficiência e cumprimento dos prazos e o de comunicação para fortalecer o planejamento estratégico da prospecção, ampliando a conexão com as indústrias, com a sociedade e com o Governo."
-/>
+      <Notes_titles title="Apresentação" class_style="notes_title" />
 
-    <Layout_indicators />
+      <Text_to_principal text1="A Unidade FEMEC UFU foi uma das primeiras Unidades da Embrapii, inaugurada em 2016 está localizada no Campus Santa Mônica da Universidade Federal de Uberlândia.  
+Ela foi credenciada para desenvolver soluções industriais no contexto de equipamentos, metodologias e ferramentas de análise e desenvolvimentos tecnológicos. 
+"
+        text2={<>Uma das referências em estudos e desenvolvimento de diferentes materiais, atividades de reparo, processos de união e operações em metal-mecânica.
+          Nossa unidade é formada pelo laboratório de Tecnologia em Atrito e Desgaste <a href="https://www.youtube.com/watch?v=Xtqtgn-WtOg" className='link-inside-text'>LTAD</a>, e pelo Centro para Pesquisa e Desenvolvimento de Processos de Soldagem e manufatura aditiva <a href="https://youtu.be/iir0FqDMHW8">Laprosolda</a>.
+        </>} text3="A Unidade Embrapii FEMEC UFU é credenciada para atender aos setores metalúrgico, óleo e gás e o metal-mecânico. Os pesquisadores da unidade Femec/UFU – Embrapii atuam nas linhas de tribologia, propriedades mecânicas, fragilização por hidrogênio, simulação, soldagem, manufatura aditiva, automação e instrumentação, desenvolvimento de equipamentos, indústria 4.0 e software."
+        text4=" A Unidade Embrapii FEMEC UFU é credenciada para atender aos setores metalúrgico, óleo e gás e o metal-mecânico. Os pesquisadores da unidade Femec/UFU – Embrapii atuam nas linhas de tribologia, propriedades mecânicas, fragilização por hidrogênio, simulação, soldagem, manufatura aditiva, automação e instrumentação, desenvolvimento de equipamentos, indústria 4.0 e software." />
+
 
 
     </div>

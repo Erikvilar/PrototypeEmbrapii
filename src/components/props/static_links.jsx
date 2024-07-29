@@ -26,7 +26,7 @@ const static_links= () => {
         <List_link id="unidade" link="" title="Noticias"/>
         <List_link id="unidade" link="" title="Laborátorios"/>
         <List_link id="unidade" link="" title="Fale conosco"/>
-        <List_link id="unidade" link="" title="Perguntas frequentes"/>
+     
     </ul>
 
     <Notes_titles title="Central de conteudos" class_style="notes_static"/>

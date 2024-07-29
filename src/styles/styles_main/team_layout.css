@@ -1,0 +1,23 @@
+.box_team{
+  
+    display: flex;
+    margin-top: 50px;
+
+}.box_team ul {
+    border-top: 0.1px solid #4141413e;;
+    padding: 0;
+  
+}
+.box_team ul li {
+margin: 5px;
+    list-style: none;
+}.box_team ul:nth-child(1) {
+    width: 70%;
+  
+}
+.box_team ul:nth-child(1) li:nth-child(1){
+    font-family: "Open-sans",sans-serif;
+    color: #172938;
+    font-size: 19px;
+    font-weight: 700;
+}

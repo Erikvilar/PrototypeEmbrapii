@@ -20,20 +20,7 @@ export const Notes_titles = (props) => {
 }
 
 //este component por meio de parametro adquire um outro component e a props
-export const Box_team = ({component, name, link, email,lattes,linkLattes},props)=>{
- return (
-    <div className='box_team'>
-      {component}
-      <p className="person_name">{name}</p>
-      <p className="person_email">
-        <a href={link}>{email}</a>
-      </p>
-      <p className="person_lattes">
-        <a href={linkLattes}>{lattes}</a>
-      </p>
-        </div>
- )
-}
+
 
 //component de display do carrousel
 export const ContentCarousel =(props)=> {
@@ -61,10 +48,45 @@ export const Static_compose = ({links}) => {
   return (
     <div className='static_compose'>
     <div className='logo_static_compose'>
-      <a href=""><img src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/icons/logo%20oficial%20horizontal.jpg?raw=true" alt="" /></a>
+      <a href=""><img src="./src/images/outlet/Logo UE Horizontal.png" alt="" /></a>
     </div>
     {links}
 </div>
+  )
+}
+export const Box_team = ()=>{
+  const InternList = (props)=>{
+    return<div className="box_team">
+      
+    <ul>
+    <li>{props.name}</li>
+    <li>{props.occupation}</li>
+    <li><a href="http://" target="_blank" rel="noopener noreferrer">{props.link}</a></li>
+    </ul>
+    <ul>
+      <li>{props.latte}</li>
+      <li><a href="mailto:">{props.email}</a></li>
+      <li>{props.fone}</li>
+    </ul>
+    </div>
+
+  }
+  return(
+    <>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      <InternList name="Prof. Louriel O. Vilarinho" occupation="Coordenador da unidade Embrapii" link="Unidade embrapii site" latte="Currículo Lattes" email="louriel@ltad.ufu.br" fone="34 3291-8947"/>
+      </>
+
+
   )
 }
 
