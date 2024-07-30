@@ -48,7 +48,7 @@ export const Static_compose = ({ links }) => {
   return (
     <div className='static_compose'>
       <div className='logo_static_compose'>
-        <a href=""><img src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/Logo%20UE%20Horizontal.png?raw=true" alt="" /></a>
+        <a href=""><img src="./src/images/outlet/Logo UE Horizontal.png" alt="" /></a>
       </div>
       {links}
     </div>
