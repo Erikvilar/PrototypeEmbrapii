@@ -6,8 +6,8 @@ import "/src/styles/styles_main/principal_layout.scss"
 import "/src/styles/styles_main/contents_embrapii.scss"
 import "/src/styles/styles_main/static_compose.scss"
 import "/src/styles/styles_main/dynamic_layout.scss"
-import {Static_compose} from './props/props_main'
-import Static_links from './props/static_links'
+import {Static_compose} from './props/propsComponents'
+import Static_links from './props/linksComponents'
 import { Outlet } from 'react-router-dom'
 
 

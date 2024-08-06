@@ -1,8 +1,30 @@
 
 .dynamic_layout{
-    width: 722px;
+    width: 712px;
     height: auto;
- 
+ #institucional h3{
+    font-weight: 100;
+    font-size: 25px;
+    text-align: start;
+   
+    color: rgb(85, 84, 84);
+ }#institucional h4{
+   color:rgb(77, 124, 212);
+   font-weight: 500;
+   text-align: start;
+   font-size: 20px;
+ }#institucional .listaPDI{
+    padding: 0px;
+    li::before{
+        content:"✅ ";
+        filter: sepia(20%);
+    
+    margin-left: 10px;
+    }li{
+        list-style: none;
+    }
+ }
+
     .apresentation_movie{
         display: flex;
         
@@ -13,16 +35,16 @@
         }
     }
     .carousel {
-        width: 722px;
+        width: 712px;
         height: 450px;
-        margin-bottom: 40px;
+  
 
    
 
 
         .carousel-indicators {
             position: relative;
-            top: 380px;
+            top: 370px;
             button {
                 width: 10px;
                 height: 10px;
@@ -34,9 +56,9 @@
           
         }
         .img-carousel-index {
-            width: 722px;
+            width: 712px;
            resize: horizontal;
-            height: 420px;
+            height: 403px;
         }
 
 
@@ -51,14 +73,14 @@
             top: -40px;
             
             height: 20px;
-            width: 722px;
+            width: 712px;
        
             h1{
                 font-family: "Rawline",sans-serif;
                 position: relative;
                 top: -12px;
                 left: 10px;
-                font-size:20px;
+                font-size:18px;
                 line-height: 1.5;
                 font-weight: 400;
                 text-align: start;

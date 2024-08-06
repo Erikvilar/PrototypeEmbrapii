@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Notes_titles } from "./props_main";
+import { Notes_titles } from "./propsComponents";
 import "/src/styles/styles_main/static_compose.scss"
 const static_links= () => {
 
@@ -9,7 +9,7 @@ const static_links= () => {
         <List_link id="Apresentação" link="/" title="Início"/>
         <List_link id="" link="institucional" title="Institucional"/>
         <List_link id="" link="Equipe" title="Equipe"/>
-        <List_link id="" link="teste" title="Parceiros"/>
+        <List_link id="" link="" title="Parceiros"/>
         <List_link id="" link="" title="Vantagens"/>
     </ul>
     <Notes_titles title="Unidade Embrapii" class_style="notes_static"/>

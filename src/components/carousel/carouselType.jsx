@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import { ContentCarousel } from '../props/props_main';
+import { ContentCarousel } from '../props/propsComponents';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function carouselType() {
     return (
@@ -29,7 +29,7 @@ function carouselType() {
                     <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-04/20240410_141431%20%281%29.jpg" alt="" />
                     </a>
                 <Carousel.Caption className='caption'>
-                    <ContentCarousel title="Presidente da Fapemig visita laboratórios da UFU e conversa com pesquisadores sobre investimentos em centros de excelência e Unidade Embrapii" />
+                    <ContentCarousel title="Presidente da Fapemig visita laboratórios da UFU e conversa com pesquisadores " />
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >

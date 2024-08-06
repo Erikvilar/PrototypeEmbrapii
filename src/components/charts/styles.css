@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chart h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #2c66ce;
+    font-family: "Poppins",sans-serif;
+}

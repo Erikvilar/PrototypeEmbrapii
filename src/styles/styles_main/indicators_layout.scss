@@ -1,7 +1,7 @@
 .layout_indicators{
-    max-width: 722px;
-    width: 722px;
-    height: 500px;
+    max-width: 712px;
+    width: 712px;
+    height:auto;
     font-family: 'Poppins',sans-serif;
  
     text-align: center;
@@ -17,21 +17,30 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-      
+        width: 100%;
         div{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 100%;
-            max-width: 230px;
+            max-width: 225px;
             margin: 5px;
-            height: 200px;
+            height: 150px;
             border: 2px solid rgba(0, 0, 0, 0.149);
             padding: 0px 10px 0px 10px;
+            div{
+                border: none;
+                max-height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 200px;
+                
+            }
     
             p{
-                font-size: 40px;
+                font-size: 32px;
                 font-weight: 800;
                 font-family: "Poppins",sans-serif;
                 color: #2c66ce;
@@ -46,10 +55,12 @@
     .title_indicators{
         display: flex;
         flex-direction: row;
-        width: 500px;
+        width: 580px;
         align-items: center;
         margin: auto;
-       
+
+
+    
     }
 
 

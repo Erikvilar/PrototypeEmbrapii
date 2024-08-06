@@ -16,14 +16,13 @@ html{
     height: auto;
  
     
-.text_principal{
+.textArticle{
     text-align: justify;
-    margin: 0;
-    padding: 0;
     line-height: 25px;
     a{
         text-decoration: none;
         color:#2c66ce;
+        border-bottom: 1px solid #2c66ce;
         font-weight: 500;
     }
 }
@@ -49,12 +48,37 @@ html{
     width: 100%;
     h1 {
         margin-left: 10px;
-        font-size: 20px;
         margin-top: 10px;
+        font-size: 20px;
         margin-bottom: 20px;
 
+    }a{
+        color: #2c66ce;
+        text-decoration: none;
+        border: none;
     }
+    
+    
    
+}.notes_title_baseboard{
+    border-top: 3px solid #2c66ce;
+    color: #2c66ce;
+    background-color: rgba(0, 0, 0, 0.149);
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    h1{
+        font-weight: 700;
+        font-size: 15px;
+        text-align: end;
+    }a{
+        text-decoration: none;
+        color: #2c66ce;
+    }h1::after{
+        content: ">";
+        font-weight: 700;
+        font-size: 15px;
+    }
 }
 
 
