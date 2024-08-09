@@ -9,14 +9,15 @@ const static_links= () => {
         <List_link id="Apresentação" link="/" title="Início"/>
         <List_link id="" link="institucional" title="Institucional"/>
         <List_link id="" link="Equipe" title="Equipe"/>
-        <List_link id="" link="" title="Parceiros"/>
-        <List_link id="" link="" title="Vantagens"/>
+        <List_link id="" link="parceiros" title="Parceiros"/>
+        <List_link id="" link="vantagens" title="Vantagens"/>
+       
     </ul>
     <Notes_titles title="Unidade Embrapii" class_style="notes_static"/>
     
 
     <ul className="listLink">
-        <List_link id="unidade" link="" title="Infraestrutura"/>
+    <List_link id="" link="infraestrutura" title="Infraestrutura"/>
         <List_link id="unidade" link="" title="Projetos"/>
         <List_link id="unidade" link="" title="Serviços"/>
         <List_link id="unidade" link="" title="Publicações"/>

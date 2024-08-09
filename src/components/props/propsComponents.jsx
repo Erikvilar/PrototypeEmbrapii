@@ -1,10 +1,10 @@
 import React from "react"
-import articles from "../texts"
+
 
 // component para textos
-export const TextArticles= ({ text }) => {
+export const TextArticles= ({ text , classtype}) => {
   return (
-    <p className="textArticle">{text}</p>
+    <p className={classtype}>{text}</p>
   )
 }
 
@@ -41,16 +41,6 @@ export const ContentCarousel = (props) => {
     </div>
   )
 }
-
-//icone refs para outros conteudos
-export const Logos = (props) => {
-  return (
-    <div>
-      <a href={props.link} target="_blank"><img src={props.img} alt="" width={18} /></a>
-    </div>
-  )
-}
-
 //composição estatica layout esquerdo com lista de links = routers 
 //recebe como parametro notes = notas de rodape / links = lista de link
 export const Static_compose = ({ links }) => {
@@ -63,31 +53,27 @@ export const Static_compose = ({ links }) => {
     </div>
   )
 }
-export const Box_team = (props) => {
-    return (<div className="box_team">
-      <Notes_titles title={props.occupation} class_style="notes_title" />
-      <ul>
-        <li>{props.name}</li>
-        <li>
-          <img src="src/images/icons/emailicon.png" alt="" width={15} />
-          <a href="" target="_blank" rel="noopener noreferrer">{""+props.link}</a>
-          </li>
-          <li>
-          <img src="src/images/icons/telefoneicon.png" alt="" width={12} />
-          <span>{props.phone}</span>
-          </li>
-      </ul>
-     
-    </div>
-    )
-}
 
+
+//Renderizador de boxes //pode ser melhorado
+import BoxEquipe from "../boxes/boxEquipe"
+import Contacts from "../texts/ContentContacts"
+export const Box_team = () => {
+const box = Contacts.map((item,key)=> <BoxEquipe keyValue={key} occupation={item.occupation} iconEmail={item.iconEmail} name={item.name} email={item.email} phone={item.phone}/>)
+return (box)
+    
+}
+//Renderizados de listas 
 export const RenderList = ({object, classType})=> {
   const list =  object.map((item, key)=> <li key={key}>{item}</li>)
   return(<ul className={classType}>{list}</ul>)
 }
+//renderiza logos
+export const RenderImages =({object, width, height})=>{
+  const logos = object.map((item, key)=><div className="logos"><a key={key} href={item.link}><img src={item.img} width={width} height={height}/></a></div> )
+  return(<div className="logoContent">{logos}</div>)
+}
 
- 
 
 
 

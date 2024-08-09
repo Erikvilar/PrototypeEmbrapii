@@ -30,21 +30,21 @@
             padding: 0px 10px 0px 10px;
             div{
                 border: none;
-                max-height: 80px;
+                max-height: 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                width: 200px;
-                
-            }
-    
+                width: 200px;  
             p{
+                text-align: center;
                 font-size: 32px;
                 font-weight: 800;
                 font-family: "Poppins",sans-serif;
                 color: #2c66ce;
             }
+            }
+    
         }div:nth-child(4){
             max-width: 350px;
         }div:nth-child(5){

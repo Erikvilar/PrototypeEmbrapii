@@ -1,43 +1,25 @@
-import React from 'react'
-import {  Notes_titles, Box_team } from '../props/propsComponents'
-
+import React from "react";
+import { Notes_titles, Box_team } from "../props/propsComponents";
+import { TextArticles } from "../props/propsComponents";
+import Articles from "../texts/ContentArticles";
 
 const equipe = () => {
   return (
-    <React.Fragment className="dynamic_layout">
+    <div className="dynamic_layout" id="equipe">
       <Notes_titles title="Equipe" class_style="notes_title" />
-
-
-   
-      <div className='box_team_aligner'>
-        <div>
-          <Box_team occupation="Coordenador da unidade" name="Prof. Dr. Louriel Vilarinho" link="vilarinho@ufu.br" phone="(34) 3239-4380" />
-          <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-          <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        </div>
-        <div>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        </div>
-        <div>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        </div>
-        <div>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        <Box_team occupation="Coordenador da unidade" name="Erik Alves vilar" link="erikvilaralves@gmail.com" phone="(34) 992485123"/>
-        </div>
-
+      <TextArticles text={Articles.EquipeParagrafos[0]}classtype="textArticle"/>
+      <TextArticles text={Articles.EquipeParagrafos[1]}classtype="textArticle"/>
+      <TextArticles text={Articles.EquipeParagrafos[2]}classtype="textArticle"/>
+      <TextArticles text={Articles.EquipeParagrafos[3]}classtype="textArticle"/>
+      <TextArticles text={Articles.EquipeParagrafos[4]}classtype="textArticle"/>
+      <TextArticles text={Articles.EquipeParagrafos[5]}classtype="textArticle"/>
+      <TextArticles text={Articles.EquipeParagrafos[6]}classtype="textArticle"/>
+      <hr />
+      <div className="box_team_aligner">
+        <Box_team />
       </div>
-
-
-
-
-
-    </React.Fragment>
-  )
-}
-export default equipe
+      <Notes_titles title="Ir para parceiros " link="#parceiros" class_style="notes_title_baseboard" />
+    </div>
+  );
+};
+export default equipe;

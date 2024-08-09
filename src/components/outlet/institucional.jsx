@@ -1,4 +1,5 @@
-import articles from '../texts'
+import Articles from '../texts/ContentArticles'
+import Lists from '../texts/ContentLists'
 import { Notes_titles,TextArticles,RenderList } from '../props/propsComponents'
  const institucional = () => {
   return (
@@ -6,30 +7,30 @@ import { Notes_titles,TextArticles,RenderList } from '../props/propsComponents'
 
     <Notes_titles title="Institucional"  class_style="notes_title"/>
 
-    <TextArticles text={articles.InstitucionalParagrafos[0]}/>
-    <TextArticles text={articles.InstitucionalParagrafos[1]}/>
-    <TextArticles text={articles.InstitucionalParagrafos[2]}/>
+    <TextArticles text={Articles.InstitucionalParagrafos[0]} classtype="textArticle"/>
+    <TextArticles text={Articles.InstitucionalParagrafos[1]} classtype="textArticle"/>
+    <TextArticles text={Articles.InstitucionalParagrafos[2]} classtype="textArticle"/>
 
-    <Notes_titles title="Laborátorios" class_style="notes_title"/>
+    <Notes_titles title="Nossos laborátorios" class_style="notes_title"/>
 
-      <h3>Unidade de atrito e desgaste (LTAD)</h3>
+      <h3>Laborátorio de atrito e desgaste (LTAD)</h3>
       <iframe  width="712" height="350" src="https://www.youtube.com/embed/Xtqtgn-WtOg?si=iLem2giuPoZlGiwf&amp;controls=0" title="YouTube video player" ></iframe>
-      <TextArticles text={articles.InstitucionalParagrafos[3]}/>
+      <TextArticles text={Articles.InstitucionalParagrafos[3]} classtype="textArticle"/>
       <h4>Principais áreas de PD&I</h4>
-      <RenderList object={articles.listaPDILTAD} classType={"listaPDI"} />
+      <RenderList object={Lists.listaPDILTAD} classType={"listaPDI"} />
 
       <hr />
 
-      <h3>Unidade de Desenvolvimento em Processos de Soldagem (Laprosolda)</h3>
+      <h3>Laborátorio de Desenvolvimento em Processos de Soldagem (Laprosolda)</h3>
       <iframe width="712" height="350"  src="https://www.youtube.com/embed/iir0FqDMHW8?si=65q3p3uhHhGgj_Zq" ></iframe>
-      <TextArticles text={articles.InstitucionalParagrafos[4]} />
+      <TextArticles text={Articles.InstitucionalParagrafos[4]} classtype="textArticle" />
       <h4>Principais áreas de PD&I</h4>
-      <RenderList object={articles.listaPDILAPROSOLDA} classType={"listaPDI"} />
+      <RenderList object={Lists.listaPDILAPROSOLDA} classType={"listaPDI"} />
 
 <div className="anchor">
-      <p><a href="#">&#9652; Volta ao topo</a></p>
+      <p><a href="#institucional">&#9652; Voltar ao topo</a></p>
     </div>
-    <Notes_titles title="Ir para inicio " link="#/" class_style="notes_title_baseboard" />
+    <Notes_titles title="Ir para Equipes " link="#equipe" class_style="notes_title_baseboard" />
     </div>
   )
 }

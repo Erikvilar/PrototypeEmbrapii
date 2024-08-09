@@ -1,4 +1,4 @@
-const articles = {
+const Articles: Object = {
   InicioParagrafos: [
     //KEY <- REFERENCIA DO PARAGRAFO [0]
     `A Unidade Embrapii FEMEC UFU é formada pelo conjunto de 3 prédios dos 
@@ -52,25 +52,28 @@ const articles = {
      como os grandes centros de pesquisa de soldagem, como o TWI (Inglaterra), SLV (Alemanha), 
      Force (Dinamarca), Institut de Soldure (France) e EWI (EUA).`,
   ],
+  EquipeParagrafos: [
+    `Nossas equipes são formadas por mais de 100 pessoas, são alunos da graduação e pós graduação, professores pesquisadores, engenheiros contratados, técnicos e... (precisa concluir..`,
+    `A Unidade também desenvolve parcerias com professores de outros cursos como a engenharia elétrica, mecatrônica, engenharia ambiental, biomédicas, química e engenharia de produção. Também são desenvolvidos projetos em parceria com outras Unidades e outras Universidades e Centros de Inovação Tecnológica.`,
+    `A formação de pessoas se dá especialmente por meio dos projetos onde são criados ambientes favoráveis para ampliação do conhecimento, para os alunos, desde a iniciação científica, que participam das pesquisas e reuniões com as empresas parceiras.`,
+    `O trabalho em parceria público-privada permite um elevado nível de conhecimento com a troca de resultados alcançados e habilidades de interação em equipe e negociação com o setor privado.`,
+    `Nossas equipes são uma das referências na rede Embrapii para algumas áreas de desenvolvimento tecnológico como estudos de materiais ensaios miniaturizados, manufatura aditiva em deposição a arco e soldagem.`,
+    `A Unidade tem ganhadores do Prêmio Inventor Petrobras com 6 equipamentos de inovação tecnológica para analisar componentes submersos e que já estão sendo levados
+      para testes em plataformas offshore na extração de óleo e gás e para a indústria siderúrgica.`,
+     `Na área de metrologia a Unidade FEMEC UFU conta com a pesquisadora Rosenda Valdes Arencibia membro do Comitê Internacional (IEEE Joseph F. Keithley Award in Instrumentation & Measurement Committee).`
+  ],
+  ParceirosParagrafos:[
+    `A Unidade FEMEC UFU é credenciada junto à ANP (Agência Nacional do Petróleo) para conduzir suas atividades de PD&I em diversas linhas de desenvolvimento tecnológico.`,
+    `Tem como principais parceiros empresas do setor de óleo e gás e seus fornecedores, destacando-se aqui a parceria com a Petrobras, bem como parcerias com outras instituições públicas de pesquisa, dentre elas a Universidade Estadual de Campinas (UNICAMP), Universidade de São Paulo (USP), a Universidade Federal de Santa Catarina (UFSC) e a Universidade Tecnológica Federal do Paraná (UFPR).`,
+    `Conta também com o apoio financeiro das agências governamentais de fomento, tais como a Financiadora de Estudos e Projetos do Ministério da Ciência e Tecnologia (FINEP), Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG), Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES).`,
+    `Ainda desenvolve inovação tecnológica dentro dos Programas Rota 2023 e com o Banco Nacional de Desenvolvimento Econômico e Social (BNDES).`
+  ],
+  VantagensParagrafos:[
+    `A Unidade tem se consolidado como referência nacional no desenvolvimento de materiais resistentes ao desgaste para indústrias agrícolas, óleo e gás, mineração, ferroviário e siderurgia.`,
+    `Ter um projeto Embrapii significa ter apoio tecnológico e por meio de parceria Público-Privada obter aporte financeiro para desenvolver soluções tecnológicas com até 90% de recursos a fundo perdido. `,
+    `Nosso objetivo, sendo uma Unidade Embrapii é desenvolver PD&I para o fortalecimento de um modelo de produção industrial voltado para a competitividade de pequenas, médias e grandes empresas no caminho sólido da nacionalização da tecnologia da indústria brasileira. `
 
-  listaPDILTAD: [
-    `Avaliação do desempenho tribológico de materiais.`,
-    `Desenvolvimento de técnicas de reparo-por-atrito.`,
-    `Avaliação de propriedades mecânicas in situ.`,
-    `Erosão, corrosão e corrosão-erosão.`,
-    `Instrumentação e controle de sistemas mecatrônicos.`,
-    `Fragilização por Hidrogênio.`,
-    `Simulação de processos envolvendo a interação entre partículas duras e superfícies técnicas.`,
-    `Análise de falhas.`,
-  ],
-  listaPDILAPROSOLDA: [
-    `Absorção otimização de processos modernos de soldagem (derivativos e de alta energia).`,
-    `Desenvolvimento e aprimoramento de dispositivos e acessórios aplicáveis em soldagem.`,
-    `Monitoramento, controle e automação de processos e procedimentos de soldagem.`,
-    `Melhoria de produtos, processos e técnicas de soldagem aplicados em diferentes materiais.`,
-    `Elaboração e otimização de procedimentos e qualificação de soldadores.`,
-    `Treinamento em diferentes níveis e responsabilidades no contexto da tecnologia da soldagem.`,
-  ],
+  ]
 };
 
-export default articles;
+export default Articles;
