@@ -1,5 +1,4 @@
 import { Notes_titles } from "../props/propsComponents";
-import "/src/styles/styles_main/team_layout.css";
 const ondeEstamos = () => {
   return (
     <>

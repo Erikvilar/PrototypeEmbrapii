@@ -15,7 +15,7 @@ const vantagens = () => {
         </div>
         
         <div className="vantagensWithChart">
-        <CanvasJSChartVantagens/>
+    <CanvasJSChartVantagens/>
         <RenderList object={Lists.listaVantagens} classType="listaVantagens"/>
   
         </div>

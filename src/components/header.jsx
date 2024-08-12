@@ -1,6 +1,5 @@
 import React from 'react'
-import Nav  from './header/nav_header'
-import "/src/styles/styles_header/header.scss"
+import Nav  from './header/navbar'
 import Hero from './header/hero'
 function header () {
   return (

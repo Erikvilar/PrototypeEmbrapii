@@ -1,9 +1,9 @@
-import "/src/styles/styles_main/indicators_layout.scss";
+
 import CountUp from "react-countup";
 function indicators() {
   return (
-    <div className="layout_indicators">
-      <div className="title_indicators">
+    <div className="indicators-layout">
+      <div className="title-indicators">
         <img
           src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/icons/ouro.png?raw=true"
           alt=""

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Notes_titles } from "./propsComponents";
-import "/src/styles/styles_main/static_compose.scss"
 const static_links= () => {
 
     return (

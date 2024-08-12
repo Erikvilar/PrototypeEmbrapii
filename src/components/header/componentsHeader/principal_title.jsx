@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function principal_title() {
   return (

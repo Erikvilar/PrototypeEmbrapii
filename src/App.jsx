@@ -1,22 +1,15 @@
-
-
 import Header from './components/header.jsx';
 import Main from './components/main.jsx';
 import Footer from './components/footer/footer.jsx';
 
+import "/src/styles/_base.scss"
 
-import "/src/styles/styles_main/principal_layout.scss"
-import "/src/styles/styles_main/contents_embrapii.scss"
-import "/src/styles/styles_main/dynamic_layout.scss"
-import "/src/styles/styles_main/static_compose.scss"
-
-import "/src/styles/styles_footer/footer.scss"
 
 
 
 function App() {
   return (
-    <div className='general-content'>
+    <div className='page'>
       <Header />
       <Main/>
       <Footer 
@@ -29,11 +22,7 @@ function App() {
       link7="Editora"
       link8="Hospital de clinicas"
       link9="Fundações"
-      
-      
       />
-
-   
     </div>
  
   );

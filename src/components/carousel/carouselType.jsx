@@ -6,12 +6,12 @@ function carouselType() {
     return (
         <Carousel>
             <Carousel.Item >
-                <a href="https://comunica.ufu.br/noticias/2024/06/exercito-brasileiro-busca-cooperacao-tecnologica-com-pesquisadores-da-ufu" target='blank'>
-                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/20240514_091431.jpg" alt="" />
+                <a href="https://comunica.ufu.br/noticias/2023/06/ltad-laboratorio-do-setor-metal-mecanica-da-ufu-completa-15-anos" target='blank'>
+                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/comunica.ufu.br/files/conteudo/noticia/imagem_destaque_imagem_galeria_dsc_2609_0.jpg" alt="" />
                 </a>
 
                 <Carousel.Caption className='caption'>
-                    <ContentCarousel title="Exército Brasileiro busca cooperação tecnológica com pesquisadores da UFU" />
+                    <ContentCarousel title="LTAD, laboratório do setor metal-mecânica da UFU, completa 15 anos" />
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -25,11 +25,11 @@ function carouselType() {
             </Carousel.Item>
 
             <Carousel.Item >
-                    <a href="https://comunica.ufu.br/noticias/2024/04/presidente-da-fapemig-visita-laboratorios-da-ufu-e-conversa-com-pesquisadores" target='_blank'>
-                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-04/20240410_141431%20%281%29.jpg" alt="" />
+                    <a href="https://comunica.ufu.br/noticias/2023/04/pesquisadores-da-petrobras-fortalecem-parceria-com-laboratorio-da-ufu" target='_blank'>
+                    <img className='img-carousel-index' src="https://comunica.ufu.br/sites/comunica.ufu.br/files/conteudo/noticia/imagem_destaque_dsc04007.jpg" alt="" />
                     </a>
                 <Carousel.Caption className='caption'>
-                    <ContentCarousel title="Presidente da Fapemig visita laboratórios da UFU e conversa com pesquisadores " />
+                    <ContentCarousel title="Pesquisadores da Petrobras fortalecem parceria com laboratório da UFU " />
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item >

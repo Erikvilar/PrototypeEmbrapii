@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Presentation from './componentsHeader/principal_title'
 import Baseboard from './componentsHeader/baseboard'
 import Searcher from './componentsHeader/searcher'

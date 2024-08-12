@@ -45,9 +45,9 @@ export const ContentCarousel = (props) => {
 //recebe como parametro notes = notas de rodape / links = lista de link
 export const Static_compose = ({ links }) => {
   return (
-    <div className='static_compose'>
-      <div className='logo_static_compose'>
-        <a href=""><img src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/Logo%20UE%20Horizontal.png?raw=true" alt="" /></a>
+    <div className='main-list-ld'>
+      <div className='logo-main-list-ld'>
+        <a href=""><img src="./src/images/outlet/Logo UE Horizontal.png" alt="" /></a>
       </div>
       {links}
     </div>
