@@ -2,7 +2,7 @@
 import CountUp from "react-countup";
 function indicators() {
   return (
-    <div className="indicators-layout">
+    <section className="indicators-layout">
       <div className="title-indicators">
         <img
           src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/icons/ouro.png?raw=true"
@@ -37,7 +37,7 @@ function indicators() {
           text="alunos que participaram de projetos em parceria com empresas"
         />
       </div>
-    </div>
+    </section>
   );
 }
 export default indicators;

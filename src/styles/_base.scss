@@ -1,6 +1,12 @@
+@import "_Footer/footer";
+@import "_Header/header";
+@import "_Main/main";
 
-@import '_Footer/footer';
-@import '_Header/header';
-@import '_Main/main';
 
-
+.page {
+  body,
+  html {
+    width: 1920px;
+    max-width: 1920px;
+  }
+}

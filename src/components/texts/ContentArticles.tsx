@@ -68,11 +68,18 @@ const Articles: Object = {
     `Conta também com o apoio financeiro das agências governamentais de fomento, tais como a Financiadora de Estudos e Projetos do Ministério da Ciência e Tecnologia (FINEP), Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG), Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES).`,
     `Ainda desenvolve inovação tecnológica dentro dos Programas Rota 2023 e com o Banco Nacional de Desenvolvimento Econômico e Social (BNDES).`
   ],
+
   VantagensParagrafos:[
     `A Unidade tem se consolidado como referência nacional no desenvolvimento de materiais resistentes ao desgaste para indústrias agrícolas, óleo e gás, mineração, ferroviário e siderurgia.`,
     `Ter um projeto Embrapii significa ter apoio tecnológico e por meio de parceria Público-Privada obter aporte financeiro para desenvolver soluções tecnológicas com até 90% de recursos a fundo perdido. `,
-    `Nosso objetivo, sendo uma Unidade Embrapii é desenvolver PD&I para o fortalecimento de um modelo de produção industrial voltado para a competitividade de pequenas, médias e grandes empresas no caminho sólido da nacionalização da tecnologia da indústria brasileira. `
+    `Nosso objetivo, sendo uma Unidade Embrapii é desenvolver PD&I para o fortalecimento de um modelo de produção industrial voltado para a competitividade de pequenas, médias e grandes empresas no caminho sólido da nacionalização da tecnologia da indústria brasileira. `,
+  ],
 
+  InfraestruturaParagrafo:[
+    `Nossa Unidade é formada por um conjunto de 3 prédios da Faculdade de Engenharia Mecânica (FEMEC) localizados no Campus Santa Mônica da Universidade Federal de Uberlândia. `,
+    `Dispõe de infraestrutura com capacidade de realizar ensaios de materiais em escala real e reduzida, pesquisas para desenvolvimento de inovação tecnológica em diversos ambientes. `,
+    `Eles constituem uma rede de dezenas de núcleos com equipamentos nacionais, importados e patenteados por nossos pesquisadores em parceria com a indústria nacional.`,
+    `Atua principalmente no desenvolvimento dos seguintes temas:`
   ]
 };
 

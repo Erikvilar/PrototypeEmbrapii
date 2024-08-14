@@ -2,10 +2,11 @@ import React from "react";
 import { Notes_titles, Box_team } from "../props/propsComponents";
 import { TextArticles } from "../props/propsComponents";
 import Articles from "../texts/ContentArticles";
+import "/src/styles/_Main/team_layout.css"
 
 const equipe = () => {
   return (
-    <div className="dynamic_layout" id="equipe">
+    <div  id="equipe">
       <Notes_titles title="Equipe" class_style="notes_title" />
       <TextArticles text={Articles.EquipeParagrafos[0]}classtype="textArticle"/>
       <TextArticles text={Articles.EquipeParagrafos[1]}classtype="textArticle"/>

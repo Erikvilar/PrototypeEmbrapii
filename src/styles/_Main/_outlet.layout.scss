@@ -1,9 +1,5 @@
-
-
-
 .outlet-layout {
   width: 712px;
-  height: auto;
 
   #institucional h3 {
     font-weight: 100;
@@ -34,6 +30,130 @@
       list-style: none;
     }
   }
+  #infraestrutura .listaInfra {
+    padding: 0;
+    li {
+      list-style: none;
+      border: 1px solid gray;
+      height: auto;
+      filter: saturate(0);
+      padding: 0px 10px 10px;
+    }
+    li:hover {
+      filter: saturate(1);
+      cursor: pointer;
+    }
+  }
+
+  #infraestrutura .cards-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    .card {
+      width: 350px;
+      height: 543px;
+      border: none;
+      background-color: #edeff1;
+      table{
+        width: 100%;
+       height: auto;
+       margin-bottom: 20px;
+        justify-content: space-between;
+     
+        .table-separator{
+          display: flex;
+          
+          td{
+            width: 100%;
+           
+          
+          }
+        }td{
+          text-align: justify;
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          color: #5d5d5d;
+        }
+      }
+    }.card-title{
+      border-bottom: 2px solid gray;
+
+    }
+    .card-text {
+     
+      overflow: scroll;
+      text-align: justify;
+      scrollbar-width: none; 
+      font-size: 0.9rem;
+      font-family: "Roboto",sans-serif;
+      color:#5d5d5d ;
+  
+    }
+    .card-img-top {
+      border-bottom: 2px solid cornflowerblue;
+      width: 100%;
+      border-radius: 5px;
+      margin: auto;
+      height: 200px;
+     
+    }.btn-primary{
+      height:35px;
+      position: absolute;
+      margin-bottom: 20px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     a{
+      color: white;
+      font-family: "Poppins",sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+
+     }
+  }
+}#infraestrutura{
+  ul{
+
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid cornflowerblue;
+    li{
+      list-style: none;
+      display: inline-block;
+      margin: 10px;
+      
+      a{
+        transition: 0.3s;
+        color: black;
+        text-decoration: none;
+      }
+    }li a:hover{
+      color: cornflowerblue;
+      border-bottom: 2px solid black;
+    }
+  }
+  form{
+    input{
+      text-align: center;
+      width: 100%;
+      
+    }input::placeholder{
+      text-align: center;
+      color: rgb(68, 68, 68);
+    
+    }
+  }
+
+}
 
   .apresentation_movie {
     display: flex;
@@ -52,7 +172,9 @@
     .carousel-inner {
       height: auto;
       height: 403px;
-    }.carousel-control-prev-icon, .carousel-control-next-icon{
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
       background-color: #42434479;
       border-radius: 360px;
       height: 40px;
@@ -150,18 +272,42 @@
     margin-bottom: 20px;
   }
 
-  .boxAreaAtuacao div {
+  .boxAreaAtuacao div:nth-child(1) {
+    width: 175px;
+    
+    margin: 1.5px;
+    height: 135px;
+    background: url("https://rijeza.com.br/wp-content/uploads/2023/09/Laser-Cladding-.jpeg");
+    background-size: cover;
+  }
+  .boxAreaAtuacao div:nth-child(2) {
     width: 175px;
     margin: 1.5px;
     height: 135px;
+    background: url("https://rijeza.com.br/wp-content/uploads/2023/09/Laser-Cladding-.jpeg");
+    background-size: cover;
+  } .boxAreaAtuacao div:nth-child(3) {
+    width: 175px;
+    margin: 1.5px;
+    height: 135px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LK4uHYB46bni89SeDqf8uu2UW2cXbrBq1A&s");
+    background-size: cover;
+  }  .boxAreaAtuacao div:nth-child(4) {
+    width: 175px;
+    margin: 1.5px;
+    height: 135px;
+    background: url("https://s1.static.brasilescola.uol.com.br/be/vestibular/o-engenheiro-manipula-os-materiais-ja-existentes-cria-novas-propriedades-59c562ffdca62.jpg");
+    background-size: cover;
   }
-
+ 
   .boxAreaAtuacao div h4 {
-    position: relative;
-    top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 20px;
-    color: white;
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
   }
 
@@ -180,5 +326,4 @@
       height: 135px;
     }
   }
-
 }

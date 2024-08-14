@@ -1,0 +1,51 @@
+[
+    
+  {
+    "id":1,
+    "produto":"loop de corrosão",
+    "info":"Tribômetro para a realização de ensaios de desgaste por deslizamento em escala quase real. O equipamento possui  um eixo vertical responsável por promover um movimento linear alternado e um eixo horizontal para aplicação de força. ",
+    "pressao":"100 barg",
+    "vazao":"450m³",
+    "software":"",
+    "image":"./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg"
+  },
+  {
+    "id":2,
+    "produto":"loop de evasao",
+    "info":"Teste2",
+    "pressao":"",
+    "vazao":"",
+    "software":"Este e um software em desenvolvimento feito pelo LTAD",
+    "image":"./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg"
+  },
+  {
+    "id":3,
+    "produto":"engenharia soldagem",
+    "info":"descrição engenharia",
+    "pressao":"",
+    "vazao":"",
+    "software":"Objeto de teste",
+  
+    "image":"https://images.educamaisbrasil.com.br//content/noticias/conheca-alguns-equipamentos-da-engenharia-mecanica-mais-utilizados-na-area_g.jpg"
+  },  {
+    "id":4,
+    "produto":"engenharia Automotiva",
+    "info":"Teste2",
+    "pressao":"",
+    "vazao":"",
+    "software":"isto e outra coisa",
+    "image":"https://belsys.com.br/wp-content/uploads/2018/02/blog-industria-de-engenharia-automobilistica.jpg"
+  },
+  {
+    "id":5,
+    "produto":"maquina de escavação",
+    "info":"Teste2",
+    "pressao":"",
+    "vazao":"",
+    "software":"tambem outra coisa",
+    "image":"https://www.saletto.com.br/wp-content/uploads/2018/09/01.jpg"
+  }
+ 
+ 
+    
+]

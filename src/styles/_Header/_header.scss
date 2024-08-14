@@ -10,12 +10,14 @@
 //estilos abaixo do navegador = hero
 .hero{
 width: 100%;
-height: 200px;
+height: 250px;
 background-color: #2160bd;
+display: flex;
+flex-direction: column;
 
 .content{
     margin: auto;
-    width:1000px;
+    width:940px;
     .baseboard{
         display: flex;
         flex-direction: row;
@@ -51,23 +53,25 @@ background-color: #2160bd;
   
     .presentation-align{
         display: flex;
+        width: 100%;
+        height: 180px;
         .principal_title{
+            width:420px;
             color: white;
             font-family:"Poppins",sans-serif ;
-            width: 480px;
             margin-left: 30px;
             margin-top: 10px;
-            height: 120px;
+            height: 130px;
             h1{
-                padding: 2px;
+               
                 font-size: 30px;
             }
             span{
-                margin-left: 5px;
+                width: 100%;
                 }
         }
         .searcher{
-            width: 450px;
+            width: 100%;
             height: 80px;
             padding-top: 20px;
           
@@ -78,10 +82,10 @@ background-color: #2160bd;
             flex-direction: column;
             form{
                 display: flex;
-                justify-content: end;
                 background-color: white;
                 width: 300px;
-                border-radius:5px 0px 0px 5px ;
+                
+                border-radius:5px ;
                 align-items: center;
                 input{
                     border: none;
@@ -93,7 +97,7 @@ background-color: #2160bd;
                 input [type="*"]{
                     font-family: 'Roboto',sans-serif;
                     font-size: 25px;
-                    color: red;
+                    
                 }input:focus{
                     box-shadow: 0 0 0 0;
                     border: 0 none;
@@ -106,6 +110,11 @@ background-color: #2160bd;
                     border: none;
                     width: 50px;
                     height: 35px;
+                    border-radius: 10px;
+                    img{
+                        width: 20px;
+
+                    }
                 }  
             }
         }
@@ -120,10 +129,11 @@ background-color: #2160bd;
 
 }
 .presentation-baseboard-main{
-   background-color: #0e4097; 
+    background-color: #0e4097;
 
    .presentation-baseboard-2{
     width: 1000px;
+
     height: 35px;
     margin: auto;
     display: flex;

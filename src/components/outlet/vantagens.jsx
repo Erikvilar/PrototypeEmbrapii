@@ -6,7 +6,7 @@ import Lists from '../texts/ContentLists'
 import { CanvasJSChartVantagens } from '../charts/canvasChart'
 const vantagens = () => {
   return (
-    <div className="dynamic_layout">
+    <section >
         <Notes_titles title="Vantagens da unidade" class_style="notes_title"/>
    
      
@@ -26,19 +26,18 @@ const vantagens = () => {
         <Notes_titles title="Nossas áreas de atuação" class_style="notes_title_withBox"/>
         <div className='boxAreaAtuacao'>
           <div>
-            <img src="https://rijeza.com.br/wp-content/uploads/2023/09/Laser-Cladding-.jpeg" alt="" width={175} />
+           
             <h4>Tribologia</h4>
           </div>
           <div>
-            <img src="https://lh3.googleusercontent.com/proxy/lSoSu3d28bfJCfLeoW-AuX869afwCRvl-7uJtKF5MuSTzFzoWQkYEn3sDZsMTaQMg-qPAv4x4nTF6Fv5w25xRpIy6B9zoRNOWEnvRHkh5YCi76uY72-75MXiuULP20SZDBQt" alt=""  width={175}/>
+           
             <h4>Soldagem</h4>
           </div>
           <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LK4uHYB46bni89SeDqf8uu2UW2cXbrBq1A&s" alt="" width={175} />
             <h4>Metal-Mecanica</h4>
           </div>
           <div>
-            <img src="https://s1.static.brasilescola.uol.com.br/be/vestibular/o-engenheiro-manipula-os-materiais-ja-existentes-cria-novas-propriedades-59c562ffdca62.jpg" alt="" width={175} />
+
             <h4>Materiais</h4>
           </div>
 
@@ -48,7 +47,7 @@ const vantagens = () => {
         link="#institucional"
         class_style="notes_title_baseboard"
       />
-    </div>
+    </section>
        
     
   )

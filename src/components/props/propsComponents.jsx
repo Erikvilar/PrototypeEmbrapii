@@ -50,6 +50,7 @@ export const Static_compose = ({ links }) => {
         <a href=""><img src="./src/images/outlet/Logo UE Horizontal.png" alt="" /></a>
       </div>
       {links}
+      
     </div>
   )
 }

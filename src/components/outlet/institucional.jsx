@@ -3,7 +3,7 @@ import Lists from '../texts/ContentLists'
 import { Notes_titles,TextArticles,RenderList } from '../props/propsComponents'
  const institucional = () => {
   return (
-    <div className='dynamic_layout' id="institucional">
+    <section  id="institucional">
 
     <Notes_titles title="Institucional"  class_style="notes_title"/>
 
@@ -31,7 +31,7 @@ import { Notes_titles,TextArticles,RenderList } from '../props/propsComponents'
       <p><a href="#institucional">&#9652; Voltar ao topo</a></p>
     </div>
     <Notes_titles title="Ir para Equipes " link="#equipe" class_style="notes_title_baseboard" />
-    </div>
+    </section>
   )
 }
 export default institucional

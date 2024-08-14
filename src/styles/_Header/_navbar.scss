@@ -4,6 +4,9 @@
   background-color: #f1f1f1;
   display: flex;
   justify-content: space-between;
+  #menu-toggle{
+    display: none;
+  }
   div {
     margin: auto;
     width: 940px;

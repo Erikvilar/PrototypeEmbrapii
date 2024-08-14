@@ -7,7 +7,7 @@ import OndeEstamos from "./ondeEstamos";
 import {CanvasJSChartInicio} from "../charts/canvasChart";
 function inicio() {
   return (
-    <section className="dynamic_layout" id="/">
+    <section id="/">
       <CarouselType className="carousel" />
       <Notes_titles title="Conheça a unidade" class_style="notes_title" />
       <TextArticles text={Articles.InicioParagrafos[0]} classtype="textArticle"/>

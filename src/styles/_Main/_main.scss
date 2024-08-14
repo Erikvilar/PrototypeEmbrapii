@@ -1,43 +1,39 @@
-
 /* ========================================================================== 
                         MAIN STYLES
    ========================================================================== */
 
-   /* Arquivo de configuração global do componente main
+/* Arquivo de configuração global do componente main
    *
    *
    *
    */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-main{
-   
-
-    width: 100%;
-    height: auto;
+main {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  .main-layout {
+    width: 940px;
     margin: auto;
-    margin-top: 30px;
-.main-layout{
-        width: 940px;
-        margin: auto;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-     /*Importa todos arquivos dentro da pasta _Main para um unico seletor
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /*Importa todos arquivos dentro da pasta _Main para um unico seletor
     - low size code - 
     */
-    @import 'block.style.components';
-    @import 'indicators.layout';
-    @import 'outlet.layout';
-    @import 'main.list.ld';
-
+  @import "block.style.components";
+  @import "indicators.layout";
+  @import "outlet.layout";
+  @import "main.list.ld";
 }

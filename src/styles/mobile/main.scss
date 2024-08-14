@@ -1,0 +1,18 @@
+@media (orientation:portrait){
+    .main-list-ld{
+        height: 80px;
+        overflow: hidden;
+       
+    
+        img{
+            display: none;
+        }
+      
+    }#main-menu::before{
+        content: "teste";
+        padding: 0;
+        
+        background-color: blue;
+      
+    }
+}

@@ -13,7 +13,9 @@ const Routing  = () =>{
             <Route path="equipe" element={<Equipe/>}/>  
             <Route path="parceiros" element={<Parceiros/>}/>
             <Route path="vantagens" element={<Vantagens/>}/>
-            <Route path="infraestrutura" element={<Infraestrutura/>}/>
+            <Route path="infraestrutura" element={<Infraestrutura/>}>
+             
+            </Route>
             
           </Route>
         </Routes>
