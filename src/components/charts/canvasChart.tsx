@@ -1,11 +1,11 @@
 
 
-import CanvasJSReact, { CanvasJSChartProps } from "@canvasjs/react-charts";
+import CanvasJSReact from "@canvasjs/react-charts";
 import React, { Component } from "react";
 import "./style.css"
 import { Notes_titles } from "../props/propsComponents";
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
-class CanvasJSChartInicio extends Component<CanvasJSChartProps>{	
+class CanvasJSChartInicio extends Component{	
  render(){
   const options =  {
     theme:"light1",
@@ -45,7 +45,7 @@ class CanvasJSChartInicio extends Component<CanvasJSChartProps>{
   }
 
 
-class CanvasJSChartVantagens extends Component<CanvasJSChartProps>{	
+class CanvasJSChartVantagens extends Component{	
   render(){
    const options =  {
      theme:"light2",

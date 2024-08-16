@@ -5,10 +5,8 @@ import Cards from "../cards/cards";
 import { useState } from "react";
 const infraestrutura = () => {
   const [value, setValue] = useState("");
+  const { data } = useFetchGet({ value });
 
-  const { data, error } = useFetchGet({ value });
-
-  console.log(error);
   return (
     <section id="infraestrutura">
       <Notes_titles
@@ -24,68 +22,71 @@ const infraestrutura = () => {
         class_style="notes_title_withBox"
       />
 
-      <form action="">
+
         <input
           type="text"
-          placeholder="Buscando pelo item ... "
+          placeholder="🔍︎ Pesquisar"
           maxLength={30}
+          list="browser"
           id="input"
           onChange={(e) => setValue(e.target.value)}
         />
-      </form>
+       
+     <datalist id="browser" onChange={(e) => setValue(e.target.value)}>
+    
+     <option value="fragilizacao por H"/>
+     <option value=""/>
+     <option value="mecanico"/>
+     <option value="corrosao"/>
+     <option value="Desgaste"/>
+     <option value="Ministre"/>
+     <option value=""/>
+     <option value=""/>
+   </datalist>
 
-      <ul>
-        <li>
-          {" "}
-          <a href="" onClick={(e) => e.preventDefault()}>
-            Todos
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="" onClick={(e) => e.preventDefault()}>
-            Mecanico
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="" onClick={(e) => e.preventDefault()}>
-            Corrosão
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="" onClick={(e) => e.preventDefault()}>
-            Desgaste
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="" onClick={(e) => e.preventDefault()}>
-            Fragilização por H
-          </a>
-        </li>
-      </ul>
-
+    
       <div className="card-content">
         <div className="cards-align">
-          {data.map((item, key,) => (
+          {data.map((item, index) => (
             <Cards
-              key={key}
+              key={index}
               image={item.image}
               title={item.produto}
-              description1={item.info}
-              details={[
-                `${item.pressao}`,
-                `${item.vazao}`,
-                `${item.software}`,
-              ].map(
-                (details) => (
-                  
-                  <td>{details ? details : undefined}</td>
-                 
-                )
-              )}
+              description={
+                item.info ? (
+                  <td>
+                    <u>Descrição:</u> {item.info}
+                  </td>
+                ) : null
+              }
+              details={[item.details].map((details, index) => {
+                return (
+                 <tbody>
+                    <tr key={index}>
+                      {details.software ? (
+                        <td>
+                          <u>Software:</u>
+                          {details.software}
+                        </td>
+                      ) : null}
+                    </tr>
+                    <tr>
+                      {details.vazao ? (
+                        <td>
+                          <u>Pressao:</u>
+                          {details.vazao}
+                        </td>
+                      ) : null}
+                      {details.pressao ? (
+                        <td>
+                          <u>Vazão:</u>
+                          {details.pressao}
+                        </td>
+                      ) : null}
+                    </tr>
+                  </tbody>
+                );
+              })}
             />
           ))}
         </div>

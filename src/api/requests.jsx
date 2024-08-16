@@ -15,9 +15,10 @@ export const useFetchGet = ({ value }) => {
         setError(false);
        const result = res.data.filter((item) =>
             
-          item.produto.startsWith(valueFormat) 
+          item.info.includes(valueFormat) || item.tipo.includes(valueFormat) || item.produto.startsWith(valueFormat)
         
         );
+  
         {setData(result) ? console.log("ok") : setError(error)}
       })
 
