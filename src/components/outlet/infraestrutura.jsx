@@ -2,11 +2,17 @@ import { Notes_titles, TextArticles } from "../props/propsComponents";
 import { useFetchGet } from "../../api/requests";
 import Articles from "../texts/ContentArticles";
 import Cards from "../cards/cards";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import DropdownSearch from "./dropdown-search/dropdown-search";
+import Searcher from "../header/Searcher/Searcher";
+
 const infraestrutura = () => {
   const [value, setValue] = useState("");
   const { data } = useFetchGet({ value });
-
+  const [thisOpen, setThisOpen] = useState(false);
+  console.log(thisOpen);
+  console.log(value);
+ 
   return (
     <section id="infraestrutura">
       <Notes_titles
@@ -22,29 +28,26 @@ const infraestrutura = () => {
         class_style="notes_title_withBox"
       />
 
+      <Searcher
+        list="browser"
+        placeholder="Pesquisar"
+        open={() => setThisOpen(true)}
+        event={(e) => setValue(e.target.value)}
+      />
 
-        <input
-          type="text"
-          placeholder="🔍︎ Pesquisar"
-          maxLength={30}
-          list="browser"
-          id="input"
-          onChange={(e) => setValue(e.target.value)}
+      {thisOpen && (
+        <DropdownSearch
+          list={["Mecanico","Desgaste", "Corrosao","Ministre", "Fragilização por Hidrogenio", ].map((item,index) => {
+            return(
+            <label  value="sla" >
+              <input key={index} value={item}  onClick={(e)=> setValue(e.target.value)}  type="radio"  />
+              <span >{item}</span>
+            </label>
+            )
+          })}
         />
-       
-     <datalist id="browser" onChange={(e) => setValue(e.target.value)}>
-    
-     <option value="fragilizacao por H"/>
-     <option value=""/>
-     <option value="mecanico"/>
-     <option value="corrosao"/>
-     <option value="Desgaste"/>
-     <option value="Ministre"/>
-     <option value=""/>
-     <option value=""/>
-   </datalist>
+      )}
 
-    
       <div className="card-content">
         <div className="cards-align">
           {data.map((item, index) => (
@@ -61,7 +64,7 @@ const infraestrutura = () => {
               }
               details={[item.details].map((details, index) => {
                 return (
-                 <tbody>
+                  <tbody>
                     <tr key={index}>
                       {details.software ? (
                         <td>

@@ -1,0 +1,97 @@
+
+.listchoice{
+margin-top: 10px;
+width: 100%;
+position: relative;
+display: block;
+z-index: 1;
+
+
+cursor: pointer;  
+}
+input{
+    height: 80px;
+}
+.listchoice input[type="radio"]{
+position:absolute;
+left:-9999px;
+}.listchoice span{
+    padding: 10px;
+    
+}
+
+.listchoicetitle {
+width: 100%;
+padding: 10px;
+height: auto; 
+text-align: center;
+background-color:#2c66ce ;
+color: white;
+box-sizing: border-box;
+border-radius: 0.2em;
+}
+.listchoice:hover .listchoicetitle {
+border-radius:0.2em 0.2em 0 0;
+}
+.listchoiceobjects label:nth-last-of-type(1) span{
+border-radius:0 0 0.2em 0.2em;
+
+
+}
+.listchoice input[type="radio"] + span {
+color: #000000;
+
+background-color: white;
+display: block;
+text-align: center;
+box-sizing: border-box;
+cursor: pointer;
+width: 100%;
+}
+.listchoiceobjects {
+position: absolute;
+display: flex;
+flex-direction: column;
+top: 0;
+padding-top: 3.1em;
+box-sizing: border-box;
+width: 100%;
+overflow: hidden;
+max-height: 0;
+transition: all 250ms ease;
+}
+.listchoice:hover .listchoiceobjects  input[type="radio"] + span {
+position: relative;
+top: 0;
+transition: all 250ms ease-in-out;
+}
+.listchoice:hover input[type="radio"] + span:hover {
+background:#BBB;
+
+}
+.listchoice:hover input[type="radio"]:checked + span:hover {
+background:greenyellow;
+
+
+}
+.listchoice input[type="radio"]:checked + span {
+
+
+
+
+
+}
+.listchoice:hover input[type="radio"]:checked + span {
+border-radius: 0;
+
+}
+.listchoice:hover .listchoiceobjects label:nth-last-of-type(1) input[type="radio"]:checked + span{
+border-radius:0 0 0.2em 0.2em;
+
+
+}
+
+.listchoice:hover .listchoiceobjects {
+max-height: 540px;
+}
+

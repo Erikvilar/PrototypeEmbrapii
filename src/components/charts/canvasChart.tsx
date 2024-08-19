@@ -2,7 +2,6 @@
 
 import CanvasJSReact from "@canvasjs/react-charts";
 import React, { Component } from "react";
-import "./style.css"
 import { Notes_titles } from "../props/propsComponents";
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class CanvasJSChartInicio extends Component{	
