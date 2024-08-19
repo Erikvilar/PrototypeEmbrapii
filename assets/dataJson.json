@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "produto": "bcs",
+    "tipo": "mecanico",
+    "info": "Tribômetro para a realização de ensaios de desgaste por deslizamento em escala quase real. O equipamento possui  um eixo vertical responsável por promover um movimento linear alternado e um eixo horizontal para aplicação de força. ",
+    "details":
+      {"pressao": "150 barg","vazao": "450m³","software": "" }
+    ,
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg"
+  },
+  {
+    "id": 2,
+    "tipo": "corrosao",
+    "produto": "cetr",
+    "info": "Equipamento para medição de dureza Rockwell B e C em ambiente submerso com pressões de até 200 bar nas faixas de 40 a 95 HRB e de 25 a 65 HRC.",
+    "details":
+      {
+        "pressao": "",
+        "vazao": "",
+        "software": "Este e um software embarcado onde o modelo representa marca"
+      },
+ 
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"
+  },
+  {
+    "id": 3,
+    "tipo": "mecanico",
+    "produto": "drillpipe",
+    "info": "Tribômetro para a realização de ensaios de desgaste por deslizamento em média escala. O equipamento possui  uma mesa horizontal, responsável por promover um movimento linear alternado, onde é montada a amostra de corpo, inclusive com utilização de cuba para líquidos/lubrificantes, e um eixo vertical, onde é montada a amostra de contracorpo, sobre a qual é feita a aplicação de força por atuador eletromecânico. ",
+    "details":
+    {
+      "pressao": "150 barg",
+      "vazao": "450m³",
+      "software": ""
+    },
+  
+
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN1.jpg"
+  },
+  {
+    "id": 4,
+    "tipo": "mecanico",
+    "produto": "isl",
+    "info": "A Máquina de Torque e Tensão (MTT) simula o aperto de juntas aparafusadas, sendo adquiridas as curvas das combinações de força-torque-ângulo, e os coeficientes de atrito para o par de parafuso-porca (total µtotal, na cabeça ou porca µK e na rosca µG) contra uma superfície específica  (estândar ou simulando à situação real), além da obtenção do coeficiente de torque K.",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": ""
+    },
+ 
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_ISL0.jpg"
+  },
+  {
+    "id": 5,
+    "tipo": "mecanico",
+    "produto": "minicharpy",
+    "info": "Tribômetro universal de bancada com controle de temperatura, emissão acústica e lubrificação. Permite a realização de ensaios de desgaste por deslizamento",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg"
+  },
+  {
+    "id": 6,
+    "tipo": "mecanico",
+    "produto": "instron-8801",
+    "info": "Ensaio de desgaste abrasivo do tipo roda-de-borracha (ASTM G-65), para caracterizar e hierarquizar materiais em função da sua resistência ao desgaste abrasivo. Neste ensaio o corpo de prova é pressionado contra a roda de borracha que gira enquanto o fluxo de areia escoa entre as superfícies a uma vazão controlada de 300 a 400 g/min.",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": ""
+    },
+ 
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Instron8801.png"
+  },
+  {
+    "id": 7,
+    "tipo": "mecanico",
+    "produto": "hmax",
+    "info": "Tribômetro de bancada para realização de ensaio de desgaste abrasivo por deslizamento da partícula. O teste consiste em gerar o deslizamento de um disco com partículas abrasivas (lixa abrasiva) em relação à superfície de teste numa configuração cilindro sobre plano e é denominado Suga Abrasion Tester. O método e equipamento NUS-ISSO 3 está descrito sobre as normas ISO 7784-3, ISO 8251, ISO 10074, ASTM D6037, JIS H 8682-1 e JIS H 8503. A amostra plana oscila (movimento linear alternado) sobre o disco abrasivo e este, movido por um motor de passo, em cada ciclo de translação da amostra, gira de um grado. A aplicação de carga é realizada através de um braço de alavanca posicionado na parte inferior do dispositivo. Faixa nominal de força de 0,98 N a 29,42 N.",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg"
+  },
+  {
+    "id": 8,
+    "tipo": "mecanico",
+    "produto": "csm",
+    "info": "Tribômetro para a realização de ensaios de desgaste por deslizamento em escala reduzida. O equipamento possui  uma mesa horizontal, responsável por promover um movimento linear alternado, onde é montada a amostra de corpo, inclusive com utilização de cuba para líquidos/lubrificantes, e um eixo vertical, onde é montada a amostra de contracorpo, sobre a qual é feita a aplicação de força por peso morto. ",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": ""
+    },
+ 
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"
+  },
+  {
+    "id": 9,
+    "tipo": "mecanico",
+    "produto": "dumar",
+    "info": "Equipamento para realização de ensaio de corrosão fadiga em autoclave com pressão de trabalho até 20 barg. A fadiga do corpo de prova é ralizada em dispositivo de flexão a quatro pontos e o movimento cíclico alternado é conseguido mediante mecanismo biela manivela. O ensaio é realizado em controle de deslocamento. O meio corrosivo está confinado em autoclave construida em aço inoxidável AISI 316L com monitoramento do pH e do O2 dissolvido na solução",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_DUMAR1.jpg"
+  },
+  {
+    "id": 10,
+    "tipo": "mecanico",
+    "produto": "f4p",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": ""
+    },
+ 
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_F4P2.jpg"
+  },
+  {
+    "id":11,
+    "tipo": "mecanico",
+    "produto": "charpy",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Charpy.jpg"
+  }, {
+    "id":12,
+    "tipo": "mecanico",
+    "produto": "mtt",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_MTT2.jpg"
+  },
+  {
+    "id":13,
+    "tipo": "mecanico",
+    "produto": "mfx",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_MFX3.png"
+  },
+  {
+    "id":14,
+    "tipo": "mecanico",
+    "produto": "névoa salina",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg"
+  },
+  {
+    "id":15,
+    "tipo": "mecanico",
+    "produto": "intermetric",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_InterMetric2.jpg"
+  },
+  {
+    "id":16,
+    "tipo": "mecanico",
+    "produto": "roda de borracha",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Roda borracha.jpg"
+  },
+  {
+    "id":16,
+    "tipo": "mecanico",
+    "produto": "roda de borracha",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Roda borracha.jpg"
+  },
+  {
+    "id":17,
+    "tipo": "mecanico",
+    "produto": "spt",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_SPT1.jpg"
+  },
+  {
+    "id":18,
+    "tipo": "mecanico",
+    "produto": "suga",
+    "info": "Teste2",
+    "details":
+    {
+      "pressao": "",
+      "vazao": "",
+      "software": "software embarcado"
+    },
+    
+    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Suga2.jpg"
+  }
+
+
+]
