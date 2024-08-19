@@ -1,8 +1,9 @@
 
 
+
+import React, { Component } from "react"
 import CanvasJSReact from "@canvasjs/react-charts";
-import React, { Component } from "react";
-import { Notes_titles } from "../props/propsComponents";
+
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class CanvasJSChartInicio extends Component{	
  render(){
@@ -34,7 +35,7 @@ class CanvasJSChartInicio extends Component{
 
       return (
         <div className="canvasJSChart">
-             <Notes_titles title="Fonte de recursos para projetos de P&D" class_style="notes_title_withBox"/>
+           
   
           <CanvasJSChart options={options}/>
           </div>

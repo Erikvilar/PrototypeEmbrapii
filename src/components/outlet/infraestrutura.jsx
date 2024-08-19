@@ -1,17 +1,18 @@
 import { Notes_titles, TextArticles } from "../props/propsComponents";
-import { useFetchGet } from "../../api/requests";
+import { useFetchGet } from "../../hooks/useFetchGet";
 import Articles from "../texts/ContentArticles";
 import Cards from "../cards/cards";
-import { useRef, useState } from "react";
+import {useState } from "react";
 import DropdownSearch from "./dropdown-search/dropdown-search";
 import Searcher from "../header/Searcher/Searcher";
 
 const infraestrutura = () => {
   const [value, setValue] = useState("");
-  const { data } = useFetchGet({ value });
+  const { data, thisError } = useFetchGet({ value });
   const [thisOpen, setThisOpen] = useState(false);
-  console.log(thisOpen);
-  console.log(value);
+
+console.log(data)
+
  
   return (
     <section id="infraestrutura">
@@ -35,7 +36,7 @@ const infraestrutura = () => {
         event={(e) => setValue(e.target.value)}
       />
 
-      {thisOpen && (
+      {thisOpen &&   (
         <DropdownSearch
           list={["Mecanico","Desgaste", "Corrosao","Ministre", "Fragilização por Hidrogenio", ].map((item,index) => {
             return(
@@ -50,7 +51,7 @@ const infraestrutura = () => {
 
       <div className="card-content">
         <div className="cards-align">
-          {data.map((item, index) => (
+          {data.length != 0 ? data.map((item, index) => (
             <Cards
               key={index}
               image={item.image}
@@ -91,9 +92,16 @@ const infraestrutura = () => {
                 );
               })}
             />
-          ))}
+          )):(
+            <div className="search-error">
+              <span>
+                Nenhum resultado foi encontrado para essa busca
+              </span>
+            </div>
+          )}
         </div>
       </div>
+      <Notes_titles title="Ir para projetos " link="#parceiros" class_style="notes_title_baseboard" />
     </section>
   );
 };

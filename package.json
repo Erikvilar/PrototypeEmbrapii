@@ -13,10 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@canvasjs/charts": "^3.10.4",
     "@canvasjs/react-charts": "^1.0.2",
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.1.1",
     "ltad-page": "file:",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",

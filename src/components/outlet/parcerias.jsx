@@ -10,9 +10,9 @@ function parceiros(){
     <TextArticles text={Articles.ParceirosParagrafos[1]} classtype="textArticle"/>
     <TextArticles text={Articles.ParceirosParagrafos[2]} classtype="textArticle"/>
     <TextArticles text={Articles.ParceirosParagrafos[3]} classtype="textArticle"/>
-    <Notes_titles title="Instituições que apoia nossos projetos" class_style="notes_title_withBox"/>
+    <Notes_titles title="Instituições que apoiam nossos projetos" class_style="notes_title_withBox"/>
     <RenderImages object={Links.ParceirosGovernamentais} width={100} height={100}/>
-    <Notes_titles title="Empresas que apoiam nossos projetos" class_style="notes_title_withBox"/>
+    <Notes_titles title="Empresas parceiras" class_style="notes_title_withBox"/>
     <RenderImages object={Links.ParceirosServicos} width={100} height={100}/>
     <Notes_titles title="Ir para vantagens " link="#vantagens" class_style="notes_title_baseboard" />
     </section>

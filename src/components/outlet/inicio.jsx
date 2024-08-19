@@ -4,7 +4,7 @@ import Indicators from "./indicators";
 import Articles from "../texts/ContentArticles";
 import { Notes_titles, TextArticles } from "../props/propsComponents";
 import OndeEstamos from "./ondeEstamos";
-import {CanvasJSChartInicio} from "../charts/canvasChart";
+;
 function inicio() {
   return (
     <section id="/">
@@ -17,7 +17,7 @@ function inicio() {
       <TextArticles text={Articles.InicioParagrafos[3]} classtype="textArticle"/>
 
   
-      <CanvasJSChartInicio/>
+      <img src="" alt="" width={712} height={400}/>
       <TextArticles text={<a href="" target="_blank">Veja mais em Projetos </a>} classtype="textArticle"/>
       <TextArticles text={Articles.InicioParagrafos[4]} classtype="textArticle"/>
       <TextArticles text={Articles.InicioParagrafos[5]} classtype="textArticle"/>

@@ -3,7 +3,6 @@ import { Notes_titles, TextArticles } from '../props/propsComponents'
 import { RenderList } from '../props/propsComponents'
 import Articles from '../texts/ContentArticles'
 import Lists from '../texts/ContentLists'
-import { CanvasJSChartVantagens } from '../charts/canvasChart'
 const vantagens = () => {
   return (
     <section >
@@ -11,11 +10,11 @@ const vantagens = () => {
    
      
         <div className='titleVantagens'>
-        <h1>COMO A SUA EMPRESA FAZ PARCERIA COM A EMBRAPII?</h1>
+        <h1>COMO FAZER PARCEIRA COM NOSSA UNIDADE</h1>
         </div>
         
         <div className="vantagensWithChart">
-    <CanvasJSChartVantagens/>
+        <img src=''/>
         <RenderList object={Lists.listaVantagens} classType="listaVantagens"/>
   
         </div>
