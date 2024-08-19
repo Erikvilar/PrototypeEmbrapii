@@ -7,7 +7,7 @@
     "details":
       {"pressao": "150 barg","vazao": "450m³","software": "" }
     ,
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg?raw=true"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
         "software": "Este e um software embarcado onde o modelo representa marca"
       },
  
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg?raw=true"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     },
   
 
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_DrillPipe1.jpg?raw=true"
   },
   {
     "id": 4,
@@ -50,7 +50,7 @@
       "software": ""
     },
  
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_ISL0.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_ISL0.jpg?raw=true"
   },
   {
     "id": 5,
@@ -64,7 +64,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg?raw=true"
   },
   {
     "id": 6,
@@ -78,7 +78,7 @@
       "software": ""
     },
  
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Instron8801.png"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_Instron8801.png?raw=true"
   },
   {
     "id": 7,
@@ -92,7 +92,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg?raw=true"
   },
   {
     "id": 8,
@@ -106,7 +106,7 @@
       "software": ""
     },
  
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg?raw=true"
   },
   {
     "id": 9,
@@ -120,7 +120,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_DUMAR1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_DUMAR1.jpg?raw=true"
   },
   {
     "id": 10,
@@ -134,7 +134,7 @@
       "software": ""
     },
  
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_F4P2.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_F4P2.jpg?raw=true"
   },
   {
     "id":11,
@@ -148,7 +148,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Charpy.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_Charpy.jpg?raw=true"
   }, {
     "id":12,
     "tipo": "mecanico",
@@ -161,7 +161,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_MTT2.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_MTT2.jpg?raw=true"
   },
   {
     "id":13,
@@ -175,7 +175,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_MFX3.png"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_MFX3.png?raw=true"
   },
   {
     "id":14,
@@ -189,7 +189,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_N%C3%A9voa%20Salina.jpg?raw=true"
   },
   {
     "id":15,
@@ -203,7 +203,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_InterMetric2.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_InterMetric2.jpg?raw=true"
   },
   {
     "id":16,
@@ -217,22 +217,9 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Roda borracha.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_Roda%20Borracha.jpg?raw=true"
   },
-  {
-    "id":16,
-    "tipo": "mecanico",
-    "produto": "roda de borracha",
-    "info": "Teste2",
-    "details":
-    {
-      "pressao": "",
-      "vazao": "",
-      "software": "software embarcado"
-    },
-    
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_Roda borracha.jpg"
-  },
+ 
   {
     "id":17,
     "tipo": "mecanico",
@@ -245,7 +232,7 @@
       "software": "software embarcado"
     },
     
-    "image": "./src/images/outlet/equippment/LTAD_Equipamento_SPT1.jpg"
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_SPT1.jpg?raw=true"
   },
   {
     "id":18,
@@ -260,6 +247,20 @@
     },
     
     "image": "./src/images/outlet/equippment/LTAD_Equipamento_Suga2.jpg"
+  },{
+    "id": 19,
+    "tipo": "mecanico",
+    "produto": "Tribometro",
+    "info": "Tribômetro para a realização de ensaios de desgaste por deslizamento em média escala. O equipamento possui  uma mesa horizontal, responsável por promover um movimento linear alternado, onde é montada a amostra de corpo, inclusive com utilização de cuba para líquidos/lubrificantes, e um eixo vertical, onde é montada a amostra de contracorpo, sobre a qual é feita a aplicação de força por atuador eletromecânico. ",
+    "details":
+    {
+      "pressao": "150 barg",
+      "vazao": "450m³",
+      "software": ""
+    },
+  
+
+    "image": "https://github.com/Erikvilar/PrototypeEmbrapii/blob/main/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN1.jpg?raw=true"
   }
 
 
