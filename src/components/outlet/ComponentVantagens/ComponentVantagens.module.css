@@ -1,0 +1,136 @@
+.ChartVantagens {
+  display: flex;
+  width: 100%;
+  height: 230px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ListaVantagens {
+  font-size: 12px;
+  width: 450px;
+  list-style: none;
+  filter: saturate(0);
+  justify-content: end;
+}
+
+.ListaVantagens li {
+  padding-bottom: 5px;
+  font-size: 13px;
+
+  border-bottom: 1px dashed black;
+}
+
+.boxAreaAtuacao {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  max-width: 712px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.boxAreaAtuacao div {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 5px;
+  transition: 0.7s ease-in-out allow-discrete 0.2s;
+}
+
+.boxAreaAtuacao div:after {
+  color: white;
+  width: 100%;
+  height: 120px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  text-shadow: 2px 10px 10px rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: 0.9s ease-in 0.2 ease-out;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.boxAreaAtuacao div:nth-child(1):after {
+  content: "TRIBOLOGIA";
+  background-image: url("https://rijeza.com.br/wp-content/uploads/2023/09/Laser-Cladding-.jpeg");
+  background-size: cover;
+}
+.boxAreaAtuacao div:nth-child(2):after {
+  content: "SOLDAGEM";
+  background-image: url("https://lh3.googleusercontent.com/proxy/lSoSu3d28bfJCfLeoW-AuX869afwCRvl-7uJtKF5MuSTzFzoWQkYEn3sDZsMTaQMg-qPAv4x4nTF6Fv5w25xRpIy6B9zoRNOWEnvRHkh5YCi76uY72-75MXiuULP20SZDBQt");
+  background-size: cover;
+}
+.boxAreaAtuacao div:nth-child(3):after {
+  content: "METAL-MECÂNICA";
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LK4uHYB46bni89SeDqf8uu2UW2cXbrBq1A&s");
+  background-size: cover;
+}
+.boxAreaAtuacao div:nth-child(4):after {
+  content: "MATERIAIS";
+  background-image: url("https://media.revide.com.br/cache/bf/67/bf671ef8cb2c074eb111aa93eed25f51.jpg");
+  background-size: cover;
+}
+.boxAreaAtuacao div:nth-child(1):hover:after {
+  content: "Tribologia foi definida em 1966 como a ciência e tecnologia da interação de superfícies em movimento relativo e assuntos e práticas relacionados.";
+}
+.boxAreaAtuacao div:nth-child(2):hover:after {
+  content: "Soldagem ou soldadura é um processo que visa a união localizada de materiais, similares ou não, de forma permanente, baseada na ação de forças em escala atômica.";
+}
+.boxAreaAtuacao div:nth-child(3):hover:after {
+  content: "Tribologia foi definida em 1966 como a ciência e tecnologia da interação de superfícies em movimento relativo e assuntos e práticas relacionados.";
+}
+.boxAreaAtuacao div:nth-child(4):hover:after {
+  content: "Tribologia foi definida em 1966 como a ciência e tecnologia da interação de superfícies em movimento relativo e assuntos e práticas relacionados.";
+}
+
+.boxAreaAtuacao div:hover:after {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 247, 247);
+  border-left: 0.5px solid rgb(36, 158, 101);
+  border-right: 0.5px solid rgb(36, 158, 101);
+  border-top: 0.5px solid  rgb(77, 125, 198);
+  border-bottom: 0.5px solid rgb(77, 125, 198);
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  letter-spacing: 0px;
+  text-shadow: none;
+  font-weight: 400;
+ 
+
+  animation: growText 0.5s ease-in;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes growText {
+  from {
+    font-size: 8px;
+  }
+  to {
+    font-size: 10px;
+  }
+}
+
+
+iframe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,261 @@
+.outlet-layout {
+  width: 712px;
+
+  #infraestrutura .cards-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    .card {
+      width: 350px;
+      height: 650px;
+      border: none;
+
+      margin-bottom: 15px;
+
+      background-color: #edeff1;
+      table {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        justify-content: space-between;
+
+        .table-separator {
+          display: flex;
+
+          td {
+            width: 100%;
+          }
+        }
+        td {
+          text-align: justify;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          color: #5d5d5d;
+        }
+      }
+      u {
+        margin-right: 5px;
+        font-weight: 600;
+      }
+    }
+    .card-title {
+      border-bottom: 2px solid rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 700;
+      color: #5d5d5d;
+      height: 40px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    .card-text {
+      overflow: scroll;
+      text-align: justify;
+      scrollbar-width: none;
+      font-size: 0.9rem;
+      font-family: "Roboto", sans-serif;
+      color: #5d5d5d;
+    }
+    .card-img-top {
+      border-bottom: 2px solid cornflowerblue;
+      width: 100%;
+
+      border-radius: 0px 0px 0px 0px;
+      margin: auto;
+      height: 200px;
+    }
+    .btn-primary {
+      height: 35px;
+      position: absolute;
+      margin-bottom: 20px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+    .search-error {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      span {
+        color: black;
+        font-weight: 600;
+      }
+    }
+  }
+  #infraestrutura {
+    max-width: 712px;
+
+    form {
+      border: 0.1px dotted #172938;
+      width: 712px;
+      border-radius: 0px;
+      height: 45px;
+      position: relative;
+      z-index: 1;
+
+      margin-bottom: 0px;
+      input {
+        height: 40px;
+        width: 100%;
+
+        display: flex;
+        justify-content: start;
+      }
+      button {
+        margin-left: 10px;
+        width: 40px;
+      }
+      button img {
+        display: flex;
+        align-items: end;
+        filter: saturate(0);
+        justify-content: end;
+      }
+    }
+
+    .searcher-content {
+      display: flex;
+      width: 100%;
+      margin: auto;
+      max-width: 712px;
+      margin-top: 10px;
+      align-items: center;
+      height: 45px;
+    }
+  }
+  .carouselComunicacao {
+    width: 712px;
+
+    .carousel-inner {
+      height: auto;
+      height: 403px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      border-radius: 360px;
+      height: 40px;
+      width: 40px;
+    }
+
+    .carousel-indicators {
+      position: relative;
+
+      top: 360px;
+
+      button {
+        border-radius: 180px;
+      }
+    }
+
+    .img-carousel-index {
+      width: 712px;
+      resize: horizontal;
+      height: 403px;
+    }
+
+    .caption {
+      justify-content: center;
+      position: relative;
+      left: 0px;
+      top: -50px;
+
+      height: 50px;
+      width: 712px;
+
+      h1 {
+        font-family: "Rawline", sans-serif;
+        position: relative;
+        top: -12px;
+        left: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: start;
+      }
+    }
+  }
+
+  .carousel {
+    width: 712px;
+    margin-bottom: 10px;
+    .carousel-inner {
+      height: auto;
+      height: 403px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      border-radius: 360px;
+      height: 40px;
+      width: 40px;
+    }
+
+    .carousel-indicators {
+      position: relative;
+      top: 360px;
+    }
+
+    .img-carousel-index {
+      width: 712px;
+      resize: horizontal;
+      height: 403px;
+    }
+
+    .caption {
+      background-color: rgba(39, 39, 39, 0.461);
+      justify-content: center;
+      position: relative;
+      left: 0px;
+      top: -50px;
+
+      height: 50px;
+      width: 712px;
+
+      h1 {
+        font-family: "Rawline", sans-serif;
+        position: relative;
+        top: -12px;
+        left: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: start;
+      }
+    }
+
+    .bold-list {
+      margin-top: 5px;
+      font-weight: 500;
+      list-style: none;
+      padding: 0px;
+      border-top: 5px solid #172938;
+    }
+  }
+  .accordion-item {
+    margin-bottom: 10px;
+  
+  }
+  
+  .accordion-header {
+    button{
+      border-radius: 5px;
+  background-color: #656565;
+  color: white;
+  font-family: "Poppins",sans-serif;
+    }button::after{
+    color: white;
+    }
+  }
+  
+}

@@ -1,0 +1,49 @@
+.searcher {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  form {
+    border-radius: 5px;
+    display: flex;
+ 
+    width: 300px;
+    margin: auto;
+    background-color: white;
+
+
+    align-items: center;
+    input {
+      align-items: end;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      margin-left: 5px;
+      height: 25px;
+      background-color: white;
+    }
+    input [type="*"] {
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+    }
+    input:focus {
+      box-shadow: 0 0 0 0;
+      border: 0 none;
+      outline: 0;
+    }
+    button {
+      cursor: pointer;
+      background-color: white;
+      outline: none;
+      border: none;
+      width: 50px;
+      height: 35px;
+      border-radius: 10px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+}

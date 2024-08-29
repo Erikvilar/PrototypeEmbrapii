@@ -1,0 +1,65 @@
+/* ========================================================================== 
+                            Equipe Component Styles
+   ========================================================================== */
+/*
+* Autor: Erik Alves Vilar
+* Data 20-08
+* Only CSS
+* Responsivo: Não
+* Tipo de nomeclatura: PascalCase
+*/
+
+.BoxTeamAligner {
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+.BoxTeam {
+  display: flex;
+  flex-direction: column;
+  width: calc(32%);
+
+  justify-content: space-between;
+}
+.BoxTeam ul {
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.BoxTeam ul li {
+  list-style: none;
+  font-weight: 600;
+}
+.BoxTeam ul a {
+  font-weight: 500;
+  color: gray;
+  font-size: 12px;
+}
+.BoxTeam ul li span {
+  font-size: 12px;
+  padding: 0px;
+}
+.BoxTeam ul li:nth-child(1) {
+  font-size: 15px;
+  margin: 0px 0px 5px 0px;
+}
+
+.TitleComponentEquipeBox {
+  border-top: 5px solid #2c66ce;
+  color: #2c66ce;
+  background-color: #edeff1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  height: 70px;
+  margin-bottom: 10px;
+  width: calc(100%);
+}
+.TitleComponentEquipeBox h1 {
+  font-size: 15px;
+}.BoxTeam svg{
+ 
+  width: 30px;
+
+}
