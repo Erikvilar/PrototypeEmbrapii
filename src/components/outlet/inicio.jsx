@@ -5,7 +5,7 @@ import { NotesTitles, TextArticles } from "../props/propsComponents";
 import ComponentIndicators from "./ComponentIndicators/ComponentIndicators";
 import ComponentMaps from "./ComponentMaps/ComponentMaps";
 import news from "./ComponentNoticias/news";
-import { Link } from "react-router-dom";
+
 
 function inicio() {
   return (
@@ -24,10 +24,10 @@ function inicio() {
       <TextArticles text={Articles.InicioParagrafos[5]} classtype="textArticle"/>
       <ComponentMaps/>
       <p>
-        <a href="">&#9652; Voltar ao topo</a>
+        <a href="#">&#9652; Voltar ao topo</a>
       </p>
       <NotesTitles
-        title={<>Ir para institucional
+        title={<>Ir para Institucional
         
         <svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 -860 360 1060" width="24px" fill="#2c66ce">
           

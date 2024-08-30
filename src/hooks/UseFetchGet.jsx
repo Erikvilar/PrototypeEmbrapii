@@ -1,10 +1,9 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-export const UseFetchGet = ({ value }) => {
+export const UseFetchGet = (value) => {
   const [data, setData] = useState([]);
   const valueFormat = value.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-  console.log(valueFormat)
   const url = "./src/data/dataJson.json";
   useEffect(() => {
     axios.get(url).then((res) => {

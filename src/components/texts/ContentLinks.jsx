@@ -52,6 +52,22 @@ const Links ={
      {img:"https://www2.fundep.ufmg.br/wp-content/themes/fundep/assets/images/fundep-no-image.jpg", link:"https://www.fundep.ufmg.br/"},
      //ANP
      {img:"https://yt3.googleusercontent.com/qS5dF7Jtg7-AGLMs09pWwN5x3DFNgni6pzArQwceWYh4puaHz_654nGnf9hIGZIlEqO1ogn2yQ=s900-c-k-c0x00ffffff-no-rj", link:"https://www.gov.br/anp/pt-br"},
+    //FAPEMIG
+      {img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_nHGh9QI2E-2VsETD5MtufA_2khWgIVKSA&s", link:"https://www.fapemig.br/pt/"},
+    //CAPES
+     {img:"https://iqc.org.br/wp-content/uploads/2022/07/capes.jpg", link:"https://www.gov.br/capes/pt-br"},
+    //FINEP
+     {img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwd_6_LSp3lt8u33uxRpwJPBndWq7-nvQkvw&s", link:"http://www.finep.gov.br/"},
+     //ANP
+     {img:"https://www.unicamp.br/wp-content/uploads/sites/33/2023/07/Logo_Unicamp__0.jpg", link:"https://unicamp.br/"},
+     //ANP
+     {img:"https://cursoanglo.com.br/wp-content/uploads/2021/11/usp.jpg.png", link:"https://www5.usp.br/"},
+     //UFSC
+     {img:"https://www.apufsc.org.br/wp-content/uploads/2021/04/concorrencia-vestibular-ufsc-2020-2.jpg", link:"https://ufsc.br/"},
+     //UFSC
+     {img:"https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_oficial_da_UFPR_%28fundo_branco%29.svg", link:"https://ufpr.br/"},
+     //UFSC
+     {img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4G_-mtbcWLtO4c-3oaYlXAlX6OD5i4J7DQ&s", link:"https://www.femec.ufu.br/"},
     ],
    
 }

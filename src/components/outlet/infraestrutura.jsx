@@ -7,12 +7,14 @@ import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
 
 const infraestrutura = () => {
-  const [value, setValue] = useState("");
-  const { data } = UseFetchGet({ value });
-  const [title, setTitle] = useState("Categorias");
-
-  console.log(value);
-
+  const [info, setInfo] = useState({ value:'teste', title: "Categorias" });
+  const insertValues = (e) => {
+    setInfo({ ...info, [e.target.value]:[e.target.id] });
+    
+  };
+  const {value} = info;
+  const { data } = UseFetchGet(value);
+  console.log(value)
   return (
     <section id="infraestrutura">
       <NotesTitles
@@ -43,25 +45,23 @@ const infraestrutura = () => {
                 { name: "Manufatura Aditiva", type: "manufacture" },
               ].map((item, index) => {
                 return (
-                  
                   <label key={index}>
                     <input
                       value={item.type}
                       id={item.name}
-                      onClick={ (e) =>{setValue(e.target.value),  setTitle(e.target.id)}}
+                      // onClick={insertValues}
                       type="radio"
                     />
                     <span>{item.name}</span>
                   </label>
                 );
               })}
-              title={title}
+              title={"info.searcher"}
             />
           }
           list="browser"
           placeholder="Pesquisar"
-          onInput={(e) => setTitle("Personalizado")}
-          event={(e) => setValue(e.target.value)}
+          event={insertValues}
         />
       </div>
       <div className="card-content">
@@ -83,10 +83,10 @@ const infraestrutura = () => {
                   return (
                     <tbody key={item.id}>
                       <tr>
-                        {details[1] ? (
+                        {details.software ? (
                           <td>
                             <u>Software:</u>
-                            {details[1]}
+                            {details.software}
                           </td>
                         ) : null}
                       </tr>

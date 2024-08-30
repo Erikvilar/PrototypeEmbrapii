@@ -16,13 +16,13 @@ const static_links = () => {
       <ul className="listLink">
         <List_link id="projetos" link="projetos" title="Projetos" />
         <List_link id="" link="infraestrutura" title="Infraestrutura" />
-    
-        <List_link id="unidade" link="" title="Serviços" />
+
         <List_link id="noticias" link="noticias" title="Notícias" />
+        <List_link id="" link="onBuilding" title="Publicações" />
       </ul>
       <NotesTitles title="Saiba mais" class_style="notes_static" />
       <ul className="listLink">
-        <List_link id="" link="onBuilding" title="Publicações" />
+
         <List_link id="unidade" link="onBuilding"  title="Laborátorios" />
         <List_link id="unidade" link="onBuilding"  title="Fale conosco" />
       </ul>
