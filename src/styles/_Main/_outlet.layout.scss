@@ -19,23 +19,43 @@
 
       background-color: #edeff1;
       table {
+        max-width: 350px;
         width: 100%;
-        height: auto;
+        height: 180px;
         margin-bottom: 20px;
-        justify-content: space-between;
+        display: flex;
+        padding-left: 10px;
+        flex-direction: column;
+
+        align-items: start;
+        background-color: #17293860;
+        border-radius: 5px;
+        color: white;
 
         .table-separator {
+          font-weight: 500;
           display: flex;
+          flex-wrap: wrap;
 
+          font-family: "Montserrat", sans-serif;
           td {
-            width: 100%;
+            width: 150px;
+            display: flex;
+            align-items: center;
           }
-        }
-        td {
-          text-align: justify;
+        } .table-column {
+          display: flex;
+          flex-direction: column;
+        .table-column td {
           font-family: "Roboto", sans-serif;
           font-size: 16px;
-          color: #5d5d5d;
+          color: white;
+        }
+      }
+
+        tr .teste {
+          border: 2px solid red;
+          width: 300px;
         }
       }
       u {
@@ -53,6 +73,7 @@
       text-transform: uppercase;
     }
     .card-text {
+      height: 120px;
       overflow: scroll;
       text-align: justify;
       scrollbar-width: none;
@@ -244,18 +265,17 @@
   }
   .accordion-item {
     margin-bottom: 10px;
-  
   }
-  
+
   .accordion-header {
-    button{
+    button {
       border-radius: 5px;
-  background-color: #656565;
-  color: white;
-  font-family: "Poppins",sans-serif;
-    }button::after{
-    color: white;
+      background-color: #656565;
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    button::after {
+      color: white;
     }
   }
-  
 }

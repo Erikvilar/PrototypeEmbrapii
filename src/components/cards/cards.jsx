@@ -10,7 +10,7 @@ const cards = (props) => {
         <table>
           <thead>
             <tr>
-              <th>Caracteristicas</th>
+              <th>Descritivo:</th>
             </tr>
           </thead>
           {props.details}

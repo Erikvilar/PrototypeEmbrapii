@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 export const UseFetchGet = (value) => {
   const [data, setData] = useState([]);
-  const valueFormat = value.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+  const valueFormat = value;
   const url = "./src/data/dataJson.json";
   useEffect(() => {
     axios.get(url).then((res) => {

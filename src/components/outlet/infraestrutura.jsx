@@ -7,14 +7,15 @@ import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
 
 const infraestrutura = () => {
-  const [info, setInfo] = useState({ value:'teste', title: "Categorias" });
+  const [info, setInfo] = useState({ value: "", title: "Categorias" });
   const insertValues = (e) => {
-    setInfo({ ...info, [e.target.value]:[e.target.id] });
-    
+    setInfo({ ...info, value: [e.target.value], title: [e.target.id] });
   };
-  const {value} = info;
+
+  const { title, value } = info;
+
   const { data } = UseFetchGet(value);
-  console.log(value)
+  console.log(title);
   return (
     <section id="infraestrutura">
       <NotesTitles
@@ -49,14 +50,14 @@ const infraestrutura = () => {
                     <input
                       value={item.type}
                       id={item.name}
-                      // onClick={insertValues}
+                      onClick={insertValues}
                       type="radio"
                     />
                     <span>{item.name}</span>
                   </label>
                 );
               })}
-              title={"info.searcher"}
+              title={title}
             />
           }
           list="browser"
@@ -80,35 +81,32 @@ const infraestrutura = () => {
                   ) : null
                 }
                 details={[item.details].map((details) => {
+                  const detalhamento = Object.entries(
+                    details.detalhamento
+                  ).filter(([key, value]) => value != "" && value != undefined);
+
+                  const values = Object.entries(details.descritivo).filter(
+                    ([key, value]) => value != "" && value != undefined
+                  );
+
                   return (
                     <tbody key={item.id}>
-                      <tr>
-                        {details.software ? (
-                          <td>
-                            <u>Software:</u>
-                            {details.software}
+                      <tr className="table-separator">
+                        {values.map(([key, value]) => (
+                          <td key={index}>
+                            <u>{key}:</u>
+                            <span>{value}</span>
                           </td>
-                        ) : null}
+                        ))}
                       </tr>
-                      <tr>
-                        {details.vazao ? (
-                          <td>
-                            <u>Pressao:</u>
-                            {details.vazao}
+
+                      <tr className="table-column">
+                        {detalhamento.map(([key, value]) => (
+                          <td key={index}>
+                            <u>{key}:</u>
+                            <span>{value}</span>
                           </td>
-                        ) : null}
-                        {details.pressao ? (
-                          <td>
-                            <u>Vazão:</u>
-                            {details.pressao}
-                          </td>
-                        ) : null}
-                        {details.ASTM ? (
-                          <td>
-                            <u>Vazão:</u>
-                            {details.pressao}
-                          </td>
-                        ) : null}
+                        ))}
                       </tr>
                     </tbody>
                   );
