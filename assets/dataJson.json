@@ -1,0 +1,353 @@
+[
+  
+  {
+    "id": 1,
+    "produto": "bcs",
+    "name":"Ensaio de bombas LOOP1",
+    "tipo": "mechanic wear corrosion",
+    "info": "Destinado para a realização de ensaios de corrosão, erosão e abrasão em meio monofásico (líquido) ou bifásico (gás/líquido) de equipamentos rotativos e sistemas de tubulação.",
+    "details": {
+      "descritivo": {
+        "teste": "150 Barg",
+        "Vazão": "450M³ /d"
+        
+
+      },
+
+      "detalhamento": {
+        "medida":"",
+        "razao":"",
+        "Temperatura": "10ºC a 50ºC",
+        "Ensaio": "Automatizado com software robusto"
+      }
+    },
+    "content":{
+      "technical":[
+     " Pressão máxima de operação: 10 barg",
+     "Vazão máxima de operação: 450 m³/d",
+      "Controle de temperatura (mínima e máxima) de operação: 10°C / 50° C",
+      "Concentração mássica máxima de abrasivo dos reatores (sistema de preparação da lama abrasiva): 20 % (dois reservatório com volume útil de 850 l)",
+     "Capacidade máxima do reservatório: 3.000 litros",
+     "Sistema duplo de filtragem: capacidade de reter 300 kg de abrasivo ",
+     "Componentes do circuito fabricados em aço inoxidável 316 L",
+     "Sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 l/min)",
+     "Eletrônica com CLP e software robusto para automatização do ensaio",
+      "Sensores: Temperatura, torque, pressão, vazão (gás e líquido), pH, célula de oxigênio, acelerômetros e encoder",
+      "Circuito com válvulas tipo globo eletropneumáticas para controle de fluxo (baixa vazão de até 150 m³/d e alta vazão até 450 m³/d)",
+      "Estrutura rígida para fixação de equipamentos rotativas que requer o monitoramento dos sinais de vibração",
+      " Programa de interface intuitivo, com visualização ampla dos sinais obtidos pelos instrumentos de medição durante o ensaio."
+      
+      ],
+     
+
+      "usability":[
+        "O circuito flowloop LOOP 2 consiste de um equipamento fabricado em aço inoxidável 316 L destinado para a realização de ensaios de corrosão, erosão e abrasão em meio monofásico (líquido) ou bifásico (gás/líquido) de equipamentos rotativos e sistemas de tubulação. São mais de 120 metros de tubulação de 3, contemplando os seguintes sistemas: sistema hidráulico, sistema de injeção de abrasivo, sistema de filtragem e sistema de injeção de gás. ",
+        "O circuito de teste consiste de uma infraestrutura robusta projetada pelo Laboratório de Tecnologia em Atrito e Desgaste, destinado a realização de ensaios de desgaste de equipamentos rotativos e sistemas de tubulação",
+        "Nessa infraestrutura é possível realizar ensaios para avaliar diferentes mecanismos de desgaste relacionados a erosão, abrasão e corrosão, além do sinergismo entre esses mecanismos.",
+        " O circuito flow loop é hermético e possui aparato para realização de experimentos bifásico gás-líquido, além de um sistema que garante controle preciso da dosagem de abrasivo.",
+        "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
+        "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
+        "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
+      ]
+      
+
+    },
+    "image":[
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_BCS2.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg?raw=true"
+    ]
+    
+  },
+ 
+  {
+    "id": 3,
+    "tipo": "mechanic",
+    "produto": "TRIBO100",
+    "name":"Tribômetro",
+    "info": "Destinado para a realização de ensaios de desgaste em escala quase real com cargas de até 100 toneladas. Possui eixo vertical para promover movimento linear alternado e eixo horizontal para aplicação de força.",
+    "details": {
+      "descritivo": {
+        "Carga": "100 tf(1MN)",
+        "Velocidade": "10 mm/s",
+        "Curso": "Até 200 mm",
+        "Reservatório": "1200 L"
+      },
+
+      "detalhamento": {
+        "Temperatura": "5°C a 25°C"
+      }
+    },
+    "content":{
+      "technical":[
+     "Carga normal com controle em malha fechada: até 100 tf (1 MN)",
+     " Movimento vertical linear alternado: curso de até 200 mm e vel. de até 10 mm/s",
+      "Software robusto para controle e aquisição de dado",
+      "Monitoramento de forças, deslocamento, temperatura e vibrações",
+     "Medição do coeficiente de atrito",
+     "Elevada rigidez estrutural: dimensões de 4,7 x 1,7 x 4 m 3 (L x P x A)",
+     "Reservatório de 1 200 litros para realização de ensaios submersos",
+     "Controle de temperatura do fluido do reservatório: 5 a 25 °C"
+     
+      
+      ],
+     
+
+      "usability":[
+        "Tribômetro para a realização de ensaios de desgaste por deslizamento em escala quase real. O equipamento possui  um eixo vertical responsável por promover um movimento linear alternado e um eixo horizontal para aplicação de força. ",
+        "Sua melhor maneira de investigar o desempenho tribológico de materiais usando parâmetros próximos aos observados em campo (escala quase real).",
+        "O Tribômetro LTAD 1 MN foi desenvolvido para realizar ensaios de desgaste por deslizamento com forças de até 100 tf (1 MN). Nessa infraestrutura pode-se medir o coeficiente de atrtio de pares tribológicos e determinar vida útil desses pares em condições muito próximas às de campo.",
+        "Os ensaios realizados podem ser conduzidos em ambiente submerso em água com controle de temperatura. A infraestrutura possui versatilidade no dimensional e geometria dos materiais de teste. ",
+        " É uma excelente opção para avaliação de materiais poliméricos em grande escala, visando contornar os inconvenientes dos testes em pequena escala para esse tipo de material.",
+        "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. "
+        
+      ]
+      
+
+    },
+
+    "image": [
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN1.jpg?raw=true", 
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN2.jpg?raw=true"
+ 
+    ]
+  },
+  {
+    "id": 4,
+    "tipo": "mechanic",
+    "name":"",
+    "produto": "CETR Bruker",
+    "info": "Tribômetro universal de bancada com controle de temperatura, emissão acústica e lubrificação. Permite a realização de ensaios de desgaste por deslizamento normalizados.",
+    "details": {
+      "descritivo": {},
+      "detalhamento": {
+        "ASTM G99": "Pino sobre disco (Pin-on-Disk)",
+        "ASTM G133": "Deslizamento alternado (Linearly Reciprocating Ball-on-Flat)",
+        "ASTM G77": " Bloco sobre anel (Block-on-Ring)"
+      }
+    },
+    "content":{
+      "technical":[
+    
+      "Modos de Operação: O UMT TriboLab suporta múltiplos modos de operação, incluindo deslizamento, rotação e testes combinados. Pode ser configurado para simular condições de operação variadas, como testes de atrito em ambientes controlados de temperatura e umidade.",
+      "Sensores e Medidas: Equipado com sensores de força de alta precisão, o sistema mede forças de atrito e desgaste com alta resolução. O controle de carga é ajustável e pode variar de miligramas a centenas de newtons, dependendo da aplicação.",
+      "Controle e Software: O sistema é operado por um software intuitivo que permite a configuração detalhada dos testes e o monitoramento em tempo real. O software fornece ferramentas para análise de dados, geração de gráficos e relatórios personalizados.",
+      "Acessórios e Configurações: O UMT TriboLab pode ser configurado com uma variedade de acessórios e módulos, como dispositivos de carga, suportes para amostras e sistemas de medição de desgaste. Isso permite a adaptação do sistema para diferentes tipos de testes e materiais.",
+      "Ambiente de Teste: O sistema pode ser operado em ambientes controlados, com opções para testes em diferentes temperaturas, pressões e condições de umidade. É possível integrar câmaras ambientais para simular condições específicas.",
+      "Precisão e Repetibilidade: A precisão do UMT TriboLab é assegurada por sua construção robusta e seus componentes de alta qualidade. A repetibilidade dos testes é alta, garantindo resultados confiáveis e consistentes para análise comparativa.",
+      "Capacidade de Dados: O sistema possui alta capacidade de armazenamento de dados e pode realizar análises detalhadas, incluindo curvas de atrito, taxas de desgaste e análise de ciclos de carga."
+      ],
+     
+
+      "usability":[
+        "Sistema avançado para testes tribológicos, projetado para analisar atrito e desgaste em uma variedade de materiais e condições operacionais.",
+        "Com alta precisão e versatilidade, o equipamento realiza testes como deslizamento, rotação e fadiga, oferecendo dados confiáveis e repetíveis. Sua interface intuitiva e software avançado facilitam a configuração e análise dos testes, enquanto sensores de alta qualidade medem forças com precisão.",
+        "O sistema é adaptável a diferentes cenários e necessidades, sendo amplamente utilizado em pesquisa e controle de qualidade em setores como automotivo, aeroespacial e de materiais." 
+       
+      ]
+      
+
+    },
+    "image": [
+  "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg?raw=true"    
+    ]
+  },
+  {
+    "id": 5,
+    "tipo": "corrosion",
+    "name":"Roda de Borracha desgaste abrasivo",
+    "produto": "roda de borracha",
+    "info": "Ensaio de desgaste abrasivo do tipo roda-de-borracha é normatizado conforme ASTM G-65. Os ensaios são usados para caracterizar e hierarquizar os materiais em função da sua resistência ao desgaste abrasivo.",
+    "details": {
+      "descritivo": {
+        "Rotação": "200rpm",
+        "Abrasivo": "Areia"
+      },
+
+      "detalhamento": {
+        "Vazão": "300g/min a 400 g/min",
+        "Dureza da borracha": "58 a 62 shore A"
+      }
+    },
+    "content":{
+      "technical":[
+         "Rotação da roda-de-borracha: 200 rpm ± 10 rpm",
+          "Dureza da borracha: entre 58 e 62 shore A",
+          "Controle de rotação",
+          "Contador de número de revoluções",
+          "Calibração realizada com materiais de referência conforme exigência da norma ASTM G-65",
+          "Abrasivo: Areia Normal Brasileira Nº 100 fornecido pelo IPT",
+          "Controle vazão de abrasivo: 300 g/min a 400 g/min"
+      ],
+   
+      
+      
+     
+   
+      "usability":[
+        "Ensaio de desgaste abrasivo do tipo roda-de-borracha (ASTM G-65), para caracterizar e hierarquizar materiais em função da sua resistência ao desgaste abrasivo. Neste ensaio o corpo de prova é pressionado contra a roda de borracha que gira enquanto o fluxo de areia escoa entre as superfícies a uma vazão controlada de 300 a 400 g/min.",
+        "O ensaio de abrasão, tipo roda-de-borracha, foi projetado, construído, desenvolvido e calibrado pelo Laboratório de Tecnologia em Atrito e Desgaste atendendo cuidadosamente às exigências da norma ASTM G-65. A função desse equipamento é realizar ensaios de desgaste abrasivo para caracterizar e hierarquizar os materiais em função da sua resistência ao desgaste abrasivo."
+      ]
+      
+
+    },
+
+    "image": [
+   "https://github.com/Erikvilar/PrototypeEmbrapii/blob/changed/src/images/outlet/equippment/LTAD_Equipamento_Roda%20Borracha.jpg?raw=true"   
+    ]
+  },
+  {
+    "id": 6,
+    "tipo": "wear",
+    "name":"",
+    "produto": "roda de metal",
+    "info": "Ensaio de desgaste severo normatizado conforme ASTM B611-13. Uma roda de metal é atritada contra o corpo de prova de interesse com força suficiente para esmagar as partículas abrasivas que entram no contato.",
+    "details": {
+      "descritivo": {
+        "Rotação": "?",
+        "Abrasivo": "Alumina"
+      },
+
+      "detalhamento": {
+        "Força": "Aplicada via peso morto.",
+        "Volume de Abrasivo": "1500 g"
+      }
+    },
+    "content":{
+      "technical":[
+     " Pressão máxima de operação: 10 barg",
+     "Vazão máxima de operação: 450 m³/d",
+      "Controle de temperatura (mínima e máxima) de operação: 10°C / 50° C",
+      "Concentração mássica máxima de abrasivo dos reatores (sistema de preparação da lama abrasiva): 20 % (dois reservatório com volume útil de 850 l)",
+     "Capacidade máxima do reservatório: 3.000 litros",
+     "Sistema duplo de filtragem: capacidade de reter 300 kg de abrasivo ",
+     "Componentes do circuito fabricados em aço inoxidável 316 L",
+     "Sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 l/min)",
+     "Eletrônica com CLP e software robusto para automatização do ensaio",
+      "Sensores: Temperatura, torque, pressão, vazão (gás e líquido), pH, célula de oxigênio, acelerômetros e encoder",
+      "Circuito com válvulas tipo globo eletropneumáticas para controle de fluxo (baixa vazão de até 150 m³/d e alta vazão até 450 m³/d)",
+      "Estrutura rígida para fixação de equipamentos rotativas que requer o monitoramento dos sinais de vibração",
+      " Programa de interface intuitivo, com visualização ampla dos sinais obtidos pelos instrumentos de medição durante o ensaio."
+      
+      ],
+     
+
+      "usability":[
+        "O circuito flowloop LOOP 2 consiste de um equipamento fabricado em aço inoxidável 316 L destinado para a realização de ensaios de corrosão, erosão e abrasão em meio monofásico (líquido) ou bifásico (gás/líquido) de equipamentos rotativos e sistemas de tubulação. São mais de 120 metros de tubulação de 3, contemplando os seguintes sistemas: sistema hidráulico, sistema de injeção de abrasivo, sistema de filtragem e sistema de injeção de gás. ",
+        "O circuito de teste consiste de uma infraestrutura robusta projetada pelo Laboratório de Tecnologia em Atrito e Desgaste, destinado a realização de ensaios de desgaste de equipamentos rotativos e sistemas de tubulação",
+        "Nessa infraestrutura é possível realizar ensaios para avaliar diferentes mecanismos de desgaste relacionados a erosão, abrasão e corrosão, além do sinergismo entre esses mecanismos.",
+        " O circuito flow loop é hermético e possui aparato para realização de experimentos bifásico gás-líquido, além de um sistema que garante controle preciso da dosagem de abrasivo.",
+        "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
+        "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
+        "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
+      ]
+      
+
+    },
+    "image":[
+     "./src/images/outlet/equippment/LTAD_Equipamento_Instron8801.png" 
+    ] 
+  },
+  {
+    "id": 7,
+    "tipo": "welding",
+    "name":"",
+    "produto": "instron 8801",
+    "info": "Máquina servo-hidráulica para testes estáticos e dinâmicos. As aplicações incluem tração convencional, fadiga de alto e baixo ciclo, mecânica da fratura (KIC, JIC, CTOD), propagação de trincas (DA/DN) e outros.",
+    "details": {
+      "descritivo": {},
+
+      "detalhamento": {
+        "Capacidade de carga": "±100 kN",
+        "Rigidez da estrutura": "390 kN/mm"
+      }
+    },
+    "content":{
+      "technical":[
+     " Pressão máxima de operação: 10 barg",
+     "Vazão máxima de operação: 450 m³/d",
+      "Controle de temperatura (mínima e máxima) de operação: 10°C / 50° C",
+      "Concentração mássica máxima de abrasivo dos reatores (sistema de preparação da lama abrasiva): 20 % (dois reservatório com volume útil de 850 l)",
+     "Capacidade máxima do reservatório: 3.000 litros",
+     "Sistema duplo de filtragem: capacidade de reter 300 kg de abrasivo ",
+     "Componentes do circuito fabricados em aço inoxidável 316 L",
+     "Sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 l/min)",
+     "Eletrônica com CLP e software robusto para automatização do ensaio",
+      "Sensores: Temperatura, torque, pressão, vazão (gás e líquido), pH, célula de oxigênio, acelerômetros e encoder",
+      "Circuito com válvulas tipo globo eletropneumáticas para controle de fluxo (baixa vazão de até 150 m³/d e alta vazão até 450 m³/d)",
+      "Estrutura rígida para fixação de equipamentos rotativas que requer o monitoramento dos sinais de vibração",
+      " Programa de interface intuitivo, com visualização ampla dos sinais obtidos pelos instrumentos de medição durante o ensaio."
+      
+      ],
+     
+
+      "usability":[
+        "O circuito flowloop LOOP 2 consiste de um equipamento fabricado em aço inoxidável 316 L destinado para a realização de ensaios de corrosão, erosão e abrasão em meio monofásico (líquido) ou bifásico (gás/líquido) de equipamentos rotativos e sistemas de tubulação. São mais de 120 metros de tubulação de 3, contemplando os seguintes sistemas: sistema hidráulico, sistema de injeção de abrasivo, sistema de filtragem e sistema de injeção de gás. ",
+        "O circuito de teste consiste de uma infraestrutura robusta projetada pelo Laboratório de Tecnologia em Atrito e Desgaste, destinado a realização de ensaios de desgaste de equipamentos rotativos e sistemas de tubulação",
+        "Nessa infraestrutura é possível realizar ensaios para avaliar diferentes mecanismos de desgaste relacionados a erosão, abrasão e corrosão, além do sinergismo entre esses mecanismos.",
+        " O circuito flow loop é hermético e possui aparato para realização de experimentos bifásico gás-líquido, além de um sistema que garante controle preciso da dosagem de abrasivo.",
+        "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
+        "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
+        "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
+      ]
+      
+
+    },
+    "image": [
+    "./src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg"  
+    ]
+  },
+  {
+    "id": 8,
+    "tipo": "mecanico",
+    "name":"",
+    "produto": "impacto charpy",
+    "info": "Ensaio mecânico que qualifica ligas metálicas quanto a resistência ao impacto, permitindo estabelecer a taxa de carregamento máximo em campo. Equipamento certificado pelo instituto americano NIST.",
+    "details": {
+      "descritivo": {},
+
+      "detalhamento": {
+        "Faixa nominal": "450 J",
+        "Temperatura": "-190...+100 °C",
+        "Normas": "ASTM E23 e ISO 148"
+      }
+    },
+    "content":{
+      "technical":[
+     " Pressão máxima de operação: 10 barg",
+     "Vazão máxima de operação: 450 m³/d",
+      "Controle de temperatura (mínima e máxima) de operação: 10°C / 50° C",
+      "Concentração mássica máxima de abrasivo dos reatores (sistema de preparação da lama abrasiva): 20 % (dois reservatório com volume útil de 850 l)",
+     "Capacidade máxima do reservatório: 3.000 litros",
+     "Sistema duplo de filtragem: capacidade de reter 300 kg de abrasivo ",
+     "Componentes do circuito fabricados em aço inoxidável 316 L",
+     "Sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 l/min)",
+     "Eletrônica com CLP e software robusto para automatização do ensaio",
+      "Sensores: Temperatura, torque, pressão, vazão (gás e líquido), pH, célula de oxigênio, acelerômetros e encoder",
+      "Circuito com válvulas tipo globo eletropneumáticas para controle de fluxo (baixa vazão de até 150 m³/d e alta vazão até 450 m³/d)",
+      "Estrutura rígida para fixação de equipamentos rotativas que requer o monitoramento dos sinais de vibração",
+      " Programa de interface intuitivo, com visualização ampla dos sinais obtidos pelos instrumentos de medição durante o ensaio."
+      
+      ],
+     
+
+      "usability":[
+        "O circuito flowloop LOOP 2 consiste de um equipamento fabricado em aço inoxidável 316 L destinado para a realização de ensaios de corrosão, erosão e abrasão em meio monofásico (líquido) ou bifásico (gás/líquido) de equipamentos rotativos e sistemas de tubulação. São mais de 120 metros de tubulação de 3, contemplando os seguintes sistemas: sistema hidráulico, sistema de injeção de abrasivo, sistema de filtragem e sistema de injeção de gás. ",
+        "O circuito de teste consiste de uma infraestrutura robusta projetada pelo Laboratório de Tecnologia em Atrito e Desgaste, destinado a realização de ensaios de desgaste de equipamentos rotativos e sistemas de tubulação",
+        "Nessa infraestrutura é possível realizar ensaios para avaliar diferentes mecanismos de desgaste relacionados a erosão, abrasão e corrosão, além do sinergismo entre esses mecanismos.",
+        " O circuito flow loop é hermético e possui aparato para realização de experimentos bifásico gás-líquido, além de um sistema que garante controle preciso da dosagem de abrasivo.",
+        "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
+        "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
+        "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
+      ]
+      
+
+    },
+    "image": [
+   "./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"   
+    ]
+  }
+  
+]
