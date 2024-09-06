@@ -2,20 +2,31 @@ import { NotesTitles, TextArticles } from "../props/propsComponents";
 import { UseFetchGet } from "../../hooks/useFetchGet";
 import Articles from "../texts/ContentArticles";
 import Cards from "../cards/cards";
-import { useState } from "react";
 import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const infraestrutura = () => {
-  const [info, setInfo] = useState({ value: "", title: "Categorias" });
+  const [info, setInfo] = useState({
+    value: "",
+    title: "Categorias",
+  });
+
   const insertValues = (e) => {
     setInfo({ ...info, value: [e.target.value], title: [e.target.id] });
   };
-
+  const navigate = useNavigate();
   const { title, value } = info;
-
   const { data } = UseFetchGet(value);
-  console.log(title);
+
+  const handleDefineAndNavigate = (e) => {
+    const productGetter = [e.target.value]
+    navigate("/equipamentos");
+    localStorage.setItem("localValue", JSON.stringify(productGetter))
+    console.log(productGetter)
+  };
+
   return (
     <section id="infraestrutura">
       <NotesTitles
@@ -46,7 +57,7 @@ const infraestrutura = () => {
                 { name: "Manufatura Aditiva", type: "manufacture" },
               ].map((item, index) => {
                 return (
-                  <label key={index}>
+                  <label>
                     <input
                       value={item.type}
                       id={item.name}
@@ -71,12 +82,12 @@ const infraestrutura = () => {
             data.map((item, index) => (
               <Cards
                 key={index}
-                image={item.image}
+                image={item.image[0]}
                 title={item.produto}
                 description={
                   item.info ? (
                     <td>
-                      <u>Descrição:</u> {item.info}
+                      <b>Descrição:</b> {item.info}
                     </td>
                   ) : null
                 }
@@ -90,11 +101,11 @@ const infraestrutura = () => {
                   );
 
                   return (
-                    <tbody key={item.id}>
+                    <tbody>
                       <tr className="table-separator">
                         {values.map(([key, value]) => (
-                          <td key={index}>
-                            <u>{key}:</u>
+                          <td>
+                            <b>{key}:</b>
                             <span>{value}</span>
                           </td>
                         ))}
@@ -102,8 +113,8 @@ const infraestrutura = () => {
 
                       <tr className="table-column">
                         {detalhamento.map(([key, value]) => (
-                          <td key={index}>
-                            <u>{key}:</u>
+                          <td>
+                            <b>{key}:</b>
                             <span>{value}</span>
                           </td>
                         ))}
@@ -111,6 +122,8 @@ const infraestrutura = () => {
                     </tbody>
                   );
                 })}
+                value={item.produto}
+                event={handleDefineAndNavigate}
               />
             ))
           ) : (

@@ -6,7 +6,7 @@ import ComponentVantagens from "./outlet/ComponentVantagens/ComponentVantagens.j
 import Infraestrutura from "./outlet/infraestrutura.jsx";
 import ComponentProjetos from "./outlet/ComponentProjetos/ComponentProjetos.jsx";
 import ComponentNoticias from "./outlet/ComponentNoticias/ComponentNoticias.jsx";
-
+import DynamicComponent from "./outlet/DynamicComponent/DynamicComponent.jsx";
 //OnBuilding
 import OnBuilding from "./outlet/OnBuilding/OnBuilding.jsx";
 export {
@@ -18,5 +18,6 @@ export {
   ComponentNoticias,
   ComponentProjetos,
   Infraestrutura,
-  OnBuilding
+  OnBuilding,
+  DynamicComponent
 };

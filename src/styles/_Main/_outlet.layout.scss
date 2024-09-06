@@ -19,7 +19,7 @@
 
       background-color: #edeff1;
       table {
-        max-width: 350px;
+        
         width: 100%;
         height: 180px;
         margin-bottom: 20px;
@@ -28,10 +28,14 @@
         flex-direction: column;
 
         align-items: start;
-        background-color: #17293860;
+        background-color: #2c65ce;
         border-radius: 5px;
         color: white;
-
+        thead tr th {
+          
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
         .table-separator {
           font-weight: 500;
           display: flex;
@@ -39,19 +43,26 @@
 
           font-family: "Montserrat", sans-serif;
           td {
+            font-size: 13px;
             width: 150px;
+            padding-top: 5px;
+            padding-bottom:5px ;
             display: flex;
             align-items: center;
           }
-        } .table-column {
-          display: flex;
-          flex-direction: column;
-        .table-column td {
-          font-family: "Roboto", sans-serif;
-          font-size: 16px;
-          color: white;
         }
-      }
+        .table-column {
+          display: flex;
+
+          font-size: 13px;
+          flex-direction: column;
+          .table-column td {
+          
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            color: white;
+          }
+        }
 
         tr .teste {
           border: 2px solid red;
@@ -65,10 +76,10 @@
     }
     .card-title {
       border-bottom: 2px solid rgb(0, 0, 0);
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       color: #5d5d5d;
-      height: 40px;
+      height: 30px;
       margin-bottom: 15px;
       text-transform: uppercase;
     }
@@ -85,9 +96,9 @@
       border-bottom: 2px solid cornflowerblue;
       width: 100%;
 
-      border-radius: 0px 0px 0px 0px;
+      border-radius: 10px 10px 0px 0px;
       margin: auto;
-      height: 200px;
+      height: 180px;
     }
     .btn-primary {
       height: 35px;

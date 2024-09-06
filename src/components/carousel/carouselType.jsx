@@ -5,8 +5,8 @@ import { ContentCarousel } from '../props/propsComponents';
 function carouselType({object, classlType,type}) {
     return (
         <Carousel fade={type}>
-            {object.map((n)=> 
-            <Carousel.Item className={classlType}>
+            {object.map((n, index)=> 
+            <Carousel.Item className={classlType} key={index}>
                 <a href={n.link} target='blank'>
                     <img className='img-carousel-index' src={n.img} />
                 </a>

@@ -1,8 +1,9 @@
-import React from "react";
+
 import { Card, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const cards = (props) => {
   return (
-    <Card>
+    <Card >
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -10,15 +11,15 @@ const cards = (props) => {
         <table>
           <thead>
             <tr>
-              <th>Descritivo:</th>
+              <th>Detalhes do equipamento</th>
             </tr>
           </thead>
           {props.details}
         </table>
 
-        <Button variant="primary">
-          <a href="">+ Veja mais</a>
-        </Button>
+   
+          <Button value={props.value} onClick={props.event} variant="primary"> +Veja mais </Button>
+
       </Card.Body>
     </Card>
   );

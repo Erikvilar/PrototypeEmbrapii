@@ -1,5 +1,10 @@
 import App from "./App.jsx";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import {
+  HashRouter,
+  Route,
+  Routes,
+  
+} from "react-router-dom";
 import {
   Inicio,
   ComponentInstitucional,
@@ -10,9 +15,12 @@ import {
   ComponentNoticias,
   Infraestrutura,
   OnBuilding,
+  DynamicComponent
 } from "./components/index.js";
 
-const Routing = ({component}) => {
+
+const Routing = () => {
+
   return (
     <HashRouter>
       <Routes>
@@ -23,9 +31,8 @@ const Routing = ({component}) => {
           <Route path="parceiros" element={<ComponentParcerias />} />
           <Route path="vantagens" element={<ComponentVantagens />} />
           <Route path="infraestrutura" element={<Infraestrutura />} />
-          <Route path="projetos" element={<ComponentProjetos />} >
-          <Route index element={{component}} />
-          </Route>
+          <Route path="projetos" element={<ComponentProjetos />} />
+          <Route path="/equipamentos" element={<DynamicComponent/>} />
           <Route path="noticias" element={<ComponentNoticias />} />
           <Route path="onBuilding" element={<OnBuilding />} />
         </Route>
