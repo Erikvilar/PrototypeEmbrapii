@@ -41,14 +41,9 @@ position: relative;
     width: 50%;
     margin-right: 5px;
 }ol{
-
+    padding-bottom: 20px;
     list-style-type: square;
     line-height: 30px;
- 
-
-}ol{
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-top: 5px solid #2c65ce;
     border-bottom: 5px solid #2c65ce;
 
@@ -56,7 +51,6 @@ position: relative;
 ol li:nth-child(1){
    color: #2c65ce;
    font-weight: 700;
-   text-align: center;
     list-style: none;
     padding-top:30px;
     padding-bottom: 30px;

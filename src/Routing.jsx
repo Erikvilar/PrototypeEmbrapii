@@ -15,7 +15,8 @@ import {
   ComponentNoticias,
   Infraestrutura,
   OnBuilding,
-  DynamicComponent
+  DynamicComponent,
+  ProjectsPage
 } from "./components/index.js";
 
 
@@ -33,6 +34,7 @@ const Routing = () => {
           <Route path="infraestrutura" element={<Infraestrutura />} />
           <Route path="projetos" element={<ComponentProjetos />} />
           <Route path="/equipamentos" element={<DynamicComponent/>} />
+          <Route path="/paginaProjeto" element={<ProjectsPage/>} />
           <Route path="noticias" element={<ComponentNoticias />} />
           <Route path="onBuilding" element={<OnBuilding />} />
         </Route>

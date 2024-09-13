@@ -2,9 +2,9 @@ import React from "react"
 
 
 // component para textos
-export const TextArticles= ({ text , classtype}) => {
+export const TextArticles= ({ text }) => {
   return (
-    <p className={classtype}>{text}</p>
+    <p className="textArticle">{text}</p>
   )
 }
 

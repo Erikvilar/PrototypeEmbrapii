@@ -3,7 +3,7 @@ import Main from './components/main.jsx';
 import Footer from './components/footer/footer.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "/src/styles/_base.scss"
+import "../src/styles/_base.scss"
 
 
 

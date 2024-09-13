@@ -16,15 +16,15 @@ const infraestrutura = () => {
   const insertValues = (e) => {
     setInfo({ ...info, value: [e.target.value], title: [e.target.id] });
   };
-  const navigate = useNavigate();
+  const Navigate = useNavigate();
   const { title, value } = info;
-  const { data } = UseFetchGet(value);
+  const { data } = UseFetchGet(value.toString());
 
   const handleDefineAndNavigate = (e) => {
-    const productGetter = [e.target.value]
-    navigate("/equipamentos");
-    localStorage.setItem("localValue", JSON.stringify(productGetter))
-    console.log(productGetter)
+    const productGetter = [e.target.value];
+    Navigate("/equipamentos");
+    localStorage.setItem("localValue", JSON.stringify(productGetter));
+    console.log(productGetter);
   };
 
   return (
@@ -57,7 +57,7 @@ const infraestrutura = () => {
                 { name: "Manufatura Aditiva", type: "manufacture" },
               ].map((item, index) => {
                 return (
-                  <label>
+                  <label key={index}>
                     <input
                       value={item.type}
                       id={item.name}
@@ -84,44 +84,11 @@ const infraestrutura = () => {
                 key={index}
                 image={item.image[0]}
                 title={item.produto}
-                description={
-                  item.info ? (
-                    <td>
-                      <b>Descrição:</b> {item.info}
-                    </td>
-                  ) : null
+                description={item.descricao ? <>{item.descricao}</>:null}
+                details={
+                  item.categoria? <span>{item.categoria}</span> : null
                 }
-                details={[item.details].map((details) => {
-                  const detalhamento = Object.entries(
-                    details.detalhamento
-                  ).filter(([key, value]) => value != "" && value != undefined);
-
-                  const values = Object.entries(details.descritivo).filter(
-                    ([key, value]) => value != "" && value != undefined
-                  );
-
-                  return (
-                    <tbody>
-                      <tr className="table-separator">
-                        {values.map(([key, value]) => (
-                          <td>
-                            <b>{key}:</b>
-                            <span>{value}</span>
-                          </td>
-                        ))}
-                      </tr>
-
-                      <tr className="table-column">
-                        {detalhamento.map(([key, value]) => (
-                          <td>
-                            <b>{key}:</b>
-                            <span>{value}</span>
-                          </td>
-                        ))}
-                      </tr>
-                    </tbody>
-                  );
-                })}
+                
                 value={item.produto}
                 event={handleDefineAndNavigate}
               />
