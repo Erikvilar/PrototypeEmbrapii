@@ -1,7 +1,7 @@
-import { NotesTitles, TextArticles } from "../props/propsComponents";
+import { NotesTitles, TextArticles } from "../tools/tools";
 import { UseFetchGet } from "../../hooks/useFetchGet";
 import Articles from "../texts/ContentArticles";
-import Cards from "../cards/cards";
+import Cards from "../reactBootstrap/cards/cards";
 import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
 import { useState } from "react";
@@ -23,7 +23,7 @@ const infraestrutura = () => {
   const handleDefineAndNavigate = (e) => {
     const productGetter = [e.target.value];
     Navigate("/equipamentos");
-    localStorage.setItem("localValue", JSON.stringify(productGetter));
+    sessionStorage.setItem("localValue", JSON.stringify(productGetter));
     console.log(productGetter);
   };
 
@@ -84,11 +84,8 @@ const infraestrutura = () => {
                 key={index}
                 image={item.image[0]}
                 title={item.produto}
-                description={item.descricao ? <>{item.descricao}</>:null}
-                details={
-                  item.categoria? <span>{item.categoria}</span> : null
-                }
-                
+                description={item.descricao ? <>{item.descricao}</> : null}
+                details={item.categoria ? <span>{item.categoria}</span> : null}
                 value={item.produto}
                 event={handleDefineAndNavigate}
               />

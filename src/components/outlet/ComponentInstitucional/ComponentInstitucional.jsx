@@ -3,7 +3,7 @@ import {
   NotesTitles,
   TextArticles,
   RenderList,
-} from "../../props/propsComponents";
+} from "../../tools/tools";
 import { Articles } from "../ComponentEquipe";
 import css from "./ComponentInstitucional.module.css"
 const ComponentInstitucional = () => {

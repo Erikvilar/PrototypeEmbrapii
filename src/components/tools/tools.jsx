@@ -1,7 +1,6 @@
 import React from "react"
 
 
-// component para textos
 export const TextArticles= ({ text }) => {
   return (
     <p className="textArticle">{text}</p>
@@ -9,16 +8,6 @@ export const TextArticles= ({ text }) => {
 }
 
 
-export const utilLinks =()=>{
-  <>
-  <hr />  
-  <ul>
-    <b>Links uteis:</b>
-    <li><a href=""target="_blank"> • [WEBINAR] Fragilização por Hidrogênio em Metais</a></li>
-  </ul>
-  <hr />
-  </>
-}
 
 //component de notas de rodape
 export const NotesTitles = (props) => {
@@ -43,7 +32,7 @@ export const ContentCarousel = (props) => {
 }
 //composição estatica layout esquerdo com lista de links = routers 
 //recebe como parametro notes = notas de rodape / links = lista de link
-export const Static_compose = ({ links }) => {
+export const StaticCompose = ({ links }) => {
   return (
     <div className='main-list-ld'>
       <div className='logo-main-list-ld'>

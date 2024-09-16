@@ -4,7 +4,7 @@ import {
   NotesTitles,
   RenderList,
   TextArticles,
-} from "../../props/propsComponents";
+} from "../../tools/tools";
 import Lists from "./Lists";
 import { Articles } from "../ComponentEquipe";
 

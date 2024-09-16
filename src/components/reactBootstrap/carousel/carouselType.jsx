@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import { ContentCarousel } from '../props/propsComponents';
+import { ContentCarousel } from '../../tools/tools';
 
 function carouselType({object, classlType,type}) {
     return (

@@ -1,4 +1,4 @@
-import { RenderImages, NotesTitles, TextArticles } from "../../props/propsComponents";
+import { RenderImages, NotesTitles, TextArticles } from "../../tools/tools";
 
 import Links from "../../texts/ContentLinks";
 import { Articles } from "../ComponentEquipe";

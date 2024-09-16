@@ -1,9 +1,9 @@
-import { RiH1 } from "react-icons/ri";
+
 import { UseFetchGet } from "../../../hooks/useFetchGet";
 import { NotesTitles } from "../ComponentEquipe";
 import css from "./DynamicComponent.module.css";
 const DynamicComponent = () => {
-  const localValue = JSON.parse(localStorage.getItem("localValue"));
+  const localValue = JSON.parse(sessionStorage.getItem("localValue"));
   const { data } = UseFetchGet(localValue[0]);
 
   console.log(data);

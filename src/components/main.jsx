@@ -1,16 +1,16 @@
 import React from "react";
 
-import { NotesTitles, Static_compose } from "./props/propsComponents";
-import Static_links from "./props/linksComponents";
+import { StaticCompose } from "./tools/tools";
+import MenuLinks from "./menuLinks/menuLinks";
 import { Outlet } from "react-router-dom";
-import Routing from "../Routing";
+
 
 function main() {
   return (
-    //Classname
+ 
     <main>
       <section className="main-layout">
-        <Static_compose links={<Static_links />} />
+        <StaticCompose links={<MenuLinks />} />
         <div className="outlet-layout">
      
           <Outlet />

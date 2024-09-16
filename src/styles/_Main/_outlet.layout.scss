@@ -8,36 +8,41 @@
 
     height: auto;
     margin-top: 20px;
+    margin-bottom: 50px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    .card span::before{
-      content: "∎";
-     
-      font-size: 0.8rem;
-      padding-right: 10px;
-      color: #0074f9;
+    .card span{
+      padding: 0;
+      color: black;
     }
 
     .card {
-  
+      border-radius: none;
       width: 340px;
       margin: 5px;
-      height: 480px;
+      height: 520px;
+      box-shadow: 1px 10px 20px rgb(181, 180, 180);
       border: none;
-      border-radius: 10px;
       background-color: #e4e4e4;
+      div:nth-child(4){
+        display: flex;
+        font-size: 12px;
+        font-weight: 600;
+        flex-direction: column;
+
+      }
       
     }
   
     .card-title {
-      font-size:18px;
+      font-size:20px;
+      border-bottom: 1px solid rgb(70, 70, 70);
       text-align: start;
       padding-bottom: 5px;
       color: rgb(70, 70, 70);
-      font-family: "Poppins",sans-serif;
       font-weight: 600;
-      border-bottom: 2px solid gray;
+      
       text-transform: uppercase;
     }
     .card-text {
@@ -51,10 +56,10 @@
       color: #5d5d5d;
     }
     .card-img-top {
-      border-bottom: 3px solid #0074f9;
+      border-bottom: 5px solid rgba(130, 129, 129, 0.686);
       width: 100%;
       filter: contrast(1.2);
-      border-radius: 10px 10px 0px 0px;
+
       margin: auto;
       height: 200px;
     }
@@ -83,6 +88,7 @@
       justify-content: center;
 
       span {
+        
         color: black;
         font-weight: 600;
       }
@@ -92,7 +98,7 @@
     max-width: 712px;
 
     form {
-      border: 0.1px dotted #172938;
+      border: 0.1px solid #000000;
       width: 712px;
       border-radius: 0px;
       height: 45px;

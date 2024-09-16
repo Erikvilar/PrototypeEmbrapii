@@ -1,6 +1,6 @@
 import { NotesTitles } from '../ComponentEquipe';
 import css from './ComponentNoticias.module.css'
-import CarouselType from '../../carousel/carouselType';
+import CarouselType from '../../reactBootstrap/carousel/carouselType';
 import news from './news';
 import ComponentSubNews from './ComponentSubNews';
 const ComponentNoticias = () => {

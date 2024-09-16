@@ -1,7 +1,8 @@
 
-import CarouselType from "../carousel/carouselType";
+
 import Articles from "../texts/ContentArticles";
-import { NotesTitles, TextArticles } from "../props/propsComponents";
+import CarouselType from "../reactBootstrap/carousel/carouselType";
+import { NotesTitles, TextArticles } from "../tools/tools";
 import ComponentIndicators from "./ComponentIndicators/ComponentIndicators";
 import ComponentMaps from "./ComponentMaps/ComponentMaps";
 import news from "./ComponentNoticias/news";
