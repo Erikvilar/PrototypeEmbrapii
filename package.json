@@ -15,6 +15,7 @@
   "dependencies": {
     "@canvasjs/charts": "^3.10.4",
     "@canvasjs/react-charts": "^1.0.2",
+    "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "gh-pages": "^6.1.1",
     "ltad-page": "file:",
