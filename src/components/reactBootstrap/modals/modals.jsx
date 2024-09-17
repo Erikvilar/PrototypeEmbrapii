@@ -6,7 +6,7 @@ const modals = (props) => {
   return (
     <Modal
       {...props}
-      size="lg"
+      size="xl"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
@@ -16,6 +16,7 @@ const modals = (props) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+
 		{props.modal}
       </Modal.Body>
       <Modal.Footer>
