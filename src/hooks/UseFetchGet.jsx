@@ -3,18 +3,26 @@ import { useState, useEffect } from "react";
 
 export const UseFetchGet = (value) => {
   const [data, setData] = useState([]);
-  const valueFormat = value.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-  console.log(valueFormat);
+  const valueFormat = value;
   const url = "./src/data/dataJson.json";
+  console.log(valueFormat);
   useEffect(() => {
     axios.get(url).then((res) => {
-       console.log(res.data[1].descricao)
-      const result = res.data.filter((item) =>
-        item.tipo.includes (valueFormat) || item.descricao.normalize('NFD').includes(valueFormat) ||  item.produto.toLowerCase().startsWith(valueFormat) 
-      );
-      setData(result);
+      const result = res.data.filter((item) => {
+        console.log(item.tipo.includes(valueFormat));
+        return (
+          item.tipo.includes(valueFormat) ||
+          item.descricao.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().includes(valueFormat) ||
+          item.descricao.includes(valueFormat) ||
+          item.produto.includes(valueFormat.toLowerCase())
+
+   
+
+        );
+      });
       
-     
+
+      setData(result);
     });
   }, [value]);
   return { data };

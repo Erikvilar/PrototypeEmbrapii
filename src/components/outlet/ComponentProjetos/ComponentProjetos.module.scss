@@ -1,3 +1,21 @@
+
+  .exposedProjetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+    img{
+      opacity: 0.9;
+
+    }img:hover{
+      cursor: pointer;
+      transform: scale(1.01);
+      opacity: 1;
+   
+    }
+  }
+
+
 .BoxProjects {
   position: relative;
   height: 700px;
@@ -5,20 +23,27 @@
   flex-direction: column;
   align-items: center;
 
-  .ProjectsBox {
+  .ProjectsBox{
     background-color: #edeff1;
     border-top: 10px solid #2c66ce;
+    border-bottom: 2px solid #8b8c8c;
     display: flex;
     border-radius: 5px;
     flex-direction: row;
     height: 170px;
+    width: 100%;
     align-items: center;
     margin-top: 20px;
-    img {
-      mix-blend-mode: multiply;
-      width: 110px;
-      height: 65px;
+  
+    .ProjectsTitle{
+      p{
+        color: rgb(82, 82, 82);
+        b{
+          color: rgb(82, 82, 82);
+        }
+      }
     }
+   
     h1 {
       flex: 1;
       font-size: 14px;
@@ -26,14 +51,20 @@
       text-transform: uppercase;
       font-weight: 700;
     }
-    div:nth-child(1) {
-      width: 30%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    div:nth-child(2) {
-      width: 70%;
+    // div:nth-child(1) {
+    //   width: 30%;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+    div:nth-child(1){
+      width: 100%;
+      padding: 50px;
+   
+      svg{
+
+        fill: rgb(50,50,50);
+      }
     }
     button {
       width: 90px;
@@ -51,6 +82,15 @@
     P {
       font-size: 12px;
       font-weight: 700;
+    }.prefixo{
+      font-family: "Saira",sans-serif;
+      font-size: 25px;
+      letter-spacing: 2px;
+      text-align: center;
+      
+      text-transform:uppercase;
+      font-weight: 800;
+      color: #2c66ce;
     }
   }
 
@@ -96,6 +136,7 @@
 .pageProject {
   display: flex;
   flex-direction: column;
+
   .presentationPage {
     position: relative;
     height: 215px;
@@ -108,6 +149,7 @@
       position: absolute;
       top:-170px;
       height: 520px;
+      filter: contrast(1.2);
       mix-blend-mode: multiply;
 
     }
@@ -116,12 +158,12 @@
     width: 100%;
     flex-wrap: wrap;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
     div {
       text-align: start;
-      margin: 30px;
-      max-height: 100px;
-      width: auto;
+      
+      
     }
   
     b {

@@ -19,15 +19,6 @@ export const ProjectsPage = () => {
     <section>
       <NotesTitles title="Projetos" class_style="notes_title" />
       <div className={scss.pageProject}>
-        <div className={scss.presentationPage}>
-          <img
-            src="https://yt3.googleusercontent.com/gUhObrCmgvxvLzM6FTE2Us_MTjUEJm4skolIe4CUUUJNla7odTScm5UBs5YDFW5zo1QzGH0n1g=s900-c-k-c0x00ffffff-no-rj"
-            alt=""
-            width={512}
-           
-          />
-
-        </div>
         <div className={scss.row}>
         <div>
             <b>Projeto</b>
@@ -38,10 +29,7 @@ export const ProjectsPage = () => {
             <b>Sigla</b>
             <p>{data.prefixo  }</p>
           </div>
-          <div>
-            <b>Empresa parceira</b>
-            <img src={data.img} alt="" width={100} />
-          </div>
+      
 
           <div>
             <b>Coordenador</b>
@@ -84,17 +72,12 @@ export const ProjectsPage = () => {
               <button value="trl" onClick={modalShowOption}></button>
             </b>
             <p>{data.TRL}</p>
-          </div>
-
-          <div>
             <b>
               CRL pretendido{" "}
               <button value="crl" onClick={modalShowOption}></button>
             </b>
             <p>{data.CRL}</p>
           </div>
-
-        
         </div>
         <div className={scss.presentationInformations}>
           <b>Desafio</b>

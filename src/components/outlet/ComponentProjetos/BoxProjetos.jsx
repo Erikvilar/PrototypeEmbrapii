@@ -32,9 +32,9 @@ const BoxProjetos = () => {
     <section className={scss.BoxProjects}>
       {filterData ? filterData.map((p) => (
           <div key={p.id} className={scss.ProjectsBox}>
-            <div>
-              <img src={p.img} alt="" width={100} height={100} />
-            </div>
+            {/* <div>
+              <span className={scss.prefixo}>{p.prefixo}</span>
+            </div> */}
             <div className={scss.ProjectsTitle}>
               <h1>{p.titulo}</h1>
               <div>
@@ -65,7 +65,7 @@ const BoxProjetos = () => {
         activeClassName={scss.active}
         pageClassName={scss.page_item}
         onPageChange={(event) => setPage(event.selected)}
-        breakLabel={<a href="">Veja mais</a>}
+        breakLabel={<>Veja mais</>}
         marginPagesDisplayed={0}
         pageRangeDisplayed={2}
         pageCount={Math.ceil(projects.length / n)}

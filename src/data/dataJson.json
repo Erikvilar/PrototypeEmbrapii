@@ -4,18 +4,16 @@
     "produto": "bcs",
     "name": "Ensaio de bombas LOOP1 e LOOP2",
     "tipo": "mechanic wear corrosion",
-    "categoria": "Mecânico, Atrito e Desgaste",
-    "descricao": "Ensaios em bombas  com sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 L/min). Possui sensores de temperatura, torque, pressão, vazão, pH, célula de oxigênio, acelerômetros e encoder.",
+    "categoria": "Ensaio de corrosão e desgaste",
+    "descricao": " Tribologico Ensaios em bombas  com sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 L/min). Possui sensores de temperatura, torque, pressão, vazão, pH, célula de oxigênio, acelerômetros e encoder.",
     "details": {
       "descritivo": {
-        "teste": "150 Barg",
-        "Vazão": "450M³ /d"
+        "Faixa nominal": " 150 Barg",
+        "Vazão": " 450M³ /d"
       },
 
       "detalhamento": {
-        "medida": "",
-        "razao": "",
-        "Temperatura": "10ºC a 50ºC",
+        "Faixa nominal": "10ºC a 50ºC",
         "Ensaio": "Automatizado com software robusto"
       }
     },
@@ -64,10 +62,8 @@
     "descricao": "Destinado para a realização de ensaios de desgaste em escala quase real com cargas de até 100 toneladas. Possui eixo vertical para promover movimento linear alternado e eixo horizontal para aplicação de força.",
     "details": {
       "descritivo": {
-        "Carga": "100 tf(1MN)",
-        "Velocidade": "10 mm/s",
-        "Curso": "Até 200 mm",
-        "Reservatório": "1200 L"
+        "Faixa nominal": "100 tf(1MN)",
+        "Velocidade": " 10 mm/s"
       },
 
       "detalhamento": {
@@ -109,12 +105,7 @@
     "categoria": "Mecânico, Atrito e Desgaste",
     "descricao": "Tribômetro universal de bancada com controle de temperatura, emissão acústica e lubrificação. Permite a realização de ensaios de desgaste por deslizamento normalizados.",
     "details": {
-      "descritivo": {},
-      "detalhamento": {
-        "ASTM G99": "Pino sobre disco (Pin-on-Disk)",
-        "ASTM G133": "Deslizamento alternado (Linearly Reciprocating Ball-on-Flat)",
-        "ASTM G77": " Bloco sobre anel (Block-on-Ring)"
-      }
+      "descritivo": { "Faixa nominal": " 100 tf(1MN)", "Velocidade": " 10 mm/s" }
     },
     "content": {
       "technical": [
@@ -144,12 +135,12 @@
     "descricao": "Ensaio de desgaste abrasivo do tipo roda-de-borracha é normatizado conforme ASTM G-65. Os ensaios são usados para caracterizar e hierarquizar os materiais em função da sua resistência ao desgaste abrasivo.",
     "details": {
       "descritivo": {
-        "Rotação": "200rpm",
-        "Abrasivo": "Areia"
+        "Faixa nominal": " 200rpm",
+        "Abrasivo": " Areia"
       },
 
       "detalhamento": {
-        "Vazão": "300g/min a 400 g/min",
+        "Vazão": " 300g/min a 400 g/min",
         "Dureza da borracha": "58 a 62 shore A"
       }
     },
@@ -366,5 +357,36 @@
       ]
     },
     "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"]
+  },
+  {
+    "id": 11,
+    "tipo": "image",
+    "name": "MEV",
+    "produto": "MEV",
+    "descricao": "O equipamento Zeiss SUPRA-40 é um microscópio eletrônico de varredura de alta resolução do tipo FEG – Field Emission Gun, acoplado com detectores de raios-X (EDS) XFlash 630M e difração de elétrons retroespalhados (EBSD) e-FLASHFS 400a, ambos da fabricante Bruker",
+      
+    "details": {
+      "descritivo": {},
+
+      "detalhamento": {
+        "Faixa nominal": "450 J",
+        "Temperatura": "-190...+100 °C",
+        "Normas": "ASTM E23 e ISO 148"
+      }
+    },
+    "content": {
+      "technical": [
+        " Resolução: 1 nm",
+        "Detectores: EDS e EBSD"
+      ],
+
+      "usability": [
+       "O microscópio eletrônico utiliza de um feixe de elétrons para análise topográfica de superfície, associada a um alto poder de resolulção. ",
+        "Permite também identificar e quantificar os elementos que compõem a microestrutura dos materiais isso é realizado através da análise da energia ou do comprimento de onda dos raios-X que emanam da colisão dos elétrons do feixe primário com os átomos do material analisado.",
+        "Nessa infraestrutura é possível realizar ensaios para avaliar diferentes mecanismos de desgaste relacionados a erosão, abrasão e corrosão, além do sinergismo entre esses mecanismos.",
+        "A técnica de difração de elétrons retroespalhados (EBSD) permite obter informações sobre a orientação cristalográfica, estrutura cristalina, caracterização de textura, análise de defeitos cristalinos e determinação de fases"
+      ]
+    },
+    "image": ["./src/images/outlet/equippment/LTAD_MEV-FEG1.png"]
   }
 ]

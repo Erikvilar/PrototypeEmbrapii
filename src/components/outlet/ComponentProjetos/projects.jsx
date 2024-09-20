@@ -1,7 +1,7 @@
 const projects = [
     {
         id:0,
-        prefixo:"BEL",
+        prefixo:"BELGO",
         titulo:"DESENVOLVIMENTO DE ESTRATEGIAS PARA IMPRESSÃO 3D METÁLICA EM DIFERENTES MATERIAIS.",
         img:"https://cdn.cookielaw.org/logos/c75337a7-e811-4094-8773-31df9296f106/33c79f38-bfe0-43cd-a39c-a73eab6c5f34/e4a056e4-68c8-4b32-bacd-15eb4d534511/belgo_arames.png",
         descricao:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
@@ -29,7 +29,7 @@ const projects = [
     {
         id:1,
         prefixo:"POLIV",
-        titulo:"POLIV -  Desenvolvmento de equipamento e metodologia para avaliação do desempenho de rebolos aplicados na lapidação lateral de vidro",
+        titulo:"Desenvolvmento de equipamento e metodologia para avaliação do desempenho de rebolos aplicados na lapidação lateral de vidro",
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS784SKdrmcNDxHQUTLWqG9S4QUCvnVewD50Q&s",
         descricao:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
         odio dolorum eaque maiores expedita error vitae a? Nostrum, nihil
@@ -106,9 +106,9 @@ const projects = [
 
     },   {
         id:4,
-        prefixo:"BEL",
-        titulo:"[BEL]DESENVOLVIMENTO DE ESTRATEGIAS PARA IMPRESSÃO 3D METÁLICA EM DIFERENTES MATERIAIS.",
-        img:"https://cdn.cookielaw.org/logos/c75337a7-e811-4094-8773-31df9296f106/33c79f38-bfe0-43cd-a39c-a73eab6c5f34/e4a056e4-68c8-4b32-bacd-15eb4d534511/belgo_arames.png",
+        prefixo:"São Martinho",
+        titulo:"Desenvolvimento de componentes resistentes á corrosão para lavador de gases de caldeiras de usinas de açúcar e álcool.",
+        img:"https://jornalcana.com.br/wp-content/uploads/2017/05/sa.png",
         descricao:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
         odio dolorum eaque maiores expedita error vitae a? Nostrum, nihil
         itaque. Delectus enim et accusamus nostrum consequuntur error maxime
@@ -132,7 +132,7 @@ const projects = [
 
 
     },{
-        id:2,
+        id:5,
         prefixo:"Ligas de NI",
         titulo:"AVALIAÇÃO DE SUSCEPTIBILIDADE Á FRAGILIZAÇÃO POR HIDRÔGENIO E CORRROSÃO DE LIGAS DE NIQUEL COM ALTOS TEORES DE MO PARA APLICAÇÃO EM FIXADORES SUBMARINOS",
         img:"https://petrobras.com.br/documents/d/f3a44542-113e-11ee-be56-0242ac120002/logo-svg?download=true",
@@ -186,7 +186,7 @@ const projects = [
     },   {
         id:4,
         prefixo:"Projeto BELGO",
-        titulo:"[BEL]DESENVOLVIMENTO DE ESTRATEGIAS PARA IMPRESSÃO 3D METÁLICA EM DIFERENTES MATERIAIS.",
+        titulo:"DESENVOLVIMENTO DE ESTRATEGIAS PARA IMPRESSÃO 3D METÁLICA EM DIFERENTES MATERIAIS.",
         img:"https://cdn.cookielaw.org/logos/c75337a7-e811-4094-8773-31df9296f106/33c79f38-bfe0-43cd-a39c-a73eab6c5f34/e4a056e4-68c8-4b32-bacd-15eb4d534511/belgo_arames.png",
         descricao:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
         odio dolorum eaque maiores expedita error vitae a? Nostrum, nihil
@@ -302,7 +302,7 @@ const projects = [
     },   {
         id:4,
         prefixo:"Projeto BELGO",
-        titulo:"[BEL]DESENVOLVIMENTO DE ESTRATEGIAS PARA IMPRESSÃO 3D METÁLICA EM DIFERENTES MATERIAIS.",
+        titulo:"DESENVOLVIMENTO DE ESTRATEGIAS PARA IMPRESSÃO 3D METÁLICA EM DIFERENTES MATERIAIS.",
         img:"https://cdn.cookielaw.org/logos/c75337a7-e811-4094-8773-31df9296f106/33c79f38-bfe0-43cd-a39c-a73eab6c5f34/e4a056e4-68c8-4b32-bacd-15eb4d534511/belgo_arames.png",
         descricao:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
         odio dolorum eaque maiores expedita error vitae a? Nostrum, nihil

@@ -6,6 +6,8 @@ import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import ToolsDev from "./ToolsDev/ToolsDev";
+
 
 const infraestrutura = () => {
   const [info, setInfo] = useState({
@@ -16,6 +18,8 @@ const infraestrutura = () => {
   const insertValues = (e) => {
     setInfo({ ...info, value: [e.target.value], title: [e.target.id] });
   };
+  
+ 
   const Navigate = useNavigate();
   const { title, value } = info;
   const { data } = UseFetchGet(value.toString());
@@ -72,10 +76,16 @@ const infraestrutura = () => {
             />
           }
           list="browser"
-          placeholder="Pesquisar"
+          placeholder="Busca por palavra chave ex: sensores"
           event={insertValues}
         />
       </div>
+
+
+            <ToolsDev/>
+
+
+
       <div className="card-content">
         <div className="cards-align">
           {data.length != 0 ? (
@@ -87,6 +97,17 @@ const infraestrutura = () => {
                 description={item.descricao ? <>{item.descricao}</> : null}
                 details={item.categoria ? <span>{item.categoria}</span> : null}
                 value={item.produto}
+                others={[item.details].map((d, ) => {
+                  return (
+                    <>
+                      {Object.entries(d.descritivo).map(([key, value]) => (
+                        <span key={value}>
+                          <b>{key}</b>:{value}
+                        </span>
+                      ))}
+                    </>
+                  );
+                })}
                 event={handleDefineAndNavigate}
               />
             ))

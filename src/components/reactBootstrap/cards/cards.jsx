@@ -8,8 +8,7 @@ const cards = (props) => {
       <Card.Text>{props.details}</Card.Text>
         <Card.Text>{props.description}</Card.Text>
         <div>
-        <span>Faixa nominal: 1200J</span>
-        <span>Faixa nominal: 1200J</span>
+       {props.others}
         </div>
         <Button value={props.value} onClick={props.event} variant="primary">
           {" "}
