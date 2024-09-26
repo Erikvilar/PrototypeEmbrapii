@@ -1,0 +1,48 @@
+.ComponentInstitucional h3 {
+  font-weight: 100;
+  font-size: 25px;
+  text-align: start;
+ 
+  color: rgb(85, 84, 84);
+}
+
+.ComponentInstitucional h4 {
+  color: rgb(77, 124, 212);
+  font-weight: 500;
+  text-align: start;
+  font-size: 20px;
+} .TitleLaboratorios{
+
+background-size: 100% 100%;
+background-position: 0px 0px,0px 0px;
+background-image: linear-gradient(124deg, #2c66ce 63%, #00FFCDFF 63%,  #037275 100%),linear-gradient(107deg, #037275 0%, #0003FFFF 99%);
+    padding: 10px;
+   
+
+}.TitleLaboratorios h3{
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.ComponentInstitucional  {
+  padding: 0px;
+
+}
+
+.ComponentInstitucional  li::before {
+  content: "✅ ";
+  filter: sepia(20%);
+
+  margin-left: 10px;
+}
+.ComponentInstitucional  li {
+list-style: none;
+}.ComponentInstitucional  ul{
+    padding: 0;
+}
+
+

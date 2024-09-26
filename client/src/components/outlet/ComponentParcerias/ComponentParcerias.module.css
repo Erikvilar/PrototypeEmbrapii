@@ -1,0 +1,21 @@
+
+.logoContent {
+  display: flex;
+  width: 100%;
+  max-width: 712px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.logoContent .logos {
+  margin: 10px;
+  width: 158px;
+}
+.logoContent .logos img {
+  width: 100%;
+  height: auto;
+  image-rendering: optimizeQuality;
+  image-orientation: flip;
+  image-resolution: 1920px;
+}

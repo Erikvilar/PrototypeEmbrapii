@@ -1,0 +1,123 @@
+.ComponentSubNewsSection {
+
+  display: flex;
+  flex-direction: column;
+}
+.pagination_page {
+  height: 720px;
+
+
+}
+
+.ComponentSubNews {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 100%;
+  height: 170px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+.pagination_list {
+  display: flex;
+  list-style: none;
+
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_list li {
+  padding: 0px;
+  height: 31.5px;
+  width: 30px;
+  border: 0.2px solid rgb(184, 184, 184);
+}
+.pagination_list li:nth-child(1),
+.pagination_list li:last-child {
+  height: 31.5px;
+  text-align: center;
+    border: none;
+  width: 60px;
+  margin-top: 2px;
+    transition: all 0.5s ease-in;
+}
+
+.pagination_list a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.active {
+ border: 0.2px solid rgb(184, 184, 184);
+background-color: dimgrey;
+color: white;
+  
+}
+
+.page_item {
+  list-style: none;
+  padding: 2px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.ComponentSubNewsWebnar {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(87, 86, 86);
+}
+.ComponentSubNewsWebnar:hover {
+  background-color: rgba(128, 128, 128, 0.151);
+  border: none;
+}
+
+.ComponentNoticias .ContentInformations h3 {
+  font-size: 18px;
+}
+.ComponentNoticias .ContentImages {
+  width: 237px;
+  height: 139px;
+}
+.ComponentNoticias .ContentImages img {
+  width: 100%;
+  height: 160px;
+}
+.ComponentNoticias .ContentInformations {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-left: 10px;
+  width: 70%;
+}
+.ComponentNoticias .ContentInformations span {
+  padding-left: 0;
+  color: #2c67cd;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.ComponentNoticias .ContentInformations h3 {
+  color: #000000;
+  text-align: inherit;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.ComponentNoticias .ContentInformations p {
+  color: #2c67cd;
+  font-weight: 500;
+  font-size: 12px;
+}

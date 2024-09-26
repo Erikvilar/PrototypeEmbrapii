@@ -1,0 +1,58 @@
+.ContentPage {
+  text-align: justify;
+}   
+.ContentPage h4 {
+  padding-top: 10px;
+  text-transform: uppercase;
+    padding-bottom: 5px;
+    color: #172938;
+}
+.ContentImage {
+  position: relative;
+}
+.ContentImage img {
+  width: 100%;
+}
+.ContentImage span {
+  position: absolute;
+  width: 712px;
+  background-color: #0000006e;
+  color: white;
+  bottom: 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.ContentImageRow {
+  width: 712px;
+  display: flex;
+  justify-content: center;
+}
+.ContentImageRow img {
+  width: 50%;
+  margin-right: 5px;
+}
+.unlist {
+  padding: 0;
+  padding-left: 20px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  border-top: 3px solid #2c65ce;
+  border-bottom: 3px solid #2c65ce;
+}
+.unlist li:nth-child(1) {
+  color: #2c65ce;
+  font-weight: 700;
+  list-style-type: none;
+  padding-top: 20px;
+  display: flex;
+  position:relative;
+  left: -20px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}

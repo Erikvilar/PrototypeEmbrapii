@@ -1,0 +1,89 @@
+
+/* ========================================================================== 
+                         BLOCK STYLES COMPONENTS
+   ========================================================================== */
+
+   /* Arquivo de configuração e estilização de components globais isolados
+   *
+   *
+   *
+   */
+.textArticle{ //aplicação de estilo para componente de texto
+    text-align: justify;
+    line-height: 25px;
+    position: relative;
+    z-index: 1;
+    a{
+    
+        text-decoration: none;
+        color:#2c66ce;
+        border-bottom: 1px solid #2c66ce;
+        font-weight: 700;
+    }
+}.notes_title { //Aplicação de estilo para componente de titulos de inicio de seções
+    border-top: 5px solid #2c66ce;
+    color: #2c66ce;
+    background-color: #EDEFF1;
+    padding: 10px;
+    height: 70px;
+    margin-bottom: 10px;
+  
+    width: 100%;
+    h1 {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }a{
+        color: #2c66ce;
+        text-decoration: none;
+        border: none;
+    }
+    
+    
+   
+}.notes_title_baseboard{ //estilo para reaproveitamento de componente para links de rodapé
+    border-top: 3px solid #2c66ce;
+    color: #2c66ce;
+    background-color: rgba(0, 0, 0, 0.149);
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    h1{
+        font-weight: 700;
+        font-size: 15px;
+        text-align: end;
+    }a{
+        text-decoration: none;
+        color: #2c66ce;
+    }
+}.notes_title_withBox{ //estilo para reaproveitamento de compónente para titulos com background
+    background-color: #2c66ce;
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        color:  white;
+        text-align: center;
+        font-family: "Poppins",sans-serif;
+
+    }img{
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
