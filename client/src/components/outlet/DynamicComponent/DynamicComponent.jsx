@@ -17,18 +17,21 @@ const DynamicComponent = () => {
             <span>{item.name}</span>
             <img src={item.image[0]} alt="" />
           </div>
-          <h4>{item.produto}</h4>
+          <h3>{item.produto}</h3>
           <p>
             {item.content.usability[0]}
           </p>
 
           {item.content.technical != "" ? (
+            <>
+            <h4>Características</h4>
             <ul className={css.unlist}type="a">
-              <li>Caracteristicas:</li>
+              
               {item.content.technical.map((descripton) => (
                 <li>{descripton}</li>
               ))}
             </ul>
+            </>
           ) : null}
 
           <article>

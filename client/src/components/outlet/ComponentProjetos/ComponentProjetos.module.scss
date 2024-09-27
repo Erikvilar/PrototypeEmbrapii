@@ -207,16 +207,23 @@
   }
   .presentationInformations {
     text-align: justify;
+    h4{
+      color: #2c66ce;
+      padding-bottom: 10px;
+      font-size: 20px;
+      font-weight: 700;
+    
+    } 
     .unlist{
-      list-style: none;
+    
       padding-bottom: 50px;
-      li:nth-child(1){
-        color: #2c66ce;
-        padding-bottom: 10px;
-        font-size: 20px;
-        font-weight: 700;
-        list-style: none;
-      } 
+      li{
+
+
+        list-style-type:lower-latin;
+        text-align: start;
+      
+      }
     } 
   }
 }

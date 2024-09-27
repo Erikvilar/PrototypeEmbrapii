@@ -50,23 +50,23 @@ const projects = [
         prefixo:"Ligas de NI",
         titulo:"AVALIAÇÃO DE SUSCEPTIBILIDADE Á FRAGILIZAÇÃO POR HIDRÔGENIO E CORRROSÃO DE LIGAS DE NIQUEL COM ALTOS TEORES DE MO PARA APLICAÇÃO EM FIXADORES SUBMARINOS",
         img:"src/images/outlet/laprosolda logo.png",
-        descricao:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
-        odio dolorum eaque maiores expedita error vitae a? Nostrum, nihil
-        itaque. Delectus enim et accusamus nostrum consequuntur error maxime
-        neque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-        sit. Maxime, perspiciatis? Cumque voluptate tempore, minima quae unde
-        odit? Tenetur minus quae illo optio? Maxime omnis sed necessitatibus
-        fugit aliquam.`,
-        subtema:"Resistencia, Ensaio de fragilidade",
-        area:"Fragilização",
-        tema:"Fragilidade de materiais",
+        descricao:`Este projeto tem como objetivo avaliar propriedades mecânicas e integridade estrutural sob hidrogenação em ligas de níquel para aplicação em fixadores submarinos de estruturas off-shore. `,
         status:"Ativo",
-        TRL:"TRL7-9",
-        CRL:"CRL4-6",
+        coordenador:"Prof. Dr.-Ing. Sinésio Domingues Franco",
+        palavrasChaves:`Fragilização por Hidrogênio, Integridade Estrutural, Ligas de Níquel`,
+        TRL:"TRL 4-6",
+        CRL:"CRL 4-6",
         agencia:"Embrapii",
-        prazo:"20/10/2010",
-        desafio:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similiqueodio dolorum eaque maiores expedita error vitae a?",
-        objetivo:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similiqueodio dolorum eaque maiores expedita error vitae a?",
+        prazo:"Outubro de 2022",
+       
+        listaDeProposta:[
+            `Disponibilização de equipamentos para ensaios em ligas de níquel em meio hidrogenado e corrosivo;  `,
+            `Definição das condições admissíveis de operação dos equipamentos de ligas de níquel  `,
+            `submetidos à proteção catódica; `,
+            `Avaliação da integridade estrutural de equipamentos pela utilização de amostras miniatura e ensaios;  `,
+            `Diminuir a ocorrência de falhas;  `,
+            `Redução de custos.  `
+        ],
 
 
 

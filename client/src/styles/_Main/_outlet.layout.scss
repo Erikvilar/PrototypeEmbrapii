@@ -12,14 +12,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    .card span{
+    .card span {
       padding: 0;
       color: black;
-      b{
+      b {
         color: red;
-        color:#172938;
-        font-family: "Poppins",sans-serif;
- 
+        color: #172938;
+        font-family: "Poppins", sans-serif;
       }
     }
 
@@ -31,38 +30,36 @@
       box-shadow: 1px 10px 20px rgb(181, 180, 180);
       border: none;
       background-color: #e4e4e4;
-      div:nth-child(4){
+      div:nth-child(4) {
         display: flex;
         font-size: 12px;
         font-weight: 600;
         flex-direction: column;
-
       }
-      
     }
-  
+
     .card-title {
-      font-size:20px;
+      font-size: 20px;
       border-bottom: 1px solid rgb(70, 70, 70);
       text-align: start;
       padding-bottom: 5px;
       color: rgb(70, 70, 70);
       font-weight: 600;
-      
+
       text-transform: uppercase;
     }
     .card-text {
       position: relative;
       overflow: hidden;
-      font-family:"Open Sans",sans-serif;
+      font-family: "Open Sans", sans-serif;
       text-align: justify;
       scrollbar-width: none;
       font-weight: 600;
       font-size: 0.8rem;
       color: #5d5d5d;
-      span{
-        color:#172938;
-        font-family: "Poppins",sans-serif;
+      span {
+        color: #172938;
+        font-family: "Poppins", sans-serif;
       }
     }
     .card-img-top {
@@ -89,7 +86,8 @@
         font-weight: 400;
         font-size: 12px;
       }
-    }.btn-primary:hover{
+    }
+    .btn-primary:hover {
       background-color: #6d6d6d;
     }
     .search-error {
@@ -98,7 +96,6 @@
       justify-content: center;
 
       span {
-        
         color: black;
         font-weight: 600;
       }
@@ -106,7 +103,7 @@
   }
   #infraestrutura {
     max-width: 712px;
-  
+
     form {
       border: 0.1px solid #000000;
       width: 712px;
@@ -143,6 +140,100 @@
       margin-top: 10px;
       align-items: center;
       height: 45px;
+    }
+  }
+  #publicacoes {
+    padding: 0px;
+    margin: 0px;
+   .accordion{
+    border: none;
+   }
+    .accordion-body {
+      padding: 0px;
+      border-radius: 10px;
+      border-top-left-radius:0px;
+      border-top-right-radius: 0px;
+      border: 1px solid rgb(0, 187, 255);
+    }
+    .accordion-item {
+      padding: 0px;
+      margin: 0px;
+      border:none;
+ 
+      font-size: 12px;
+      table {
+        text-align: center;
+
+        thead tr{
+          height: 40px;
+          
+        }tbody{
+          border-radius: 10px;
+        }
+        tbody tr {
+       
+          border-top: 1px solid rgb(161, 161, 161);
+          margin-bottom: 20px;
+         max-height: 120px;
+         td{
+          padding: 10px;
+         }
+    
+        }
+        tbody tr td ul {
+          padding: 0px;
+          margin: 0;
+          li {
+            text-align: start;
+            list-style: none;
+          }
+        }td a{
+          text-decoration: none;
+        }
+        td:nth-child(1) {
+          width: 15%;
+        }
+        td:nth-child(2) {
+          width: 30%;
+        }
+        td:nth-child(4) {
+          width: 20%;
+          text-align: start;
+        }
+      }
+    }
+
+    .accordion-header {
+  
+      button {
+        border-radius: 5px;
+        background-color: #2c66ce;
+        color: rgb(255, 255, 255);
+     
+        font-family: "Poppins", sans-serif;
+        button {
+          margin-left: 20px;
+          width: 25px;
+          height: 25px;
+          border: none;
+          border: 1px solid #3f3f3f;
+          font-weight: 500;
+          font-size: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 360px;
+          color: rgb(0, 0, 0);
+          background-color: rgb(255, 255, 255);
+          
+          &:hover{
+            background-color: #3f3f3f;
+            color: white;
+          }
+        }
+        
+      }
+      
     }
   }
   .carouselComunicacao {
@@ -250,21 +341,6 @@
       list-style: none;
       padding: 0px;
       border-top: 5px solid #172938;
-    }
-  }
-  .accordion-item {
-    margin-bottom: 10px;
-  }
-
-  .accordion-header {
-    button {
-      border-radius: 5px;
-      background-color: #656565;
-      color: white;
-      font-family: "Poppins", sans-serif;
-    }
-    button::after {
-      color: white;
     }
   }
 }

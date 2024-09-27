@@ -79,18 +79,21 @@ export const ProjectsPage = () => {
           </div>
         </div>
         <div className={scss.presentationInformations}>
-          <b>Desafio</b>
-          <p>{data.desafio}</p>
           <b>Descrição</b>
-          <p>{data.objetivo}</p>
+          <p>{data.descricao}</p>
+       
           {data.listaDeProposta != null || undefined ? (
-            <ul className={scss.unlist} >
-              <li>Benefícios e aplicações do projeto na indústria:  </li>
-              {data.listaDeProposta.map((list) => (
-                <li>{list}</li>
+            <>
+             <h4>Benefícios e aplicações do projeto na indústria:</h4>    
+
+            <ol className={scss.unlist} >
+              {data.listaDeProposta.map((list, index) => (
+                <li  key={index}>{list}</li>
               ))}
-            </ul>
+            </ol>
+            </>
           ) : null}
+          
         </div>
       </div>
       {value === "trl" ? (

@@ -33,7 +33,7 @@ const BoxProjetos = () => {
       {filterData ? filterData.map((p) => (
           <div key={p.id} className={scss.ProjectsBox}>
             <div className="img_lab">
-              <img src={p.img} alt="" />
+              <img src="src\images\outlet\Logo UE Horizontal.png" alt="" />
             </div> 
             <div className={scss.ProjectsTitle}>
               <h1>{p.titulo}</h1>
