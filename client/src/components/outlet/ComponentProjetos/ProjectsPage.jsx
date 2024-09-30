@@ -1,5 +1,5 @@
 import projects from "./projects";
-import { NotesTitles } from "../ComponentEquipe";
+import { NotesTitles, TextArticles } from "../ComponentEquipe";
 import scss from "./ComponentProjetos.module.scss";
 import Modals from "../../reactBootstrap/modals/modals";
 import { useState } from "react";
@@ -32,10 +32,10 @@ export const ProjectsPage = () => {
           </div>
 
           <div className={scss.column_group}>
-          <div>
-            <b>Sigla</b>
-            <p className={scss.sigla}>{data.prefixo}</p>
-          </div>
+            <div>
+              <b>Sigla</b>
+              <p className={scss.sigla}>{data.prefixo}</p>
+            </div>
             <div>
               <b>Início </b>
               <p>{data.prazo}</p>
@@ -55,7 +55,6 @@ export const ProjectsPage = () => {
               <b>Palavras-chaves</b>
               <p>{data.palavrasChaves}</p>
             </div>
-          
           </div>
         </div>
 
@@ -66,7 +65,9 @@ export const ProjectsPage = () => {
                 TRL pretendido{" "}
                 <button value="trl" onClick={modalShowOption}></button>
               </b>
-              <p>{data.TRL}</p>
+              {Object.entries(data.TRL).map(([key, value]) => (
+                <span key={key}>TRL-{value}</span>
+              ))}
             </div>
 
             <div>
@@ -74,26 +75,33 @@ export const ProjectsPage = () => {
                 CRL pretendido{" "}
                 <button value="crl" onClick={modalShowOption}></button>
               </b>
-              <p>{data.CRL}</p>
+              {Object.entries(data.CRL).map(([key, value]) => (
+                <span key={key}>CRL-{value}</span>
+              ))}
             </div>
           </div>
         </div>
         <div className={scss.presentationInformations}>
           <b>Descrição</b>
-          <p>{data.descricao}</p>
-       
+          {data.descricao ? (
+            data.descricao.map((d) => (
+              <TextArticles text={d} classtype="textArticle" />
+            ))
+          ) : (
+            <h1>Vazio</h1>
+          )}
+
           {data.listaDeProposta != null || undefined ? (
             <>
-             <h4>Benefícios e aplicações do projeto na indústria:</h4>    
+              <h4>Benefícios e aplicações do projeto na indústria:</h4>
 
-            <ol className={scss.unlist} >
-              {data.listaDeProposta.map((list, index) => (
-                <li  key={index}>{list}</li>
-              ))}
-            </ol>
+              <ol className={scss.unlist}>
+                {data.listaDeProposta.map((list, index) => (
+                  <li key={index}>{list}</li>
+                ))}
+              </ol>
             </>
           ) : null}
-          
         </div>
       </div>
       {value === "trl" ? (

@@ -152,22 +152,8 @@ const news = {
         "Comitiva da região das mineradoras visita laboratório da Unidade Embrapii Femec UFU",
       date: " 11/06/2024 - 09:08",
     },
-    {
-      type: "Centro de Extensão",
-      img: "https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg",
-      link:"",
-      title:
-        "Comitiva da região das mineradoras visita laboratório da Unidade Embrapii Femec UFU",
-      date: " 11/06/2024 - 09:08",
-    },
-    {
-      type: "Centro de Extensão",
-      img: "https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg",
-      link:"",
-      title:
-        "Comitiva da região das mineradoras visita laboratório da Unidade Embrapii Femec UFU",
-      date: " 11/06/2024 - 09:08",
-    },
+ 
+ 
 
     /*WebnarContent*/
   ],
