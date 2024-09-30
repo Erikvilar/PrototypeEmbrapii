@@ -1,6 +1,8 @@
 import css from "./ToolsDev.module.css";
 import Modals from "../../reactBootstrap/modals/modals";
 import { useState } from "react";
+import axios from "axios";
+import { useEffect } from "react";
 
 const ToolsDev = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -14,20 +16,15 @@ const ToolsDev = () => {
     setDevForm({ ...devForm, [e.target.name]: [e.target.value] });
   };
 
-  const url = "./src/data/teste.json";
+  const url = "http://10.2.128.20:5000/";
 
-  const submitForm = async (e) => {
+  const submitForm = (e) => {
     e.preventDefault();
-	const requestOptions = {
-		method: 'POST',
-		body: JSON.stringify(devForm),
-		headers: new Headers({
-		  'Content-Type': 'application/json',
-		  'Accept': 'application/json'
-		}),
-	  };
-	await fetch(url, requestOptions);
-	  
+    useEffect(() => {
+      axios.get(url).then((res) => {
+        console.log(res.data);
+      });
+    }, []);
   };
 
   return (

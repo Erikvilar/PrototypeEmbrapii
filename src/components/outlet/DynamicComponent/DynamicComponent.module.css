@@ -1,62 +1,53 @@
 .ContentPage {
-    text-align: justify;
+  text-align: justify;
 }
-.ContentPage h4{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: rgb(70, 70, 70);
+.ContentPage h4 {
+    color: #2c66ce;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+  
+  
+}.ContentPage h3{
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
 }
-
-article p{
-    line-height: 25px;
-    text-align: justify;
-    padding: 5px;
+.ContentImage {
+  position: relative;
 }
-
-.ContentImage{
-position: relative;
- 
-}.ContentImage img{
-   width: 100%;
-   
-
-}.ContentImage span{
-
- position:absolute;
- width:712px;
- background-color: #2c65ce;
- color: white;
- text-shadow: 1px 1px 10px white;
- bottom: 0;
- font-size: 20px;
- font-family: "Poppins",sans-serif;
- text-transform: uppercase;
-
-}.ContentImageRow{
-    width: 712px;
-    display: flex;
-   justify-content: center;
-
-}.ContentImageRow img{
-    width: 50%;
-    margin-right: 5px;
-}ol{
-    padding-bottom: 20px;
-    list-style-type: square;
-    line-height: 30px;
-    border-top: 5px solid #2c65ce;
-    border-bottom: 5px solid #2c65ce;
-
+.ContentImage img {
+  width: 100%;
 }
-ol li:nth-child(1){
-   color: #2c65ce;
-   font-weight: 700;
-    list-style: none;
-    padding-top:30px;
-    padding-bottom: 30px;
-   font-family: "Poppins",sans-serif;
-   width: 712px;
-   font-size: 20px;
- 
-
+.ContentImage span {
+  position: absolute;
+  width: 712px;
+  background-color: #0000006e;
+  color: white;
+  bottom: 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.ContentImageRow {
+  width: 712px;
+  display: flex;
+  justify-content: center;
+}
+.ContentImageRow img {
+  width: 50%;
+  margin-right: 5px;
+}
+.unlist {
+  padding: 0;
+  padding-left: 20px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  border-top: 3px solid #2c65ce;
+  border-bottom: 3px solid #2c65ce;
 }

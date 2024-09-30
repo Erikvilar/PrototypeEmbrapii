@@ -12,7 +12,7 @@ const routeLinks ={
         {link:"projetos", title:"Projetos", id:1},
         {link:"infraestrutura", title:"Infraestrutura", id:2},
         {link:"noticias", title:"Notícias", id:3},
-        {link:"onBuilding", title:"Publicações", id:4},
+        {link:"publicacoes", title:"Publicações", id:4},
     ],
     saibaMais:[
         {link:"onBuilding", title:"Laborátorios"},

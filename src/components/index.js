@@ -9,6 +9,7 @@ import ComponentProjetos from "./outlet/ComponentProjetos/ComponentProjetos.jsx"
 import ComponentNoticias from "./outlet/ComponentNoticias/ComponentNoticias.jsx";
 import DynamicComponent from "./outlet/DynamicComponent/DynamicComponent.jsx";
 import ProjectsPage from "./outlet/ComponentProjetos/ProjectsPage.jsx";
+import ComponentPublicacoes from "./outlet/ComponentPublicacoes/ComponentPublicacoes.jsx";
 //OnBuilding
 import OnBuilding from "./outlet/OnBuilding/OnBuilding.jsx";
 export {
@@ -22,6 +23,7 @@ export {
   Infraestrutura,
   OnBuilding,
   DynamicComponent,
+  ComponentPublicacoes,
   ProjectsPage
 
 };

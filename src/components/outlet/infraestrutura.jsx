@@ -6,7 +6,7 @@ import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ToolsDev from "./ToolsDev/ToolsDev";
+
 
 
 const infraestrutura = () => {
@@ -82,7 +82,7 @@ const infraestrutura = () => {
       </div>
 
 
-            <ToolsDev/>
+   
 
 
 
@@ -102,7 +102,7 @@ const infraestrutura = () => {
                     <>
                       {Object.entries(d.descritivo).map(([key, value]) => (
                         <span key={value}>
-                          <b>{key}</b>:{value}
+                          <b>{key}:</b> {value}
                         </span>
                       ))}
                     </>

@@ -10,24 +10,28 @@ const DynamicComponent = () => {
   return (
     <section className={css.ContentPage}>
       {data.map((item, index) => (
+
         <div className={item.produto} key={item.id}>
           <NotesTitles title="Equipamentos" class_style="notes_title" />
           <div className={css.ContentImage}>
-            <span>{item.produto}</span>
+            <span>{item.name}</span>
             <img src={item.image[0]} alt="" />
           </div>
-          <h4>{item.name}</h4>
+          <h3>{item.produto}</h3>
           <p>
             {item.content.usability[0]}
           </p>
 
           {item.content.technical != "" ? (
-            <ol type="a">
-              <li>Caracteristicas:</li>
+            <>
+            <h4>Características</h4>
+            <ul className={css.unlist}type="a">
+              
               {item.content.technical.map((descripton) => (
                 <li>{descripton}</li>
               ))}
-            </ol>
+            </ul>
+            </>
           ) : null}
 
           <article>
@@ -52,6 +56,7 @@ const DynamicComponent = () => {
       
           </article>
         </div>
+        
       ))}
       <NotesTitles
         title="Voltar para infraestrutura "

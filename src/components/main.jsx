@@ -12,7 +12,7 @@ function main() {
       <section className="main-layout">
         <StaticCompose links={<MenuLinks />} />
         <div className="outlet-layout">
-     
+
           <Outlet />
         </div>
       </section>

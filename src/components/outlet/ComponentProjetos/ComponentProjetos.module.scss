@@ -1,20 +1,17 @@
-
-  .exposedProjetos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s ease;
-    img{
-      opacity: 0.9;
-
-    }img:hover{
-      cursor: pointer;
-      transform: scale(1.01);
-      opacity: 1;
-   
-    }
+.exposedProjetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease;
+  img {
+    opacity: 0.9;
   }
-
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    opacity: 1;
+  }
+}
 
 .BoxProjects {
   position: relative;
@@ -22,8 +19,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  .ProjectsBox{
+  .trlIndicator{
+    margin: 5px;
+    font-size: 12px;
+    background-color: #2c66ce;
+    color: white;
+  }.trlPoint{
+    background-color: #4b4a4a;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .ProjectsBox {
     background-color: #edeff1;
     border-top: 10px solid #2c66ce;
     border-bottom: 2px solid #8b8c8c;
@@ -34,45 +41,52 @@
     width: 100%;
     align-items: center;
     margin-top: 20px;
-  
-    .ProjectsTitle{
-      p{
+    padding: 20px;
+    .ProjectsTitle {
+      p {
         color: rgb(82, 82, 82);
-        b{
+        b {
           color: rgb(82, 82, 82);
         }
       }
     }
-   
+
     h1 {
-      flex: 1;
+
+   
       font-size: 14px;
       color: #4b4a4a;
       text-transform: uppercase;
       font-weight: 700;
     }
-    // div:nth-child(1) {
-    //   width: 30%;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    // }
-    div:nth-child(1){
-      width: 100%;
-      padding: 50px;
-   
-      svg{
 
-        fill: rgb(50,50,50);
+    div:nth-child(1) {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+   
+
+      img {
+        mix-blend-mode: multiply;
+        width: 100px;
+      }
+      svg {
+        fill: rgb(50, 50, 50);
+
+    
       }
     }
+  
     button {
       width: 90px;
       height: 35px;
       border: none;
+      position: relative;
+      left: 250px;
       font-size: 12px;
       background-color: #2c66ce;
-    
+
       color: white;
       border-radius: 2px;
       &:hover {
@@ -82,13 +96,14 @@
     P {
       font-size: 12px;
       font-weight: 700;
-    }.prefixo{
-      font-family: "Saira",sans-serif;
+    }
+    .prefixo {
+      font-family: "Saira", sans-serif;
       font-size: 25px;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       text-align: center;
-      
-      text-transform:uppercase;
+
+      text-transform: uppercase;
       font-weight: 800;
       color: #2c66ce;
     }
@@ -136,36 +151,60 @@
 .pageProject {
   display: flex;
   flex-direction: column;
-
+  .column_group{
+    display: flex;
+    justify-content: space-between;
+    div{
+      width: 50%;
+    
+    }
+    &:last-child{
+      div{
+        width: 100%;
+      }
+    }
+   
+  }
   .presentationPage {
     position: relative;
     height: 215px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 
     img {
       position: absolute;
-      top:-170px;
+      top: -170px;
       height: 520px;
       filter: contrast(1.2);
       mix-blend-mode: multiply;
-
+    }
+  }.sigla{
+    letter-spacing: 2px;
+    color:#0d1e3f;
+    font-weight: 700;
+  }
+  .title_project {
+    p {
+      margin: 30px;
+      color: #0d1e3f;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
     }
   }
   .row {
     width: 100%;
     flex-wrap: wrap;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-bottom: 20px;
     div {
       text-align: start;
-      
-      
     }
-  
+
     b {
       display: flex;
       align-items: center;
@@ -173,15 +212,39 @@
     b button {
       border-radius: 180px;
       border: none;
-      height: 30px;
+      height: 20px;
       margin: auto;
-      width: 30px;
+      width: 20px;
       margin-left: 5px;
       background-image: url("https://static-00.iconduck.com/assets.00/info-icon-2048x2048-tcgtx810.png");
       background-size: cover;
     }
-  }.presentationInformations{
+    .modals{
+      display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    }
+  }
+  .presentationInformations {
     text-align: justify;
+    h4{
+      color: #2c66ce;
+      padding-bottom: 10px;
+      font-size: 20px;
+      font-weight: 700;
+    
+    } 
+    .unlist{
+    
+      padding-bottom: 50px;
+      li{
+
+
+        list-style-type:lower-latin;
+        text-align: start;
+      
+      }
+    } 
   }
 }
 .articleModal {
@@ -189,12 +252,12 @@
   h2,
   p {
     text-align: center;
-  }    h3 {
+  }
+  h3 {
     color: white;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-
   }
 
   h3:nth-of-type(1) {
@@ -212,8 +275,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-
 
     span:nth-of-type(1) {
       background-color: #2c66ce;
@@ -234,5 +295,7 @@
         font-size: 13px;
       }
     }
+ 
+    
   }
 }
