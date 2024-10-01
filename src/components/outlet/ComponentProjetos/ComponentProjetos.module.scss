@@ -20,7 +20,8 @@
   flex-direction: column;
   align-items: center;
   .trlIndicator{
-    margin: 5px;
+    
+    margin-left: 5px;
     font-size: 12px;
     background-color: #2c66ce;
     color: white;
@@ -42,6 +43,15 @@
     align-items: center;
     margin-top: 20px;
     padding: 20px;
+    b .trlIndicator{
+      cursor: pointer;
+ 
+      transition: 0.3s;
+      &:hover{
+        background-color: white;
+        color: #2c66ce;
+      }
+    }
     .ProjectsTitle {
       p {
         color: rgb(82, 82, 82);

@@ -9,7 +9,7 @@ export const ProjectsPage = () => {
   const data = projects[sessionStorage.getItem("Projetos")];
   const [modalShow, setModalShow] = useState(false);
   const [value, setValue] = useState("");
-
+console.log(data)
   const modalShowOption = (e) => {
     setModalShow(true);
     setValue(e.target.value);

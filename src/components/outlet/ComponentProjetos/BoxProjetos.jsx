@@ -45,7 +45,7 @@ const BoxProjetos = () => {
                   </svg>
                 {p.coordenador}
                 </p>
-                <span>TRL  {Array.from(Array(10)).map((k,i)=>(i == p.TRL ? <span key={k} className={scss.trlPoint}>{i}</span> : <span key={k} className={scss.trlIndicator}>{i}</span>))} </span>
+                <b>TRL{Array.from(Array(9)).map((k,i)=>(i == p.TRL ? <span key={k} className={scss.trlPoint}>{i}</span> : <span key={k} className={scss.trlIndicator}>{i}</span>))} </b>
                 <button value={p.id} onClick={Redirect}>
                   Leia mais +
                 </button>
