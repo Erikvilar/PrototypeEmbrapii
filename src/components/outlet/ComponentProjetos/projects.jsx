@@ -1,77 +1,96 @@
 const projects = [
-    {
-        id: 0,
-        prefixo: "Ligas Ni",
-        titulo:
-          "AVALIAÇÃO DE SUSCEPTIBILIDADE Á FRAGILIZAÇÃO POR HIDRÔGENIO E CORRROSÃO DE LIGAS DE NIQUEL COM ALTOS TEORES DE MO PARA APLICAÇÃO EM FIXADORES SUBMARINOS",
-        img: "src/images/outlet/laprosolda logo.png",
-        descricao: [`A crescente demanda no uso de ligas de Ni na indústria de óleo e gás em condições extremas de carregamentos, seja em novos projetos, seja naqueles onde se deseja uma adequação ao uso, tem exigido avaliações de integridade estrutural.`,`
-    O aumento no número de falhas, sobretudo em condições de hidrogenação, impacta equipamentos-chave da cadeia produtiva, de transporte e de processamento, podendo gerar grandes prejuízos com paradas não programadas e até por incidentes ambientais de grandes proporções.`,`
-    Para auxiliar na solução desses problemas, este projeto tem como objetivo avaliar propriedades mecânicas e integridade estrutural sob hidrogenação em ligas de níquel para aplicação em fixadores submarinos de estruturas off-shore.
-    `],
-        status: "Ativo",
-        coordenador: "Prof. Dr.-Ing. Sinésio Domingues Franco",
-        palavrasChaves: `Fragilização por Hidrogênio, Integridade Estrutural, Ligas de Níquel`,
-        TRL: "6",
-        CRL: "4",
-        agencia: "Embrapii",
-        prazo: "Outubro de 2022",
-    
-        listaDeProposta: [
-          `Disponibilização de equipamentos para ensaios em ligas de níquel em meio hidrogenado e corrosivo;  `,
-          `Definição das condições admissíveis de operação dos equipamentos de ligas de níquel  `,
-          `submetidos à proteção catódica; `,
-          `Avaliação da integridade estrutural de equipamentos pela utilização de amostras miniatura e ensaios;  `,
-          `Diminuir a ocorrência de falhas;  `,
-          `Redução de custos.  `,
-        ],
-      },
   {
-    id: 1,
-    prefixo: "POLIV",
+    id: 0,
     titulo:
-      "Desenvolvmento de equipamento e metodologia para avaliação do desempenho de rebolos aplicados na lapidação lateral de vidro",
-    img: "https://yt3.googleusercontent.com/gUhObrCmgvxvLzM6FTE2Us_MTjUEJm4skolIe4CUUUJNla7odTScm5UBs5YDFW5zo1QzGH0n1g=s900-c-k-c0x00ffffff-no-rj",
-    subtema: "Resistencia, Ensaio de fragilidade",
-    area: "Fragilização",
-    tema: "Fragilidade de materiais",
+      "Integridade de Fixadores para Interligação de dutos em FPSOs",
+    descricao: [
+      `A crescente demanda no uso de ligas de Ni na indústria de óleo e gás em condições extremas de carregamentos, seja em novos projetos, seja naqueles onde se deseja uma adequação ao uso, tem exigido avaliações de integridade estrutural.`,
+      `
+    O aumento no número de falhas, sobretudo em condições de hidrogenação, impacta equipamentos-chave da cadeia produtiva, de transporte e de processamento, podendo gerar grandes prejuízos com paradas não programadas e até por incidentes ambientais de grandes proporções.`,
+      `
+    Para auxiliar na solução desses problemas, este projeto tem como objetivo avaliar propriedades mecânicas e integridade estrutural sob hidrogenação em ligas de níquel para aplicação em fixadores submarinos de estruturas off-shore.
+    `,
+    ],
     status: "Ativo",
+    coordenador: "Profa. Dr. Regina Paula Garcia Moura",
+    palavrasChaves: [
+      `Fragilização por Hidrogênio`,
+      `Integridade Estrutural`,
+      `Ligas de Níquel`,
+    ],  
     TRL: "6",
     CRL: "4",
     agencia: "Embrapii",
-    prazo: "20/10/2010",
-    desafio:
-      "Lorem ipsum dolor sit amet consectetur %teste% adipisicing elit. Iure similiqueodio dolorum eaque maiores expedita error vitae a?",
-    objetivo:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similiqueodio dolorum eaque maiores expedita error vitae a?",
+    prazo: "Outubro de 2022",
+
+    listaDeProposta: [
+      `Disponibilização de equipamentos para ensaios em ligas de níquel em meio hidrogenado e corrosivo;  `,
+      `Definição das condições admissíveis de operação dos equipamentos de ligas de níquel  `,
+      `submetidos à proteção catódica; `,
+      `Avaliação da integridade estrutural de equipamentos pela utilização de amostras miniatura e ensaios;  `,
+      `Diminuir a ocorrência de falhas;  `,
+      `Redução de custos.  `,
+    ],
   },
-  
+  {
+    id: 1,
+    prefixo: "GBMX",
+    coordenador: "Prof. Dr.-Ing. Sinésio Domingues Franco",
+    titulo:
+      "DESENVOLVIMENTO DE MATERIAIS PARA COMPONENTES DE VAGÕES FERROVIÁRIOS",
+    status: "Ativo",
+    palavrasChaves: [
+      `Fragilização por Hidrogênio`,
+      `Integridade Estrutural`,
+      `Ligas de Níquel`,
+    ],
+    TRL: "6",
+    CRL: "4",
+    agencia: "Embrapii",
+    prazo: "Não se aplica",
+    descricao: [
+      `Durante a movimentação dos vagões ferroviários, especialmente em curvas, surgem forças significativas nas chapas de desgaste do ampara balanço (CDAB), associadas a deslizamentos a seco em relação à tampa de metal da mola.`,
+      `
+      Esses deslizamentos levam ao desgaste das CDAB, que são, geralmente, fabricadas em aço ao Manganês, mais precisamente, aços Hadfield.`,
+      `
+      Em consequência disso, a efetividade do endurecimento superficial devido à deformação plástica deve ser avaliada. Além disso, há que se considerar que os aços Hadfield são caros e importados, justificando, dessa forma, a busca de materiais que sejam mais baratos e eficazes para a referida aplicação.
+      `,
+    ],
+    listaDeProposta: [
+      `Uso de um novo material para fabricação resistente a corrosão;`,
+      `Avaliação da integridade estrutural de equipamentos pela utilização de amostras miniatura e ensaios;  `,
+      `Diminuir a ocorrência de falhas;  `,
+      `Redução de custos.  `,
+    ],
+  },
 
   {
     id: 2,
-    prefixo: "HIDRO",
+    prefixo: "Aperam II",
+    coordenador: "Prof. Dr.-Ing. Sinésio Domingues Franco",
     titulo:
-      "Projeto de Avaliação de Propriedades Mecânicas e Integridade sob Hidrogenação em Amostras Miniaturas",
-    img: "src/images/outlet/laprosolda logo.png",
-    descricao: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique
-        odio dolorum eaque maiores expedita error vitae a? Nostrum, nihil
-        itaque. Delectus enim et accusamus nostrum consequuntur error maxime
-        neque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-        sit. Maxime, perspiciatis? Cumque voluptate tempore, minima quae unde
-        odit? Tenetur minus quae illo optio? Maxime omnis sed necessitatibus
-        fugit aliquam.`,
-    subtema: "Resistencia, Ensaio de fragilidade",
-    area: "Fragilização",
-    tema: "Fragilidade de materiais",
+      "Avaliação do Comportamento à Fadiga de Juntas Soldadas em Aços Estruturais Para a Aplicação em Componentes Automotivos.",
+      descricao: [
+        `Durante a movimentação dos vagões ferroviários, especialmente em curvas, surgem forças significativas nas chapas de desgaste do ampara balanço (CDAB), associadas a deslizamentos a seco em relação à tampa de metal da mola.`,
+        `
+        Esses deslizamentos levam ao desgaste das CDAB, que são, geralmente, fabricadas em aço ao Manganês, mais precisamente, aços Hadfield.`,
+        `
+        Em consequência disso, a efetividade do endurecimento superficial devido à deformação plástica deve ser avaliada. Além disso, há que se considerar que os aços Hadfield são caros e importados, justificando, dessa forma, a busca de materiais que sejam mais baratos e eficazes para a referida aplicação.
+        `,
+      ],
     status: "Ativo",
     TRL: "6",
     CRL: "4",
+    palavrasChaves: [
+      `Fragilização por Hidrogênio`,
+      `Integridade Estrutural`,
+      `Ligas de Níquel`,
+    ],
     agencia: "Embrapii",
     prazo: "20/10/2010",
     desafio:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similiqueodio dolorum eaque maiores expedita error vitae a?",
-    objetivo:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similiqueodio dolorum eaque maiores expedita error vitae a?",
+ 
   },
   {
     id: 3,
@@ -246,8 +265,8 @@ const projects = [
         sit. Maxime, perspiciatis? Cumque voluptate tempore, minima quae unde
         odit? Tenetur minus quae illo optio? Maxime omnis sed necessitatibus
         fugit aliquam.`,
-        TRL: "TRL 6",
-        CRL: "CRL 4",
+    TRL: "TRL 6",
+    CRL: "CRL 4",
   },
 
   {
@@ -263,8 +282,8 @@ const projects = [
         sit. Maxime, perspiciatis? Cumque voluptate tempore, minima quae unde
         odit? Tenetur minus quae illo optio? Maxime omnis sed necessitatibus
         fugit aliquam.`,
-        TRL: "6",
-        CRL: "4",
+    TRL: "6",
+    CRL: "4",
   },
   {
     id: 12,
@@ -279,8 +298,8 @@ const projects = [
         sit. Maxime, perspiciatis? Cumque voluptate tempore, minima quae unde
         odit? Tenetur minus quae illo optio? Maxime omnis sed necessitatibus
         fugit aliquam.`,
-        TRL: "TRL 6",
-        CRL: "CRL 4",
+    TRL: "TRL 6",
+    CRL: "CRL 4",
   },
 ];
 export default projects;

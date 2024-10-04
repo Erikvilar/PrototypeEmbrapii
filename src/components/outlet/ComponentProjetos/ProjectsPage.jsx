@@ -21,7 +21,7 @@ console.log(data)
       <div className={scss.pageProject}>
         <div className={scss.row}>
           <div className={scss.title_project}>
-            <p>{data.titulo}</p>
+            <p>{data.titulo.toUpperCase()}</p>
           </div>
 
           <div className={scss.column_group}>
@@ -32,10 +32,7 @@ console.log(data)
           </div>
 
           <div className={scss.column_group}>
-            <div>
-              <b>Sigla</b>
-              <p className={scss.sigla}>{data.prefixo}</p>
-            </div>
+          
             <div>
               <b>Início </b>
               <p>{data.prazo}</p>
@@ -49,16 +46,7 @@ console.log(data)
               <p>{data.agencia}</p>
             </div>
           </div>
-
-          <div className={scss.column_group}>
-            <div>
-              <b>Palavras-chaves</b>
-              <p>{data.palavrasChaves}</p>
-            </div>
-          </div>
-        </div>
-
-        <div className={scss.row}>
+          <div className={scss.row}>
           <div className={scss.modals}>
             <div>
               <b>
@@ -81,6 +69,18 @@ console.log(data)
             </div>
           </div>
         </div>
+          <div className={scss.column_group}>
+            <div>
+              <b>Palavras-chaves</b>
+              {/* <p>{data.palavrasChaves}</p> */}
+              <ul>
+              {data.palavrasChaves.map((l)=>(<li>{l}</li>))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        
         <div className={scss.presentationInformations}>
           <b>Descrição</b>
           {data.descricao ? (

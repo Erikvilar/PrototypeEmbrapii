@@ -19,17 +19,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  .trlIndicator{
-    
-    margin-left: 5px;
+
+  .trlIndicator {
+    margin-left: 2px;
     font-size: 12px;
+    cursor: pointer;
+
+    transition: 0.3s;
     background-color: #2c66ce;
     color: white;
-  }.trlPoint{
+    &:hover {
+      background-color: white;
+      color: #2c66ce;
+    }
+  }
+  .trlPoint {
     background-color: #4b4a4a;
     color: #ffffff;
     font-size: 12px;
-    margin: 5px;
+    margin: 2px;
   }
   .ProjectsBox {
     background-color: #edeff1;
@@ -43,15 +51,7 @@
     align-items: center;
     margin-top: 20px;
     padding: 20px;
-    b .trlIndicator{
-      cursor: pointer;
- 
-      transition: 0.3s;
-      &:hover{
-        background-color: white;
-        color: #2c66ce;
-      }
-    }
+
     .ProjectsTitle {
       p {
         color: rgb(82, 82, 82);
@@ -62,12 +62,11 @@
     }
 
     h1 {
-
-   
       font-size: 14px;
       color: #4b4a4a;
       text-transform: uppercase;
       font-weight: 700;
+      margin-bottom: 20px;
     }
 
     div:nth-child(1) {
@@ -75,32 +74,33 @@
 
       display: flex;
       flex-direction: column;
-   
 
       img {
         mix-blend-mode: multiply;
         width: 100px;
       }
       svg {
-        fill: rgb(50, 50, 50);
-
-    
+        background-color: #ffffff;
+        border-radius: 360px;
+        padding: 2px;
+        fill: rgb(0, 0, 0);
+        margin-right: 5px;
       }
     }
-  
+
     button {
       width: 90px;
       height: 35px;
       border: none;
       position: relative;
-      left: 250px;
+      left: 350px;
       font-size: 12px;
       background-color: #2c66ce;
 
       color: white;
       border-radius: 2px;
       &:hover {
-        background-color: #4b4a4a;
+        background-color: #afadad;
       }
     }
     P {
@@ -112,7 +112,6 @@
       font-size: 25px;
       letter-spacing: 1px;
       text-align: center;
-
       text-transform: uppercase;
       font-weight: 800;
       color: #2c66ce;
@@ -124,30 +123,42 @@
     list-style: none;
     position: absolute;
     bottom: 0;
+    width:0 auto;
+    height: 33px;
     text-align: center;
-
-    align-self: center;
-    justify-content: center;
-    align-items: center;
+ 
     li {
-      padding: 0px;
-      height: 31.5px;
-      width: 100px;
-      max-width: 100px;
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 2px;
+      height: 30px;
+      min-width: 50px;
+  
+      background-color: #e6e5e5;
+    }li:first-child, 
+    li:last-child{
+      background-color: white;
+      a{
+        color: #0d1e3f;
+    }
+      
+    }li:first-child{
+      margin-right: 10px;
+    }  .active {
+      background-color: #2c66ce;
+      color: white;
     }
     a {
-      font-size: 14px;
-      height: 100%;
-      width: 100%;
+      font-size: 0.7rem;
       display: flex;
+      color: rgb(0, 0, 0);
       align-items: center;
       justify-content: center;
       text-decoration: none;
     }
-    .active {
-      background-color: #2c66ce;
-      color: white;
-    }
+  
     .page_item {
       list-style: none;
       padding: 2px 12px;
@@ -157,23 +168,28 @@
       margin-top: 2px;
     }
   }
+
+
 }
+
 .pageProject {
   display: flex;
   flex-direction: column;
-  .column_group{
+
+  .column_group {
     display: flex;
     justify-content: space-between;
-    div{
+    div {
       width: 50%;
-    
     }
-    &:last-child{
-      div{
+    div:first-child {
+      width: 100%;
+    }
+    &:last-child {
+      div {
         width: 100%;
       }
     }
-   
   }
   .presentationPage {
     position: relative;
@@ -189,9 +205,10 @@
       filter: contrast(1.2);
       mix-blend-mode: multiply;
     }
-  }.sigla{
+  }
+  .sigla {
     letter-spacing: 2px;
-    color:#0d1e3f;
+    color: #0d1e3f;
     font-weight: 700;
   }
   .title_project {
@@ -229,34 +246,30 @@
       background-image: url("https://static-00.iconduck.com/assets.00/info-icon-2048x2048-tcgtx810.png");
       background-size: cover;
     }
-    .modals{
+    .modals {
       display: flex;
-    justify-content: space-between;
-    max-width: 350px;
+      justify-content: space-between;
+      max-width: 350px;
     }
   }
   .presentationInformations {
     text-align: justify;
-    h4{
+    h4 {
       color: #2c66ce;
       padding-bottom: 10px;
       font-size: 20px;
       font-weight: 700;
-    
-    } 
-    .unlist{
-    
+    }
+    .unlist {
       padding-bottom: 50px;
-      li{
-
-
-        list-style-type:lower-latin;
+      li {
+        list-style-type: lower-latin;
         text-align: start;
-      
       }
-    } 
+    }
   }
 }
+
 .articleModal {
   box-sizing: border-box;
   h2,
@@ -305,7 +318,5 @@
         font-size: 13px;
       }
     }
- 
-    
   }
 }
