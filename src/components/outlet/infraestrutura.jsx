@@ -45,7 +45,7 @@ const infraestrutura = () => {
         title="Nossos equipamentos"
         class_style="notes_title_withBox"
       />
-      <div className="searcher-content">
+      <div className="searcher-content" >
         <Searcher
           dropdown={
             <DropdownSearch
@@ -119,8 +119,12 @@ const infraestrutura = () => {
         </div>
       </div>
       <NotesTitles
-        title="Ir para projetos "
-        link="#parceiros"
+        title={<>Veja nossas publicaçôes
+        
+        <svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 -860 360 1060" width="24px" fill="#2c66ce">
+          
+          <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></>}
+        link="#noticias"
         class_style="notes_title_baseboard"
       />
     </section>

@@ -77,19 +77,12 @@ const news = {
     },
   ],
   SubNews: [
-    {
-      type: "PARCERIA",
-      img: "https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg",
-      link:"https://comunica.ufu.br/ufu-em-imagens/2024/07/comemoracao-aos-8-anos-da-unidade-embrapii-femecufu",
-      title:
-        "Comitiva da região das mineradoras visita laboratório da Unidade Embrapii Femec UFU",
-      date: "Publicado em 12/06/2024 às 09:52",
-    },
+
 
     {
       type: "Campus Santa Mônica",
       img: "https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg",
-      link:"",
+      link:"https://comunica.ufu.br/noticias/2024/06/comitiva-da-regiao-das-mineradoras-visita-laboratorio-da-unidade-embrapii-femec",
       title: "Comemoração aos 8 anos da unidade Embrapii Femec/UFU",
       date: "Publicado em 04/07/2024 às 13:49",
     },
@@ -136,26 +129,12 @@ const news = {
         "Unidade Embrapii Femec UFU e Senai Uberlândia iniciam colaboração",
       date: "Publicado em 27/06/2024",
     },
-    {
-      type: "Centro de Extensão",
-      img: "https://proexc.ufu.br/sites/proexc.ufu.br/files/styles/chamada/public/media/image/whatsapp_image_2024-06-10_at_15.44.08_0.jpeg?itok=BA7OXsel",
-      link:"",
-      title:
-        "Exército Brasileiro busca cooperação tecnológica com pesquisadores da UFU",
-      date: " 11/06/2024 - 09:08",
-    },
-    {
-      type: "Centro de Extensão",
-      img: "https://comunica.ufu.br/sites/default/files/imagem-chamada/2024-06/foto-comitivabh-embrapii.jpeg",
-      link:"",
-      title:
-        "Comitiva da região das mineradoras visita laboratório da Unidade Embrapii Femec UFU",
-      date: " 11/06/2024 - 09:08",
-    },
+  
+
  
  
 
-    /*WebnarContent*/
+
   ],
 };
 export default news;

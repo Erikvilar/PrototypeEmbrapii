@@ -4,6 +4,7 @@ import projects from "./projects";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
+
 const BoxProjetos = () => {
   const [page, setPage] = useState(0);
   const [filterData, setFilterData] = useState();
@@ -65,7 +66,7 @@ const BoxProjetos = () => {
         breakLabel={<>Last »</>}
         marginPagesDisplayed={0}
        
-        pageRangeDisplayed={2}
+        pageRangeDisplayed={3}
         pageCount={Math.ceil(projects.length / n)}
         previousLabel={
           next == 0 ? null : (
@@ -78,6 +79,7 @@ const BoxProjetos = () => {
           )
         }
       />
+     
     </section>
   );
 };

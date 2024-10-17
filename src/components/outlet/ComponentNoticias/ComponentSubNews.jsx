@@ -2,6 +2,7 @@ import css from "./ComponentNoticias.module.css";
 import ReactPaginate from "react-paginate";
 import { useEffect, useState } from "react";
 import news from "./news";
+import { Link } from "react-router-dom";
 const ComponentSubNews = () => {
   const [page, setPage] = useState(0);
   const [filterData, setFilterData] = useState();
@@ -23,18 +24,22 @@ const ComponentSubNews = () => {
   return (
     <>
       <div className={css.pagination_page}>
-        {filterData &&
-          filterData.map((n, index) => (
-            <div className={css.ComponentSubNews} key={index}>
+        {filterData &&  filterData.map((n, index) => (
+          <div className={css.ComponentSubNews} key={index}>
+            
               <div className={css.ContentImages}>
                 <img src={n.img} />
               </div>
               <div className={css.ContentInformations}>
+              <Link to={n.link} key="index" target="_blank">
                 <span>{n.type}</span>
                 <h3>{n.title}</h3>
                 <p>{n.date}</p>
+                </Link>
               </div>
+             
             </div>
+         
           ))}
       </div>
       <ReactPaginate

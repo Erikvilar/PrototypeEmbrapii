@@ -10,13 +10,15 @@ const routeLinks ={
     ],
     unidade:[
         {link:"projetos", title:"Projetos", id:1},
-        {link:"infraestrutura", title:"Infraestrutura", id:2},
-        {link:"noticias", title:"Notícias", id:3},
-        {link:"publicacoes", title:"Publicações", id:4},
+        {link:"pesquisas", title:"Petróleo e Gás", id:2},
+        {link:"infraestrutura", title:"Infraestrutura", id:3},
+        {link:"noticias", title:"Notícias", id:4},
+        {link:"publicacoes", title:"Publicações", id:5},
+     
     ],
     saibaMais:[
-        {link:"laboratorios", title:"Laborátorios"},
-        {link:"onBuilding", title:"Fale conosco"}
+        {link:"laboratorios", title:"Laboratórios"},
+        {link:"FAC", title:"Fale conosco"}
     ]
 
 }

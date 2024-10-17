@@ -4,6 +4,7 @@
   position: relative;
   z-index: 1;
   cursor: pointer;
+  border-right: 1px solid black;
 }
 input[type="radio"] {
   position: absolute;

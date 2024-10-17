@@ -8,7 +8,7 @@ import { Articles } from "../ComponentEquipe";
 import css from "./ComponentInstitucional.module.css"
 const ComponentInstitucional = () => {
   return (
-    <section id="institucional" className={css.ComponentInstitucional}>
+    <section id="institucional" className={css.ComponentInstitucional} >
       <NotesTitles title="Institucional" class_style="notes_title" />
 
       <TextArticles

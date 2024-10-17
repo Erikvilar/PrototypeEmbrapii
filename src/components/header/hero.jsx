@@ -1,7 +1,7 @@
 
 import Presentation from './componentsHeader/principal_title'
 import Baseboard from './componentsHeader/baseboard'
-import Searcher from './Searcher/Searcher'
+
 function hero() {
   return (
     <section className='hero'>
@@ -10,7 +10,7 @@ function hero() {
         {/* Alinhar apresentação e search */}
         <div className="presentation-align">
          <Presentation/>
-         <Searcher placeholder="buscar"/>
+         
         </div>
 
       </div>

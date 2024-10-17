@@ -82,54 +82,6 @@
   background-image: url("https://media.revide.com.br/cache/bf/67/bf671ef8cb2c074eb111aa93eed25f51.jpg");
   background-size: cover;
 }
-.boxAreaAtuacao div:nth-child(1):hover:after {
-  content: "Tribologia foi definida em 1966 como a ciência e tecnologia da interação de superfícies em movimento relativo e assuntos e práticas relacionados.";
-}
-.boxAreaAtuacao div:nth-child(2):hover:after {
-  content: "Soldagem ou soldadura é um processo que visa a união localizada de materiais, similares ou não, de forma permanente, baseada na ação de forças em escala atômica.";
-}
-.boxAreaAtuacao div:nth-child(3):hover:after {
-  content: "Tribologia foi definida em 1966 como a ciência e tecnologia da interação de superfícies em movimento relativo e assuntos e práticas relacionados.";
-}
-.boxAreaAtuacao div:nth-child(4):hover:after {
-  content: "Tribologia foi definida em 1966 como a ciência e tecnologia da interação de superfícies em movimento relativo e assuntos e práticas relacionados.";
-}
-
-.boxAreaAtuacao div:hover:after {
-  background: rgb(0, 0, 0);
-  color: rgb(255, 247, 247);
-  border-left: 0.5px solid rgb(36, 158, 101);
-  border-right: 0.5px solid rgb(36, 158, 101);
-  border-top: 0.5px solid  rgb(77, 125, 198);
-  border-bottom: 0.5px solid rgb(77, 125, 198);
-  font-size: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  letter-spacing: 0px;
-  text-shadow: none;
-  font-weight: 400;
- 
-
-  animation: growText 0.5s ease-in;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes growText {
-  from {
-    font-size: 8px;
-  }
-  to {
-    font-size: 10px;
-  }
-}
-
-
 iframe {
   margin-top: 10px;
   margin-bottom: 10px;

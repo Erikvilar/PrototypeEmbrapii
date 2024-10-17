@@ -1,6 +1,111 @@
 .outlet-layout {
   width: 712px;
+  padding-top: 20px;
+  // Estilo geral do carousel
+  .carousel {
+    width: 712px;
+    .carousel-inner {
+      height: 420px;
+      position: relative;
+      top: -35px;
 
+    
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      border-radius: 360px;
+      height: 40px;
+      width: 40px;
+      
+    }
+    .carousel-indicators {
+      position: relative;
+      top: 360px;
+    }
+
+    .img-carousel-index {
+      width: 712px;
+      display: flex;
+      align-items: start ;
+      padding-top: 0px;
+      margin-top: 0px;
+      height: 430px;
+    }
+
+    .caption {
+      background-color: rgba(39, 39, 39, 0.461);
+      justify-content: center;
+      position: relative;
+      left: 0px;
+      top: -50px;
+
+      height: 50px;
+      width: 712px;
+
+      h1 {
+        font-family: "Rawline", sans-serif;
+        position: relative;
+        top: -12px;
+        left: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: start;
+      }
+    }
+
+    .bold-list {
+      margin-top: 5px;
+      font-weight: 500;
+      list-style: none;
+      padding: 0px;
+      border-top: 5px solid #172938;
+    }
+  }
+  //Estilos Infraestrutura
+  #infraestrutura {
+    max-width: 712px;
+
+    form {
+      border: 0.1px solid #000000;
+      border-left: none;
+      width: 712px;
+      border-radius: 0px;
+      height: 45px;
+      position: relative;
+      z-index: 1;
+
+      margin-bottom: 0px;
+      input {
+        height: 40px;
+        width: 100%;
+
+        display: flex;
+        justify-content: start;
+      }
+      button {
+        margin-left: 10px;
+        width: 40px;
+      }
+      button img {
+        display: flex;
+        align-items: end;
+        filter: saturate(0);
+        justify-content: end;
+      }
+    }
+
+    .searcher-content {
+      display: flex;
+      width: 100%;
+      margin: auto;
+      max-width: 712px;
+      margin-top: 10px;
+      align-items: center;
+      height: 45px;
+    }
+  }
+   //Estilos Infraestrutura cards
   #infraestrutura .cards-align {
     display: flex;
     flex-direction: row;
@@ -101,107 +206,78 @@
       }
     }
   }
-  #infraestrutura {
-    max-width: 712px;
-
-    form {
-      border: 0.1px solid #000000;
-      width: 712px;
-      border-radius: 0px;
-      height: 45px;
-      position: relative;
-      z-index: 1;
-
-      margin-bottom: 0px;
-      input {
-        height: 40px;
-        width: 100%;
-
-        display: flex;
-        justify-content: start;
-      }
-      button {
-        margin-left: 10px;
-        width: 40px;
-      }
-      button img {
-        display: flex;
-        align-items: end;
-        filter: saturate(0);
-        justify-content: end;
-      }
-    }
-
-    .searcher-content {
-      display: flex;
-      width: 100%;
-      margin: auto;
-      max-width: 712px;
-      margin-top: 10px;
-      align-items: center;
-      height: 45px;
-    }
-  }
+ //Estilos  publicações
   #publicacoes {
     padding: 0px;
     margin: 0px;
 
     .publicacoesList {
-      table{
+      table {
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         font-weight: 600;
-        thead tr{
+       
+        a {
+          text-decoration: none;
+          color: #002b87;
+          font-weight: 400;
+        }
+        thead tr {
           display: flex;
           align-items: center;
-       
+
           justify-content: space-between;
-          
         }
-        justify-content: space-between;
-        td:first-child{
+        td:first-child {
           width: 50%;
-         
-        }td:nth-child(2){
-          width: 25%;
-          text-align: center;
-        
-        }td:nth-child(3){
+        }
+        td:nth-child(2) {
           width: 25%;
           text-align: center;
         }
-      tbody{
-       
-        border-top: 3px solid #aeaeae;
-        padding: 0px;
-        list-style: none;
-     
-        tr:nth-of-type(odd){
-          background-color: #ffffff;
+        td:nth-child(3) {
+          width: 25%;
+          text-align: center;
+        }.notes_title{
+          height: 60px;
+          h1 a{
+            font-size: 18px;
+          }
+        }
+      
+        tbody {
+          border-top: 3px solid #aeaeae;
+          padding: 0px;
+          list-style: none;
+          padding-bottom: 50px;
 
-        } tr:nth-of-type(even){
-          background-color: #f3f3f3;
-
-        }tr{
-          display: flex;
-          padding-top: 5px;
-          font-size: 12px;
-          justify-content: space-between;
-          a{
-           
-            img{
-              mix-blend-mode: multiply;
+          tr:nth-of-type(odd) {
+            background-color: #ffffff;
+          }
+          tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+          }
+          tr {
+            display: flex;
+            padding-top: 5px;
+            font-size: 12px;
+            justify-content: space-between;
+            a {
+              img {
+                mix-blend-mode: multiply;
+              }
+            }
+            ul {
+              padding: 0px;
+              list-style: none;
             }
           }
-          ul{
-            padding: 0px;
-            list-style: none;
-          }
         }
-      }
       }
     }
   }
+   //Override de carousel para sessao noticias
   .carouselComunicacao {
     width: 712px;
 
@@ -251,62 +327,6 @@
         font-weight: 400;
         text-align: start;
       }
-    }
-  }
-
-  .carousel {
-    width: 712px;
-    margin-bottom: 10px;
-    .carousel-inner {
-      height: auto;
-      height: 403px;
-    }
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      border-radius: 360px;
-      height: 40px;
-      width: 40px;
-    }
-
-    .carousel-indicators {
-      position: relative;
-      top: 360px;
-    }
-
-    .img-carousel-index {
-      width: 712px;
-      resize: horizontal;
-      height: 403px;
-    }
-
-    .caption {
-      background-color: rgba(39, 39, 39, 0.461);
-      justify-content: center;
-      position: relative;
-      left: 0px;
-      top: -50px;
-
-      height: 50px;
-      width: 712px;
-
-      h1 {
-        font-family: "Rawline", sans-serif;
-        position: relative;
-        top: -12px;
-        left: 10px;
-        font-size: 18px;
-        line-height: 1.5;
-        font-weight: 400;
-        text-align: start;
-      }
-    }
-
-    .bold-list {
-      margin-top: 5px;
-      font-weight: 500;
-      list-style: none;
-      padding: 0px;
-      border-top: 5px solid #172938;
     }
   }
 }

@@ -644,7 +644,7 @@
     "id": 20,
     "tipo": "smalltest",
     "name": "Tribômetro Escala Média",
-    "produto": "mfx",
+    "produto": "drillpipe",
     "categoria":"Ensaio de desgaste material por deslizamento",
     "descricao": "Bancada capaz de realizar ensaios de desgaste por deslizamento alternado e medição de coeficiente de atrito de forma simples e com baixo custo. Permite o controle de temperatura, variação do meio e do lubrificante.",
     "details": {

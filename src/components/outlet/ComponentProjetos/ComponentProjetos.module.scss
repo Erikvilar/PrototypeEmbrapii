@@ -153,19 +153,21 @@
     a {
       font-size: 0.7rem;
       display: flex;
-      color: rgb(0, 0, 0);
-      align-items: center;
+      align-items: center;   
       justify-content: center;
       text-decoration: none;
+     
     }
   
     .page_item {
+    
       list-style: none;
       padding: 2px 12px;
       display: flex;
       justify-content: center;
       align-items: center;
       margin-top: 2px;
+      
     }
   }
 

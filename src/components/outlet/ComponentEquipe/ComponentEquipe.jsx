@@ -21,7 +21,7 @@ import {
 
 const ComponentEquipe = () => {
   return (
-    <section id="equipe">
+    <section id="equipe" >
       <NotesTitles title="Equipe" class_style="notes_title" />
       <TextArticles
         text={Articles.EquipeParagrafos[0]}

@@ -1,3 +1,9 @@
+/*
+ *Autor: Erik Alves Vilar
+ * Data 20-08
+ * Refatorado: sim
+ * Uso: Router entre components 
+ */
 import App from "./App.jsx";
 import {
   HashRouter,
@@ -17,7 +23,9 @@ import {
   DynamicComponent,
   ProjectsPage,
   ComponentLaboratorio,
-  ComponentPublicacoes
+  ComponentPublicacoes,
+  ComponentPesquisas,
+  ComponentFAC
 } from "./components/index.js";
 
 
@@ -34,11 +42,13 @@ const Routing = () => {
           <Route path="sejaparceiro" element={<ComponentVantagens />} />
           <Route path="infraestrutura" element={<Infraestrutura />} />
           <Route path="projetos" element={<ComponentProjetos />} />
+          <Route path="pesquisas" element={<ComponentPesquisas />} />
           <Route path="/equipamentos" element={<DynamicComponent/>} />
           <Route path="/projetos/pagina" element={<ProjectsPage/>} />
           <Route path="noticias" element={<ComponentNoticias />} />
           <Route path="publicacoes" element={<ComponentPublicacoes/>} />
           <Route path="laboratorios" element={<ComponentLaboratorio/>} />
+          <Route path="FAC" element={<ComponentFAC/>} />
         </Route>
       </Routes>
     </HashRouter>

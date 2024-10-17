@@ -19,3 +19,9 @@
     font-size: 0.8rem;
   
 }
+.ComponentLaboratorio .boxLab span{
+   font-weight: 700;
+   width: 40%;
+   text-align: center;
+  
+}
