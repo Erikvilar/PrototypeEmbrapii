@@ -6,6 +6,7 @@ import DropdownSearch from "./DropdownSearch/DropdownSearch";
 import Searcher from "../header/Searcher/Searcher";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 
 
 
@@ -94,7 +95,7 @@ const infraestrutura = () => {
                 key={index}
                 image={item.image[0]}
                 title={item.produto}
-                description={item.descricao ? <>{item.descricao}</> : null}
+                description={item.descricao ? <ReactMarkdown>{item.descricao}</ReactMarkdown> : null}
                 details={item.categoria ? <span>{item.categoria}</span> : null}
                 value={item.produto}
                 others={[item.details].map((d, ) => {

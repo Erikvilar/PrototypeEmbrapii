@@ -38,7 +38,7 @@ const Routing = () => {
           <Route path="/" element={<Inicio />} />
           <Route path="institucional" element={<ComponentInstitucional />} />
           <Route path="equipe" element={<ComponentEquipe />} />
-          <Route path="parceiros" element={<ComponentParcerias />} />
+          <Route path="parcerias" element={<ComponentParcerias />} />
           <Route path="sejaparceiro" element={<ComponentVantagens />} />
           <Route path="infraestrutura" element={<Infraestrutura />} />
           <Route path="projetos" element={<ComponentProjetos />} />

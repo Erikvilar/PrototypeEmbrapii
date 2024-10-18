@@ -1,9 +1,9 @@
 import { NotesTitles, TextArticles } from "../ComponentEquipe";
-import styles from "./ComponentPesquisas.module.css";
+
 import LinhasDePesquisas from "./LinhasDePesquisas";
 function ComponentPesquisas() {
   return (
-    <section className="ComponentPesquisas">
+    <section className="ComponentPesquisas" id="pesquisas">
       <NotesTitles title="Linhas de pesquisa credenciadas ANP" class_style="notes_title" />
 	  <TextArticles
         text={
@@ -33,12 +33,12 @@ function ComponentPesquisas() {
         </div>
       ))}
 	  <NotesTitles
-        title={<>Veja nossas publicaçôes
+        title={<>Conheça nossa infraestrutura
         
         <svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 -860 360 1060" width="24px" fill="#2c66ce">
           
           <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg></>}
-        link="#publicacoes"
+        link="#infraestrutura"
         class_style="notes_title_baseboard"
       />
     </section>

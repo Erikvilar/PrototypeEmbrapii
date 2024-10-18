@@ -137,6 +137,9 @@
       background-color: #e4e4e4;
       div:nth-child(4) {
         display: flex;
+        position: relative;
+        top: -20px;
+
         font-size: 12px;
         font-weight: 600;
         flex-direction: column;
@@ -154,7 +157,7 @@
       text-transform: uppercase;
     }
     .card-text {
-      position: relative;
+      
       overflow: hidden;
       font-family: "Open Sans", sans-serif;
       text-align: justify;

@@ -4,6 +4,8 @@ const projects = [
   {
     id: 0,
     prefixo: "LIGAS",
+    coordenador: "Profa. Dra. Regina Paula Garcia Santos",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/regina-paula-garcia-santos",
     titulo: "Integridade de Fixadores para Interligação de dutos em FPSOs",
     descricao: [
       `A crescente demanda no uso de ligas de Ni na indústria de óleo e gás em condições extremas de carregamentos, seja em novos projetos, seja naqueles onde se deseja uma adequação ao uso, tem exigido avaliações de integridade estrutural.`,
@@ -14,7 +16,6 @@ const projects = [
     `,
     ],
     status: "Ativo",
-    coordenador: "Profa. Dra. Regina Paula Garcia Moura",
     palavrasChaves: [
       `Fragilização por Hidrogênio`,
       `Integridade Estrutural`,
@@ -38,6 +39,7 @@ const projects = [
     id: 1,
     prefixo: "SMART",
     coordenador: "Profa. Dra. Regina Paula Garcia Moura",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/regina-paula-garcia-santos",
     titulo:
       "Desenvolvimento de componentes resistentes à corrosão para lavor de gases de caldeiras de usinas de açúcar e álcool",
     status: "Ativo",
@@ -71,6 +73,7 @@ const projects = [
     id: 2,
     prefixo: "GBMX 2",
     coordenador: "Profa. Dra. Regina Paula Garcia Moura",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/regina-paula-garcia-santos",
     titulo:
       "Avaliação do Desgaste Abrasivo-Corrosivo de Chapas de Vagões de Transporte de Bauxita",
     descricao: [
@@ -105,6 +108,7 @@ const projects = [
     id: 3,
     prefixo: "POLIVET",
     coordenador: "Prof. Dr.Luciano J. Arantes",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/luciano-jose-arantes",
     titulo:
       "Desenvolvimento de Equipamento e Metodologia para Avaliação do Desempenho de Rebolos Aplicados na Lapidação Lateral de Vidro",
     descricao: [
@@ -144,6 +148,7 @@ const projects = [
     id: 4,
     prefixo: "MFLD",
     coordenador: "Prof. Dr. Luiz Eduardo dos Santos Paes",
+    contato:"https://femec.ufu.br/pessoas/docentes/luiz-eduardo-dos-santos-paes",
     link:"",
     titulo:
       "Desenvolvimento de Metodologia para Avaliação da Fadiga Em Alta temperatura em Corpos de Prova Vazados (Hollow Specimens) sob Condição de Fragilização por Hidrogênio Gasoso",
@@ -177,6 +182,7 @@ const projects = [
     id: 5,
     prefixo: "Technip",
     coordenador: "Prof. Dr. Ing- Sinésio Domingues Franco",
+    contato:"https://femec.ufu.br/pessoas/docentes/sinesio-domingues-franco",
     titulo:
       "Validação De Metodologias Para a Avaliação De Propriedades Mecânicas de Materiais Para a Indústria de Óleo e Gás Utilizando Amostras Miniatura",
     descricao: [
@@ -209,6 +215,7 @@ const projects = [
     id: 6,
     prefixo: "LZ",
     coordenador:"Prof. Dr. Leonardo Rosa Ribeiro da Silva",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/leonardo-rosa-ribeiro-da-silva",
     titulo:
       "Desenvolvimento de uma Metodologia para Avaliação da Influência do Hidrogênio no Tribossistema Cilindro/Anel",
     descricao: [
@@ -242,6 +249,7 @@ const projects = [
     id: 7,
     prefixo: "GMBX III",
     coordenador: "Profa. Dra. Regina Paula Garcia Moura",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/regina-paula-garcia-santos",
     titulo:
       " DESENVOLVIMENTO DE MATERIAL PARA VAGÕES DE MINÉRIO DE FERRO ",
     descricao: [
@@ -276,6 +284,7 @@ const projects = [
     id: 8,
     prefixo: "BPL",
     coordenador:"Prof. Dr. Leonardo Rosa Ribeiro da Silva",
+    contato:"https://www.femec.ufu.br/pessoas/docentes/leonardo-rosa-ribeiro-da-silva",
     titulo:
       "Quantificação de perda de aperto em juntas flangeadas sob vibração",
     descricao: [
@@ -307,6 +316,7 @@ const projects = [
     id: 9,
     prefixo: "APERAM II",
     coordenador: "Prof. Dr. Ing- Sinésio Domingues Franco",
+    contato:"https://femec.ufu.br/pessoas/docentes/sinesio-domingues-franco",
     titulo:
       "valiação do Comportamento à Fadiga de Juntas Soldadas em Aços Estruturais Para a Aplicação em Componentes Automotivos",
     descricao: [

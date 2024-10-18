@@ -27,7 +27,7 @@ console.log(data)
           <div className={scss.column_group}>
             <div>
               <b>Coordenador</b>
-              <b ><a href="https://www.femec.ufu.br/pessoas/docentes/luciano-jose-arantes" target="_blank">{data.coordenador}</a></b>
+              <b ><a href={data.contato} target="_blank">{data.coordenador}</a></b>
             </div>
           </div>
 

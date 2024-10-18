@@ -45,6 +45,9 @@
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },
 
@@ -86,6 +89,9 @@
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN1.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN2.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },
   {
@@ -118,7 +124,10 @@
         "O sistema é adaptável a diferentes cenários e necessidades, sendo amplamente utilizado em pesquisa e controle de qualidade em setores como automotivo, aeroespacial e de materiais."
       ]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"]
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
+    ]
   },
   {
     "id": 4,
@@ -152,6 +161,9 @@
 
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Roda Borracha.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },
   {
@@ -194,7 +206,10 @@
         "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
       ]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Roda Metal.jpg"]
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Roda Metal.jpg"],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
+    ]
   },
   {
     "id": 6,
@@ -233,7 +248,10 @@
         "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
       ]
     },
-    "image": ["https://www.researchgate.net/publication/334730939/figure/fig3/AS:787164518428673@1564686054133/a-test-equipment-Instron-8801-b-mechanical-testing-of-a-composite-specimen.png"]
+    "image": ["https://www.researchgate.net/publication/334730939/figure/fig3/AS:787164518428673@1564686054133/a-test-equipment-Instron-8801-b-mechanical-testing-of-a-composite-specimen.png"],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
+    ]
   },
   {
     "id": 7,
@@ -257,6 +275,9 @@
     },
     "image": [
       "https://www.lifeder.com/wp-content/uploads/2017/04/propiedades-del-microscopio.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },
   {
@@ -283,6 +304,9 @@
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Haggag1.png",
       "./src/images/outlet/equippment/LTAD_Equipamento_Haggag2.jpegs"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },
   {
@@ -310,7 +334,10 @@
         "Ensaio mecânico para qualificação de ligas metálicas quanto a resistência ao impacto, permitindo estabelecer as taxas máximas de carregamento do material em serviço. Além do mais, é um ensaio que permite determinar a curva de transição dúctil-frágil  do material, obtendo-se assim um valor de temperatura mínima de operação do material para uma dada condição de trabalho.  O ensaio Charpy pode ainda ser utilizado como um comparativo entre materiais e/ou tratamentos térmicos, controle de qualidade, entre outros. O equipamento possui versatilidade para realização de ensaio de impacto em amostras de diferentes dimensões."
       ]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg"]
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg"],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
+    ]
   },
   {
     "id": 10,
@@ -334,7 +361,10 @@
         "O ensaio BTD pode ser utilizado para diferentes finalidades. Entre elas, a susceptibilidade materiais, agressividade de entalhes e meios de ensaios, segundo norma ASTM G129."
       ]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_MEV-FEG1.png"]
+    "image": ["./src/images/outlet/equippment/LTAD_MEV-FEG1.png"],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
+    ]
   },
   {
     "id": 11,
@@ -364,6 +394,9 @@
     },
     "image": [
       "https://intermetric.com.br/wp-content/uploads/2019/09/Dispositivo-de-flexao-4-pontos-DP776-16x9-1024x576.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },
   {
@@ -396,6 +429,9 @@
     },
     "image": [
       "src/images/outlet/equippment/LTAD_Equipamento_DUMAR1.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   },{
     "id": 13,
@@ -403,11 +439,11 @@
     "name": "Incremental Step Loading ISL",
     "produto": "isl",
     "categoria":"Ensaio de fragilização por hidrôgenio",
-    "descricao": "Avalia a susceptibilidade à fragilização por hidrogênio de aços e outras ligas metálicas submetidos a proteção catódica. O ensaio consiste em submeter um corpo de prova a um esforço de flexão em meio assistido.",
+    "descricao": " Avalia a susceptibilidade à fragilização por hidrogênio de aços e outras ligas metálicas submetidos a proteção catódica. O ensaio consiste em submeter um corpo de prova a um esforço de flexão em meio assistido. ",
     "details": {
       "descritivo": {
-        "Faixa nominal": "20 kN",
-        "Ensaio": "Automatizado com software robusto"
+        "Corpos de prova": "Entalhados, Filetados e Fixadores ",
+        "Ensaio normatizado": "ASTM F1624 (2018)"
       }
     },
     "content": {
@@ -429,18 +465,35 @@
        " Eletrólito: solução aquosa 3,5 %NaCl;",
        " Carregamento de hidrogênio in-situ por meio de polarização catódica;",
        " Controle de temperatura com precisão de ± 2 °C para temperaturas entre 4 °C e 54 °C;",
-       " Monitoramento contínuo de pH"
+       " Monitoramento contínuo de pH",
+       "Tipos de corpo de prova que podem ser testados: (30 x 30 x 200 mm³), (10 x 10 x 60 mm³-ASTM F519),(Filetado ou Roscado), (Arames de armadura de tração 14 x 6 x 150 mm³)"
 
       ],
 
       "usability": [
-        "Equipamento para realização de ensaio normalizado (ASTM F1624) para avaliação da suscetibilidade à fragilização por hidrogênio de aços por meio da técnica de carregamento em patamares incrementais. O ensaio consiste em submeter um corpo de prova a um carregamento de flexão a 4 pontos em meio assistido. O equipamento possui um braço de carregamento responsável por transferir a força aplicada por um atuador eletromecânico ao corpo de prova. Equipamento utilizado pra avaliar a susceptibilidade à fragilização por hidrogênio de aços e outras ligas metálicas submetidos a proteção catódica. Com o intuito de simular o ambiente marítimo, corpos de prova entalhados são ensaiados em solução eletrolítica sob potencial catódico para geração de hidrogênio. Entre as vantagens do ensaio ISL destacam-se o tempo reduzido para obtenção de resultados (até 60 horas para aços de baixa dureza ou 24 horas para aços de alta dureza) e a versatilidade de corpos de prova que podem ser ensaiados (entalhados com diferentes geometrias de entalhe ou filetados). O ensaio ISL pode ser utlizado para avaliar a susceptibilidade à fragilização por hidrogênio e rankear diferentes materiais utilizando corpos de prova normatizados (ASTM F519). Outra aplicação é a avaliação de componentes em condição próxima à real como fixadores submarinos utilizando corpos de prova filetados e  arames de armaduras de tração onde o próprio arame é utilizado como corpo de prova. O controle de temperatura também possibilita realizar ensaios em temperaturas próximos àquelas que são observadas no ambiente marítimo."
+        "Equipamento utilizado pra avaliar a susceptibilidade à fragilização por hidrogênio de aços e outras ligas metálicas submetidos a proteção catódica por meio do ensaio _Incremental Step-Loading_ (ISL) seguindo a norma **ASTM F1624**. Com o intuito de simular a proteção catódica aplicada em componentes _offshore_, corpos de prova entalhados são ensaiados em solução eletrolítica sob potencial catódico para geração de hidrogênio.",
+        "O ensaio consiste em submeter um corpo de prova imerso em uma solução eletrolítica a um carregamento em patamares progressivos de flexão a 4 pontos. O equipamento possui um braço de carregamento responsável por transferir a força aplicada por um atuador eletromecânico ao corpo de prova. ",
+        "O ensaio ISL pode ser utilizado para avaliar a susceptibilidade à fragilização por hidrogênio e ranquear diferentes materiais testando corpos de prova normatizados **ASTM F519**.  Entre as suas vantagens destacam-se o tempo reduzido para obtenção de resultados (entre 20 e 60 horas dependendo da dureza do material) e a versatilidade de corpos de prova que podem ser ensaiados (entalhados com diferentes geometrias de entalhe ou filetados).",
+        "A versatilidade do ensaio permite avaliar componentes em condição próxima à real como fixadores submarinos utilizando corpos de prova filetados e arames de armaduras de tração onde o próprio arame é utilizado como corpo de prova.",
+        " O equipamento também conta com controle de temperatura, que permite realizar ensaios em temperaturas próximos àquelas que são observadas no ambiente marítimo como, por exemplo, componentes que trabalham no fundo do mar onde a temperatura pode chegar a 4 °C. "
       ]
     },
     "image": [
-      "src/images/outlet/equippment/LTAD_Equipamento_ISL0.jpg"
+      "src/images/outlet/equippment/LTAD_Equipamento_ISL0.jpg",
+      "src/images/outlet/equippment/LTAD_Equipamento_ISL1.png",
+      "src/images/outlet/equippment/LTAD_Equipamento_ISL2.jpg",
+      "src/images/outlet/equippment/LTAD_Equipamento_ISL3.jpg",
+      "src/images/outlet/equippment/LTAD_Equipamento_ISL4.jpg"
 
+    ],
+    "descricaoImg":[
+      "Curva de tenacidade",
+      "Imagem equipamento lateral",
+      "Imagem equipamento frontal",
+      "Imagem corpo de prova",
+      "imagem corpo de prova"
     ]
+  
   }
   ,{
     "id": 14,
@@ -485,7 +538,12 @@
     "image": [
       "https://img.directindustry.com/pt/images_di/photo-g/30028-9228544.jpg"
 
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
+
+  
   }
   ,{
     "id": 15,
@@ -516,39 +574,12 @@
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg"
 
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   }
-  ,{
-    "id": 16,
-    "tipo": "hydrogen",
-    "name": "Ensaio de permeação de hidrôgenio",
-    "produto": "devanathan",
-    "categoria":"Ensaio de permeação de hidrôgenio",
-    "descricao": "Equipamento para realização de ensaios de tração sob carga constante. Dentre as aplicações destaca-se o uso na avaliação da suscetibilidade à fragilização por hidrogênio e  avaliação de materiais em meios assistido",
-    "details": {
-      "descritivo": {
-        "Faixa nominal": "3,5% de NaCL ou 0,5M de H2SO4",
-        "Temperatura": " 4...80 °C"
-      }
-    },
-    "content": {
-      "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
 
-
-      ],
-
-      "usability": [
-        "Equipamento para realização de ensaios de tração sob carga constante utilizando pesos-mortos, podendo realizar ensaios de fragilização por hidrogênio in-situ de acordo com norma ISO 16573.O equipamento de carga constante pode ser utilizado para diferentes finalidades. Entre elas, a susceptibilidade e avaliação de revestimentos metálicos eletrodepositados segundo norma ASTM F519, avaliação de materiais, agressividade de entalhes e meios de ensaios, segundo norma ISO 16573."
-      ]
-    },
-    "image": [
-      "https://www.msesupplies.com/cdn/shop/files/NewProject_8_71e5dc7b-e93a-4062-80f5-08d10820199b.jpg?v=1722514748"
-
-    ]
-  }
   ,{
     "id": 17,
     "tipo": "hydrogen",
@@ -578,6 +609,9 @@
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_SPT2.jpg"
 
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   }
   ,{
@@ -608,6 +642,9 @@
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   }
   ,{
@@ -638,6 +675,9 @@
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_MFX1.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   }
     ,{
@@ -668,6 +708,9 @@
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_DrillPipe1.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   
   }  ,{
@@ -698,6 +741,9 @@
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Suga2.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   
   } 
@@ -730,6 +776,9 @@
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_F4P2.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio"
     ]
   }
    ,{
@@ -761,6 +810,13 @@
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg"
+    ],  
+    "descricaoImg":[
+      "Curva de tenacidade por hidrogênio",
+      "Imagem equipamento lateral",
+      "Imagem equipamento frontal",
+      "Imagem corpo de prova",
+      "imagem corpo de prova"
     ]
   }
 ]
