@@ -31,7 +31,7 @@ const ComponentEquipe = () => {
         text={Articles.EquipeParagrafos[1]}
         classtype="textArticle"
       />
-  <img src="http://www.ltad.mecanica.ufu.br/sites/ltad.mecanica.ufu.br/files/ltad_.jpeg" alt="" width={712} />
+  <img src="src/images/others/equipe.jpeg" alt="" width={712} />
    
       
       <hr />

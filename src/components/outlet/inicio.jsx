@@ -31,17 +31,17 @@ function inicio() {
         class_style="notes_title_withBox"
       />
       <img
-        src="./src/images/outlet/Gráfico.png"
+        src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/Gr%C3%A1fico.png?raw=true"
         alt=""
         width={712}
         height={400}
+        style={{marginBottom:20}}
       />
 
-      <TextArticles
-        text={Articles.InicioParagrafos[3]}
-        classtype="textArticle"
-      />
-      <p style={{ fontFamily: "Arial, sans-serif", paddingTop: 20 }}>
+      <p style={{ fontFamily: "Arial, sans-serif" }}>
+        {Articles.InicioParagrafos[3]}
+      </p>
+      <p style={{ fontFamily: "Arial, sans-serif" }}>
         {Articles.InicioParagrafos[4]}
         <a href="#projetos">
           <strong>projetos.</strong>{" "}

@@ -36,7 +36,7 @@ export const StaticCompose = ({ links }) => {
   return (
     <div className='main-list-ld'>
       <div className='logo-main-list-ld'>
-        <a href=""><img src="./src/images/outlet/Logo UE Horizontal.png" alt="" /></a>
+        <a href=""><img src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/Logo%20UE%20Horizontal.png?raw=trueg" alt="" /></a>
       </div>
       {links}
       

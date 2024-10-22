@@ -37,7 +37,8 @@
         "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
         "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
         "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
-      ]
+      ],
+      "testing":[]
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg",
@@ -45,10 +46,8 @@
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
 
   {
@@ -83,16 +82,15 @@
         "Os ensaios realizados podem ser conduzidos em ambiente submerso em água com controle de temperatura. A infraestrutura possui versatilidade no dimensional e geometria dos materiais de teste. ",
         " É uma excelente opção para avaliação de materiais poliméricos em grande escala, visando contornar os inconvenientes dos testes em pequena escala para esse tipo de material.",
         "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. "
-      ]
+      ],
+      "testing":[]
     },
 
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN1.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN2.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 3,
@@ -122,12 +120,11 @@
         "Sistema avançado para testes tribológicos, projetado para analisar atrito e desgaste em uma variedade de materiais e condições operacionais.",
         "Com alta precisão e versatilidade, o equipamento realiza testes como deslizamento, rotação e fadiga, oferecendo dados confiáveis e repetíveis. Sua interface intuitiva e software avançado facilitam a configuração e análise dos testes, enquanto sensores de alta qualidade medem forças com precisão.",
         "O sistema é adaptável a diferentes cenários e necessidades, sendo amplamente utilizado em pesquisa e controle de qualidade em setores como automotivo, aeroespacial e de materiais."
-      ]
+      ],
+      "testing":[]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 4,
@@ -156,15 +153,14 @@
       "usability": [
         "Ensaio de desgaste abrasivo do tipo roda-de-borracha (ASTM G-65), para caracterizar e hierarquizar materiais em função da sua resistência ao desgaste abrasivo. Neste ensaio o corpo de prova é pressionado contra a roda de borracha que gira enquanto o fluxo de areia escoa entre as superfícies a uma vazão controlada de 300 a 400 g/min.",
         "O ensaio de abrasão, tipo roda-de-borracha, foi projetado, construído, desenvolvido e calibrado pelo Laboratório de Tecnologia em Atrito e Desgaste atendendo cuidadosamente às exigências da norma ASTM G-65. A função desse equipamento é realizar ensaios de desgaste abrasivo para caracterizar e hierarquizar os materiais em função da sua resistência ao desgaste abrasivo."
-      ]
+      ],
+      "testing":[]
     },
 
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Roda Borracha.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 5,
@@ -204,12 +200,11 @@
         "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
         "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
         "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
-      ]
+      ],
+      "testing":[]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Roda Metal.jpg"],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Roda Metal.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 6,
@@ -246,12 +241,13 @@
         "O circuito foi projetado para operar com vazões de até 450 m³/d e pressão máxima de operação de 10 bar. O equipamento é instrumentado e controlado por CLP permitindo ao operador a automatização de determinadas rotinas de ensaio, como por exemplo controle de vazão, controle de pressão, levantamento automático de curvas de desempenho de bombas, controle de injeção de gás (ar comprimido ou CO2), etc...",
         "Para isso o equipamento possui válvulas tipo globo eletropneumáticas, válvulas com atuadores pneumáticos, transmissores de pressão, transmissor de torque, transmissores de temperatura, analisador de pH, analisador de oxigênio, encoder, acelerômetros, e sensor de vazão. ",
         "O circuito possui sistema de dupla filtragem, para conferir uma boa eficiência da separação das partículas sólidas e evitar sedimentos no fluído de teste. O circuito possui sistema de condicionamento térmico (chiller e trocador de calor do tipo casco e tubo) que proporciona a realização de experimentos em ambiente com temperatura controlada."
-      ]
+      ],
+      "testing":[]
     },
-    "image": ["https://www.researchgate.net/publication/334730939/figure/fig3/AS:787164518428673@1564686054133/a-test-equipment-Instron-8801-b-mechanical-testing-of-a-composite-specimen.png"],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    "image": [
+      "https://www.researchgate.net/publication/334730939/figure/fig3/AS:787164518428673@1564686054133/a-test-equipment-Instron-8801-b-mechanical-testing-of-a-composite-specimen.png"
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 7,
@@ -271,21 +267,20 @@
 
       "usability": [
         "Microscópio Olympus BX51M, equipado com câmera digital Zeiss, modelo AxioCam ICc5 e software AxioVision®"
-      ]
+      ],
+      "testing":[]
     },
     "image": [
       "https://www.lifeder.com/wp-content/uploads/2017/04/propiedades-del-microscopio.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 8,
     "tipo": "mecanico",
     "name": "Minitração de Haggag",
     "produto": "Minitração e Indentação Haggag",
-    "categoria":"Ensaio de tração",
+    "categoria": "Ensaio de tração",
     "descricao": "Permite ensaios de tração e indentação instrumentadas em amostras miniaturizadas. O penetrador esférico pode ser substituído para diferentes diâmetros, aumentando a faixa de análise do equipamento.",
     "details": {
       "descritivo": {}
@@ -299,23 +294,22 @@
       "usability": [
         "Este equipamento consiste em um penetrador esférico, uma base para fixação dos corpos de prova e os sensores para medição de força e profundidade. O ensaio pode ser configurado com múltiplas indentações (em um único local do corpo de prova) com profundidade progressivamente aumentada até um limite máximo com descarregamentos parciais intermediários.",
         "A vantagem de utilização deste equipamento consiste na possibilidade e facilidade de substituição dos penetradores esféricos. Este que, por sua vez, é fixado com o auxílio de um mandril. Dessa forma, a análise de resposta do material sob diferentes diâmetros de penetradores garante sua utilidade dentre os demais equipamentos previstos no mercado. Além de ser um equipamento altamente robusto para esses tipos de ensaios."
-      ]
+      ],
+      "testing":[]
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Haggag1.png",
       "./src/images/outlet/equippment/LTAD_Equipamento_Haggag2.jpegs"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 9,
     "tipo": "smalltest",
     "name": "Impacto Charpy",
     "produto": "impacto charpy",
-    "categoria":"Ensaio mecânico de impacto",
-     "descricao": "Ensaio mecânico que qualifica ligas metálicas quanto a resistência ao impacto, permitindo estabelecer a taxa de carregamento máximo em campo. Equipamento certificado pelo instituto americano NIST.",
+    "categoria": "Ensaio mecânico de impacto",
+    "descricao": "Ensaio mecânico que qualifica ligas metálicas quanto a resistência ao impacto, permitindo estabelecer a taxa de carregamento máximo em campo. Equipamento certificado pelo instituto americano NIST.",
 
     "details": {
       "descritivo": {
@@ -332,19 +326,20 @@
 
       "usability": [
         "Ensaio mecânico para qualificação de ligas metálicas quanto a resistência ao impacto, permitindo estabelecer as taxas máximas de carregamento do material em serviço. Além do mais, é um ensaio que permite determinar a curva de transição dúctil-frágil  do material, obtendo-se assim um valor de temperatura mínima de operação do material para uma dada condição de trabalho.  O ensaio Charpy pode ainda ser utilizado como um comparativo entre materiais e/ou tratamentos térmicos, controle de qualidade, entre outros. O equipamento possui versatilidade para realização de ensaio de impacto em amostras de diferentes dimensões."
-      ]
+      ],
+      "testing":[]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg"],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    "image": [
+      "./src/images/outlet/equippment/LTAD_Equipamento_Minicharpy1.jpg"
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 10,
     "tipo": "image",
     "name": "Microscópio Eletrônico de Varredura",
     "produto": "mev",
-    "categoria":"Análise porfunda de propriedades matériais",
+    "categoria": "Análise porfunda de propriedades matériais",
     "descricao": "O equipamento Zeiss SUPRA-40 é um microscópio eletrônico de varredura de alta resolução do tipo FEG – Field Emission Gun, acoplado com detectores de raios-X (EDS) XFlash 630M e difração de elétrons retroespalhados (EBSD) e-FLASHFS 400a, ambos da fabricante Bruker",
 
     "details": {
@@ -359,19 +354,18 @@
       "usability": [
         "Equipamento para realização de ensaios de tração em Baixas Taxas de Deformação (BTD), podendo realizar ensaios de fragilização por hidrogênio in-situ de acordo com norma ASTM G129",
         "O ensaio BTD pode ser utilizado para diferentes finalidades. Entre elas, a susceptibilidade materiais, agressividade de entalhes e meios de ensaios, segundo norma ASTM G129."
-      ]
+      ],
+      "testing":[]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_MEV-FEG1.png"],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    "image": ["./src/images/outlet/equippment/LTAD_MEV-FEG1.png"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 11,
     "tipo": "mechanic",
     "name": "Intermetric iM-100",
     "produto": "intermetric im-100",
-    "categoria":"Ensaio de deformação por hidrôgenio",
+    "categoria": "Ensaio de deformação por hidrôgenio",
     "descricao": "Equipamento para ensaios mecânicos em Baixa Taxa de Deformação (BTD), podendo realizar ensaios de fragilização por hidrogênio in situ de acordo com a norma ASTM G129..",
 
     "details": {
@@ -390,21 +384,20 @@
       "usability": [
         "Equipamento para realização de ensaios de tração em Baixas Taxas de Deformação (BTD), podendo realizar ensaios de fragilização por hidrogênio in-situ de acordo com norma ASTM G129",
         "O ensaio BTD pode ser utilizado para diferentes finalidades. Entre elas, a susceptibilidade materiais, agressividade de entalhes e meios de ensaios, segundo norma ASTM G129."
-      ]
+      ],
+      "testing":[]
     },
     "image": [
       "https://intermetric.com.br/wp-content/uploads/2019/09/Dispositivo-de-flexao-4-pontos-DP776-16x9-1024x576.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
     "id": 12,
     "tipo": "mechanic",
     "name": "Durômetro Submersível (DUMAR)",
     "produto": "dumar",
-    "categoria":"Medidor de dureza material",
+    "categoria": "Medidor de dureza material",
     "descricao": "Voltado para aplicações da indústria de óleo e gás, é capaz de executar medição de dureza Rockwell nas escalas B e C em ambiente submerso de até 2000 m de profundidade (pressões de até 200 bar).",
 
     "details": {
@@ -425,20 +418,18 @@
 
       "usability": [
         "Durômetro voltado para aplicações da indústria de óleo e gás, é capaz de executar medição de dureza Rockwell nas escalas B e C em ambiente submerso de até 2 000 m de profundidade (pressões de até 200 bar) nas faixas de 40 a 95 HRB e de 25 a 65 HRC"
-      ]
+      ],
+      "testing":[]
     },
-    "image": [
-      "src/images/outlet/equippment/LTAD_Equipamento_DUMAR1.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  },{
+    "image": ["src/images/outlet/equippment/LTAD_Equipamento_DUMAR1.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 13,
     "tipo": "hydrogen",
     "name": "Incremental Step Loading ISL",
     "produto": "isl",
-    "categoria":"Ensaio de fragilização por hidrôgenio",
+    "categoria": "Ensaio de fragilização por hidrôgenio",
     "descricao": " Avalia a susceptibilidade à fragilização por hidrogênio de aços e outras ligas metálicas submetidos a proteção catódica. O ensaio consiste em submeter um corpo de prova a um esforço de flexão em meio assistido. ",
     "details": {
       "descritivo": {
@@ -448,26 +439,26 @@
     },
     "content": {
       "technical": [
-       " Capacidade nominal de força: 20 kN;",
-       " Células de carga com faixa nominal de ± 1 kN e ± 20 kN;",
-       " Encoder rotativo  com faixa nominal de 360°;",
-       " Cuba eletrolítica de ensaio com volume de 1,2 L;",
-       " Cuba eletrolítica auxiliar com volume de 10 L;",
-       " Sensor de pH com faixa nominal de 1 a 14;",
-       " Sensor de temperatura com faixa nominal de 2 °C a 70 °C;",
-       " Banho tesmostatizado com controle de temperatura entre 4 °C a 80 °C;",
-       " Potenciostato para aplicação de potencial constante de -1,1 V ou -1,2 V",
-       " Eletrodo de referência Ag/AgCl",
-       " Contra-eletrodo de platina",
-       " Características de ensaio:",
-       " Ensaio realizado conforme norma ASTM F1624;",
-       " Ensaio realizado em controle de força ou posição;",
-       " Eletrólito: solução aquosa 3,5 %NaCl;",
-       " Carregamento de hidrogênio in-situ por meio de polarização catódica;",
-       " Controle de temperatura com precisão de ± 2 °C para temperaturas entre 4 °C e 54 °C;",
-       " Monitoramento contínuo de pH",
-       "Tipos de corpo de prova que podem ser testados: (30 x 30 x 200 mm³), (10 x 10 x 60 mm³-ASTM F519),(Filetado ou Roscado), (Arames de armadura de tração 14 x 6 x 150 mm³)"
-
+        " Capacidade nominal de força: 20 kN;",
+        " Células de carga com faixa nominal de ± 1 kN e ± 20 kN;",
+        " Encoder rotativo  com faixa nominal de 360°;",
+        " Cuba eletrolítica de ensaio com volume de 1,2 L;",
+        " Cuba eletrolítica auxiliar com volume de 10 L;",
+        " Sensor de pH com faixa nominal de 1 a 14;",
+        " Sensor de temperatura com faixa nominal de 2 °C a 70 °C;",
+        " Banho tesmostatizado com controle de temperatura entre 4 °C a 80 °C;",
+        " Potenciostato para aplicação de potencial constante de -1,1 V ou -1,2 V",
+        " Eletrodo de referência Ag/AgCl",
+        " Contra-eletrodo de platina"
+      ],
+      "testing": [
+        "Ensaio realizado conforme norma ASTM F1624;",
+        "Ensaio realizado em controle de força ou posição;",
+        "Eletrólito: solução aquosa 3,5 %NaCl;",
+        "Carregamento de hidrogênio in-situ por meio de polarização catódica;",
+        "Controle de temperatura com precisão de ± 2 °C para temperaturas entre 4 °C e 54 °C;",
+        "Monitoramento contínuo de pH",
+        "Tipos de corpo de prova que podem ser testados: (30 x 30 x 200 mm³), (10 x 10 x 60 mm³-ASTM F519),(Filetado ou Roscado), (Arames de armadura de tração 14 x 6 x 150 mm³)"
       ],
 
       "usability": [
@@ -480,27 +471,24 @@
     },
     "image": [
       "src/images/outlet/equippment/LTAD_Equipamento_ISL0.jpg",
-      "src/images/outlet/equippment/LTAD_Equipamento_ISL1.png",
+      "src/images/outlet/equippment/LTAD_Equipamento_ISL1.jpg",
       "src/images/outlet/equippment/LTAD_Equipamento_ISL2.jpg",
       "src/images/outlet/equippment/LTAD_Equipamento_ISL3.jpg",
       "src/images/outlet/equippment/LTAD_Equipamento_ISL4.jpg"
-
     ],
-    "descricaoImg":[
-      "Curva de tenacidade",
-      "Imagem equipamento lateral",
-      "Imagem equipamento frontal",
-      "Imagem corpo de prova",
-      "imagem corpo de prova"
+    "descricaoImg": [
+      "Cuba eletrolítica",
+      "Equipamento de teste",
+      "Corpos de prova que podem ser ensaiados pela técnica ISL",
+      "Perfil de carregamento do ensaio ISL"
     ]
-  
-  }
-  ,{
+  },
+  {
     "id": 14,
     "tipo": "hydrogen",
     "name": "Análise de concentração de hidrôgenio",
     "produto": "g4 phoenix dh",
-    "categoria":"Análise de difusão do hidrôgenio",
+    "categoria": "Análise de difusão do hidrôgenio",
     "descricao": "Determina e quantifica hidrogênio difusível em diferentes matrizes usando um método de extração a quente, que permite analisar baixas concentrações de hidrogénio",
     "details": {
       "descritivo": {
@@ -510,26 +498,26 @@
     },
     "content": {
       "technical": [
-       " Capacidade nominal de força: 20 kN;",
-       " Células de carga com faixa nominal de ± 1 kN e ± 20 kN;",
-       " Encoder rotativo  com faixa nominal de 360°;",
-       " Cuba eletrolítica de ensaio com volume de 1,2 L;",
-       " Cuba eletrolítica auxiliar com volume de 10 L;",
-       " Sensor de pH com faixa nominal de 1 a 14;",
-       " Sensor de temperatura com faixa nominal de 2 °C a 70 °C;",
-       " Banho tesmostatizado com controle de temperatura entre 4 °C a 80 °C;",
-       " Potenciostato para aplicação de potencial constante de -1,1 V ou -1,2 V",
-       " Eletrodo de referência Ag/AgCl",
-       " Contra-eletrodo de platina",
-       " Características de ensaio:",
-       " Ensaio realizado conforme norma ASTM F1624;",
-       " Ensaio realizado em controle de força ou posição;",
-       " Eletrólito: solução aquosa 3,5 %NaCl;",
-       " Carregamento de hidrogênio in-situ por meio de polarização catódica;",
-       " Controle de temperatura com precisão de ± 2 °C para temperaturas entre 4 °C e 54 °C;",
-       " Monitoramento contínuo de pH"
-
+        " Capacidade nominal de força: 20 kN;",
+        " Células de carga com faixa nominal de ± 1 kN e ± 20 kN;",
+        " Encoder rotativo  com faixa nominal de 360°;",
+        " Cuba eletrolítica de ensaio com volume de 1,2 L;",
+        " Cuba eletrolítica auxiliar com volume de 10 L;",
+        " Sensor de pH com faixa nominal de 1 a 14;",
+        " Sensor de temperatura com faixa nominal de 2 °C a 70 °C;",
+        " Banho tesmostatizado com controle de temperatura entre 4 °C a 80 °C;",
+        " Potenciostato para aplicação de potencial constante de -1,1 V ou -1,2 V",
+        " Eletrodo de referência Ag/AgCl",
+        " Contra-eletrodo de platina",
+        " Características de ensaio:",
+        " Ensaio realizado conforme norma ASTM F1624;",
+        " Ensaio realizado em controle de força ou posição;",
+        " Eletrólito: solução aquosa 3,5 %NaCl;",
+        " Carregamento de hidrogênio in-situ por meio de polarização catódica;",
+        " Controle de temperatura com precisão de ± 2 °C para temperaturas entre 4 °C e 54 °C;",
+        " Monitoramento contínuo de pH"
       ],
+      "testing": [],
 
       "usability": [
         "Determina e quantifica hidrogênio difusível em diferentes matrizes usando um método de extração a quente. Está equipado com um forno aquecido por infravermelho e um detetor de condutividade altamente sensível que permite analisar baixas concentrações de hidrogénio."
@@ -537,20 +525,15 @@
     },
     "image": [
       "https://img.directindustry.com/pt/images_di/photo-g/30028-9228544.jpg"
-
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-
-  
-  }
-  ,{
+    ],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 15,
     "tipo": "hydrogen",
     "name": "Teste constante de carga",
     "produto": "hmax",
-    "categoria":"Ensaio de tração por hidrôgenio",
+    "categoria": "Ensaio de tração por hidrôgenio",
     "descricao": "Equipamento para realização de ensaios de tração sob carga constante. Dentre as aplicações destaca-se o uso na avaliação da suscetibilidade à fragilização por hidrogênio e  avaliação de materiais em meios assistido",
     "details": {
       "descritivo": {
@@ -560,32 +543,26 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
+      "testing": [],
 
       "usability": [
         "Equipamento para realização de ensaios de tração sob carga constante utilizando pesos-mortos, podendo realizar ensaios de fragilização por hidrogênio in-situ de acordo com norma ISO 16573.O equipamento de carga constante pode ser utilizado para diferentes finalidades. Entre elas, a susceptibilidade e avaliação de revestimentos metálicos eletrodepositados segundo norma ASTM F519, avaliação de materiais, agressividade de entalhes e meios de ensaios, segundo norma ISO 16573."
       ]
     },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg"
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Hmax.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
 
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  }
-
-  ,{
+  {
     "id": 17,
     "tipo": "hydrogen",
     "name": "Ensaio Small Punch Test",
     "produto": "spt",
-    "categoria":"Ensaio de permeação de hidrôgenio",
+    "categoria": "Ensaio de permeação de hidrôgenio",
     "descricao": "Equipamento para realização de ensaios de tração sob carga constante. Dentre as aplicações destaca-se o uso na avaliação da suscetibilidade à fragilização por hidrogênio e  avaliação de materiais em meios assistido",
     "details": {
       "descritivo": {
@@ -595,31 +572,25 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
+      "testing":[],
 
       "usability": [
         "Equipamento para realização de ensaios de tração sob carga constante utilizando pesos-mortos, podendo realizar ensaios de fragilização por hidrogênio in-situ de acordo com norma ISO 16573.O equipamento de carga constante pode ser utilizado para diferentes finalidades. Entre elas, a susceptibilidade e avaliação de revestimentos metálicos eletrodepositados segundo norma ASTM F519, avaliação de materiais, agressividade de entalhes e meios de ensaios, segundo norma ISO 16573."
       ]
     },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_SPT2.jpg"
-
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  }
-  ,{
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_SPT2.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 18,
     "tipo": "smalltest",
     "name": "Plataforma de multitestes",
     "produto": "csm",
-    "categoria":"Plataforma de multitestes",
+    "categoria": "Plataforma de multitestes",
     "descricao": "Plataforma compacta multiteste para ensaios mecânicos instrumentados de nanoindentação, microindentação e microesclerometria. Aplicações incluem caracterização mecânica de pequenos volumes de material e superfícies.",
     "details": {
       "descritivo": {
@@ -629,30 +600,25 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
         "Testes para caracerização mecânica de pequenos volumes de material, filmes finos, revestimentos e camadas de superfície. A ampla faixa de carga do equipamento permite a determinação da adesão/adesividade, resistência a riscos, dureza e módulo de elasticidade de uma ampla variedade de materiais.Testes para caracerização mecânica de pequenos volumes de material, filmes finos, revestimentos e camadas de superfície. A ampla faixa de carga do equipamento permite a determinação da adesão/adesividade, resistência a riscos, dureza e módulo de elasticidade de uma ampla variedade de materiais."
-      ]
+      ],
+      "testing":[]
     },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  }
-  ,{
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CSM1.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 19,
     "tipo": "smalltest",
     "name": "Tribômetro Escala Média",
     "produto": "mfx",
-    "categoria":"Ensaio de desgaste material",
+    "categoria": "Ensaio de desgaste material",
     "descricao": "Tribômetro para a realização de ensaios de desgaste por deslizamento em média escala. Mede o coeficiente de atrito em amostras pequenas, mantendo o custo reduzido para preparação do ensaio.",
     "details": {
       "descritivo": {
@@ -662,30 +628,25 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
         "Testes para caracerização mecânica de pequenos volumes de material, filmes finos, revestimentos e camadas de superfície. A ampla faixa de carga do equipamento permite a determinação da adesão/adesividade, resistência a riscos, dureza e módulo de elasticidade de uma ampla variedade de materiais.Testes para caracerização mecânica de pequenos volumes de material, filmes finos, revestimentos e camadas de superfície. A ampla faixa de carga do equipamento permite a determinação da adesão/adesividade, resistência a riscos, dureza e módulo de elasticidade de uma ampla variedade de materiais."
-      ]
+      ],
+      "testing":[]
     },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_MFX1.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  }
-    ,{
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_MFX1.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 20,
     "tipo": "smalltest",
     "name": "Tribômetro Escala Média",
     "produto": "drillpipe",
-    "categoria":"Ensaio de desgaste material por deslizamento",
+    "categoria": "Ensaio de desgaste material por deslizamento",
     "descricao": "Bancada capaz de realizar ensaios de desgaste por deslizamento alternado e medição de coeficiente de atrito de forma simples e com baixo custo. Permite o controle de temperatura, variação do meio e do lubrificante.",
     "details": {
       "descritivo": {
@@ -695,30 +656,25 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
         "Testes para caracerização mecânica de pequenos volumes de material, filmes finos, revestimentos e camadas de superfície. A ampla faixa de carga do equipamento permite a determinação da adesão/adesividade, resistência a riscos, dureza e módulo de elasticidade de uma ampla variedade de materiais.Testes para caracerização mecânica de pequenos volumes de material, filmes finos, revestimentos e camadas de superfície. A ampla faixa de carga do equipamento permite a determinação da adesão/adesividade, resistência a riscos, dureza e módulo de elasticidade de uma ampla variedade de materiais."
-      ]
+      ],
+      "testing":[]
     },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_DrillPipe1.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  
-  }  ,{
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_DrillPipe1.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 21,
     "tipo": "smalltest",
     "name": "SUGA NUS-ISO3",
     "produto": "suga",
-    "categoria":"Ensaio de desgaste com abrasivo",
+    "categoria": "Ensaio de desgaste com abrasivo",
     "descricao": "Ensaio de desgaste abrasivo normalizado de excelente reprodutibilidade muito utilizado para a avaliação de revestimentos e filmes finos tais como: pinturas, vernizes, filmes de óxidos e revestimentos.",
     "details": {
       "descritivo": {
@@ -728,31 +684,25 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
         "Tribômetro de bancada para realização de ensaio de desgaste abrasivo por deslizamento da partícula. O teste consiste em gerar o deslizamento de um disco com partículas abrasivas (lixa abrasiva) em relação à superfície de teste numa configuração cilindro sobre plano e é denominado Suga Abrasion Tester. O método e equipamento NUS-ISO 3 está descrito sobre as normas ISO 7784-3, ISO 8251, ISO 10074, ASTM D6037, JIS H 8682-1 e JIS H 8503. A amostra plana oscila (movimento linear alternado) sobre o disco abrasivo e este, movido por um motor de passo, em cada ciclo de translação da amostra, gira de um grado. A aplicação de carga é realizada através de um braço de alavanca posicionado na parte inferior do dispositivo. Faixa nominal de força de 0,98 N a 29,42 N.Ensaio de desgaste abrasivo normalizado de excelente reprodutibilidade muito utilizado para a avaliação de revestimentos e filmes finos tais como: pinturas,  vernizes, filmes de óxidos obtidos por processo de anodização e eletrodeposição e revestimentos por aspersão térmica (sprayed coating). Além de ser recomendado para avaliar a resistência ao desgaste abrasivo de superfícies poliméricas e elastoméricas."
-      ]
-    },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_Suga2.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  
-  } 
-   ,{
+      ],
+      "testing":[]   
+     },
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Suga2.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 22,
     "tipo": "smalltest",
     "name": "F4P ",
     "produto": "f4p",
-    "categoria":"Ensaio de fadiga material",
+    "categoria": "Ensaio de fadiga material",
     "descricao": "Equipamento para ensaios de corrosão-fadiga desenvolvido para atender uma demanda da indústria de óleo e gás com o objetivo de ensaiar armaduras de tração de dutos flexíveis que estão submersos em ambiente confinado.",
     "details": {
       "descritivo": {
@@ -762,31 +712,26 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
         "Equipamento para realização de ensaio de corrosão fadiga em autoclave com pressão de trabalho até 20 barg. A fadiga do corpo de prova é ralizada em dispositivo de flexão a quatro pontos e o movimento cíclico alternado é conseguido mediante mecanismo biela manivela. O ensaio é realizado em controle de deslocamento. O meio corrosivo está confinado em autoclave construida em aço inoxidável AISI 316L com monitoramento do pH e do O2 dissolvido na solução.",
         "O equipamento para ensaios de corrosão-fadiga foi desenvolvido para atender uma demanda da indústria de óleo e gás com o objetivo de ensaiar armaduras de tração de dutos flexíveis que estão submersos em um ambiente confinado. O ensaio permite avaliar a vida destes arames nestas condições de trabalho e comporta amostras com diferentes dimensões de perfil. Alé do mais, o equipamento pode atender diversas necessidades da indústria onde tem-se a necessidade  de avaliar o fenômeno da corrosão-fadiga de componentes sujeitos a ambientes confinados."
-      ]
+      ],
+      "testing":[]
     },
-    "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_F4P2.jpg"
-    ],  
-    "descricaoImg":[
-      "Curva de tenacidade por hidrogênio"
-    ]
-  }
-   ,{
+    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_F4P2.jpg"],
+    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+  },
+  {
     "id": 23,
     "tipo": "smalltest",
     "name": "Nevoa salina ",
     "produto": "nevoa salina",
-    "categoria":"Ensaio de fadiga material",
+    "categoria": "Ensaio de fadiga material",
     "descricao": "Equipamento para ensaios de corrosão-fadiga desenvolvido para atender uma demanda da indústria de óleo e gás com o objetivo de ensaiar armaduras de tração de dutos flexíveis que estão submersos em ambiente confinado.",
     "details": {
       "descritivo": {
@@ -796,22 +741,21 @@
     },
     "content": {
       "technical": [
-       "Capacidade nominal de força: até 40 kN;",
-       "Acoplado a sensor de fim de curso e horímetro;",
-       "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
-
-
+        "Capacidade nominal de força: até 40 kN;",
+        "Acoplado a sensor de fim de curso e horímetro;",
+        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
         "Equipamento para realização de ensaio de corrosão fadiga em autoclave com pressão de trabalho até 20 barg. A fadiga do corpo de prova é ralizada em dispositivo de flexão a quatro pontos e o movimento cíclico alternado é conseguido mediante mecanismo biela manivela. O ensaio é realizado em controle de deslocamento. O meio corrosivo está confinado em autoclave construida em aço inoxidável AISI 316L com monitoramento do pH e do O2 dissolvido na solução.",
         "O equipamento para ensaios de corrosão-fadiga foi desenvolvido para atender uma demanda da indústria de óleo e gás com o objetivo de ensaiar armaduras de tração de dutos flexíveis que estão submersos em um ambiente confinado. O ensaio permite avaliar a vida destes arames nestas condições de trabalho e comporta amostras com diferentes dimensões de perfil. Alé do mais, o equipamento pode atender diversas necessidades da indústria onde tem-se a necessidade  de avaliar o fenômeno da corrosão-fadiga de componentes sujeitos a ambientes confinados."
-      ]
+      ],
+      "testing":[]
     },
     "image": [
       "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg"
-    ],  
-    "descricaoImg":[
+    ],
+    "descricaoImg": [
       "Curva de tenacidade por hidrogênio",
       "Imagem equipamento lateral",
       "Imagem equipamento frontal",

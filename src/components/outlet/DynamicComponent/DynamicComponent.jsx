@@ -31,6 +31,16 @@ const DynamicComponent = () => {
               </ul>
             </>
           ) : null}
+          {item.content.testing != "" ? (
+            <>
+              <h3>Características do ensaio:</h3>
+              <ul className={css.unlist} type="a">
+                {item.content.testing.map((descripton, index) => (
+                  <li key={descripton.id}>{descripton}</li>
+                ))}
+              </ul>
+            </>
+          ) : <></>}
          
           <article>
             <ReactMarkdown>{item.content.usability[1]}</ReactMarkdown>
