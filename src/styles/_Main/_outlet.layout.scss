@@ -121,7 +121,7 @@
       padding: 0;
       color: black;
       b {
-        color: red;
+    
         color: #172938;
         font-family: "Poppins", sans-serif;
       }
@@ -131,7 +131,7 @@
       border-radius: none;
       width: 340px;
       margin: 5px;
-      height: 520px;
+      height: 560px;
       box-shadow: 1px 10px 20px rgb(181, 180, 180);
       border: none;
       background-color: #e4e4e4;
@@ -139,35 +139,44 @@
         display: flex;
         position: relative;
         top: -20px;
-
         font-size: 12px;
         font-weight: 600;
         flex-direction: column;
+       
       }
     }
 
     .card-title {
       font-size: 20px;
-      border-bottom: 1px solid rgb(70, 70, 70);
+
       text-align: start;
       padding-bottom: 5px;
-      color: rgb(70, 70, 70);
+      color: rgb(71, 71, 71);
       font-weight: 600;
+      font-family: "Open-Sans",sans-serif;
 
       text-transform: uppercase;
     }
     .card-text {
-      
+   
       overflow: hidden;
       font-family: "Open Sans", sans-serif;
       text-align: justify;
       scrollbar-width: none;
       font-weight: 600;
       font-size: 0.8rem;
-      color: #5d5d5d;
+      color: #000000;
       span {
         color: #172938;
         font-family: "Poppins", sans-serif;
+       
+      }
+      p{
+       
+        border-top: 1px solid rgba(39, 39, 39, 0.461);
+
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
     }
     .card-img-top {
@@ -204,7 +213,7 @@
       justify-content: center;
 
       span {
-        color: black;
+        color: rgb(0, 0, 0);
         font-weight: 600;
       }
     }

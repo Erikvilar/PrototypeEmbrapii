@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "produto": "bcs",
+    "produto": "flowloop",
     "name": "Ensaio de bombas LOOP1 e LOOP2",
     "tipo": "mechanic wear corrosion",
     "categoria": "Ensaio de corrosão e desgaste",
-    "descricao": " Tribologico Ensaios em bombas  com sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 L/min). Possui sensores de temperatura, torque, pressão, vazão, pH, célula de oxigênio, acelerômetros e encoder.",
+    "descricao": "Ensaios em bombas  com sistema de dosagem de abrasivo utilizando bombas peristálticas (vazão de 0,4 a 4 L/min). Possui sensores de temperatura, torque, pressão, vazão, pH, célula de oxigênio, acelerômetros e encoder.",
     "details": {
       "descritivo": {
         "Faixa nominal": " 150 Barg",
@@ -96,30 +96,29 @@
     "id": 3,
     "tipo": "mechanic",
     "name": "Desgaste de propriedades mecânicas",
-    "produto": "cetr bruker",
-    "categoria": "Ensaio mecânico e desgaste",
-    "descricao": "Tribômetro universal de bancada com controle de temperatura, emissão acústica e lubrificação. Permite a realização de ensaios de desgaste por deslizamento normalizados.",
+    "produto": "tribometro universal",
+    "categoria": "Ensaio de deslizamento",
+    "descricao": "O CETR é um tribômetro universal capaz de realizar ensaios de desgaste por deslizamento em diferentes configurações, como: Pino-sobre-disco, bloco-sobre-anel, Pino/esfera-contra-plano, dentre outros. Os resultados são o desgaste em mm3 ou mg e o coeficiente de atrito. ",
     "details": {
       "descritivo": {
-        "Faixa nominal": " 100 tf(1MN)",
-        "Velocidade": " 10 mm/s"
+        "Faixa nominal": "10 a 1000 N, até 10 mm/s",
+        "Ensaio": "Normatizado"
       }
     },
     "content": {
       "technical": [
-        "Modos de Operação: O UMT TriboLab suporta múltiplos modos de operação, incluindo deslizamento, rotação e testes combinados. Pode ser configurado para simular condições de operação variadas, como testes de atrito em ambientes controlados de temperatura e umidade.",
-        "Sensores e Medidas: Equipado com sensores de força de alta precisão, o sistema mede forças de atrito e desgaste com alta resolução. O controle de carga é ajustável e pode variar de miligramas a centenas de newtons, dependendo da aplicação.",
-        "Controle e Software: O sistema é operado por um software intuitivo que permite a configuração detalhada dos testes e o monitoramento em tempo real. O software fornece ferramentas para análise de dados, geração de gráficos e relatórios personalizados.",
-        "Acessórios e Configurações: O UMT TriboLab pode ser configurado com uma variedade de acessórios e módulos, como dispositivos de carga, suportes para amostras e sistemas de medição de desgaste. Isso permite a adaptação do sistema para diferentes tipos de testes e materiais.",
-        "Ambiente de Teste: O sistema pode ser operado em ambientes controlados, com opções para testes em diferentes temperaturas, pressões e condições de umidade. É possível integrar câmaras ambientais para simular condições específicas.",
-        "Precisão e Repetibilidade: A precisão do UMT TriboLab é assegurada por sua construção robusta e seus componentes de alta qualidade. A repetibilidade dos testes é alta, garantindo resultados confiáveis e consistentes para análise comparativa.",
-        "Capacidade de Dados: O sistema possui alta capacidade de armazenamento de dados e pode realizar análises detalhadas, incluindo curvas de atrito, taxas de desgaste e análise de ciclos de carga."
+        "Carga = 10 a 1000 N ",
+        "Velocidade: até 10 mm/s ",
+        "Corpo e contra-corpo: qualquer material ",
+        "Ensaios a seco ou com lubrificação ",
+        "Temperatura de ensaio: 23 até 350 °C "
+
       ],
 
       "usability": [
-        "Sistema avançado para testes tribológicos, projetado para analisar atrito e desgaste em uma variedade de materiais e condições operacionais.",
-        "Com alta precisão e versatilidade, o equipamento realiza testes como deslizamento, rotação e fadiga, oferecendo dados confiáveis e repetíveis. Sua interface intuitiva e software avançado facilitam a configuração e análise dos testes, enquanto sensores de alta qualidade medem forças com precisão.",
-        "O sistema é adaptável a diferentes cenários e necessidades, sendo amplamente utilizado em pesquisa e controle de qualidade em setores como automotivo, aeroespacial e de materiais."
+        "O UMT Multi Specimen Test System é um tribômetro fabricado pela CETR (atualmente Bruker) que realiza diversos ensaios de desgaste seguindo a padronização de normas internacionais, principalmente da ASTM.  ",
+        "Os principais ensaios são mostrados na tabela abaixo, assim como a respectiva norma.  "
+      
       ],
       "testing":[]
     },
@@ -729,14 +728,14 @@
   {
     "id": 23,
     "tipo": "smalltest",
-    "name": "Nevoa salina ",
-    "produto": "nevoa salina",
-    "categoria": "Ensaio de fadiga material",
-    "descricao": "Equipamento para ensaios de corrosão-fadiga desenvolvido para atender uma demanda da indústria de óleo e gás com o objetivo de ensaiar armaduras de tração de dutos flexíveis que estão submersos em ambiente confinado.",
+    "name": "camara de corrosão",
+    "produto": "camara de corrosão",
+    "categoria": "Resistência a corrosão ",
+    "descricao": "A câmara de corrosão é um equipamento capaz de reproduzir uma atmosfera corrosiva de alta agressividade, seja pela alta umidade ou pela alta concentração de sais. Nela, testa-se, de forma acelerada, a resistência a corrosão de revestimentos e ligas resistentes a corrosão (CRA).",
     "details": {
       "descritivo": {
-        "Faixa nominal": "51 kN",
-        "Frequência": " 2 Hz"
+        "Faixa nominal": "5% de NaCl e 95% de umidade",
+        "Atmosfera": "Corrosiva"
       }
     },
     "content": {
@@ -747,7 +746,7 @@
       ],
 
       "usability": [
-        "Equipamento para realização de ensaio de corrosão fadiga em autoclave com pressão de trabalho até 20 barg. A fadiga do corpo de prova é ralizada em dispositivo de flexão a quatro pontos e o movimento cíclico alternado é conseguido mediante mecanismo biela manivela. O ensaio é realizado em controle de deslocamento. O meio corrosivo está confinado em autoclave construida em aço inoxidável AISI 316L com monitoramento do pH e do O2 dissolvido na solução.",
+        "com esta câmara de corrosão, é possível realizar três tipos ensaios normatizados",
         "O equipamento para ensaios de corrosão-fadiga foi desenvolvido para atender uma demanda da indústria de óleo e gás com o objetivo de ensaiar armaduras de tração de dutos flexíveis que estão submersos em um ambiente confinado. O ensaio permite avaliar a vida destes arames nestas condições de trabalho e comporta amostras com diferentes dimensões de perfil. Alé do mais, o equipamento pode atender diversas necessidades da indústria onde tem-se a necessidade  de avaliar o fenômeno da corrosão-fadiga de componentes sujeitos a ambientes confinados."
       ],
       "testing":[]

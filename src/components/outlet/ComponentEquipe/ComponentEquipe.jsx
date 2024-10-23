@@ -31,7 +31,7 @@ const ComponentEquipe = () => {
         text={Articles.EquipeParagrafos[1]}
         classtype="textArticle"
       />
-  <img src="src/images/others/equipe.jpeg" alt="" width={712} />
+  <img src="https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/others/equipe.jpeg?raw=true" alt="" width={712} />
    
       
       <hr />
