@@ -41,11 +41,11 @@
       "testing":[]
     },
     "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS2.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg"
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS2.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg?raw=true"
     ],
     "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
@@ -87,8 +87,8 @@
     },
 
     "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN1.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN2.jpg"
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN1.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN2.jpg?raw=true"
     ],
     "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
@@ -126,11 +126,11 @@
     },
     "image": [
       
-      "./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg",
-       "./src/images/others/ASTMG133.png",
-       "./src/images/others/ASTMG99.png",
-      "./src/images/others/ASTMG77.png",
-      "./src/images/outlet/equippment/LTAD_Equipamento_CETR2.png"   
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg?raw=true",
+       "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/others/ASTMG133.png?raw=true",
+       "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/others/ASTMG77.png?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/others/ASTMG99.png?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_CETR2.png?raw=true"   
      
     
 
@@ -169,7 +169,7 @@
     },
 
     "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_Roda Borracha.jpg"
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_Roda%20Borracha.jpg?raw=true"
     ],
     "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
@@ -214,7 +214,7 @@
       ],
       "testing":[]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_Roda Metal.jpg"],
+    "image": ["https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_Roda%20Metal.jpg?raw=true"],
     "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
   {
