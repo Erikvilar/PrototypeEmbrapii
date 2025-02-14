@@ -41,11 +41,11 @@
       "testing":[]
     },
     "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS2.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg"
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS1.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS2.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS3.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS4.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_BCS5.jpg?raw=true"
     ],
     "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
@@ -87,8 +87,8 @@
     },
 
     "image": [
-      "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN1.jpg",
-      "./src/images/outlet/equippment/LTAD_Equipamento_Tribômetro 1 MN2.jpg"
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN1.jpg?raw=true",
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_Trib%C3%B4metro%201%20MN2.jpg?raw=true"
     ],
     "descricaoImg": ["Curva de tenacidade por hidrogênio"]
   },
@@ -117,13 +117,25 @@
 
       "usability": [
         "O UMT Multi Specimen Test System é um tribômetro fabricado pela CETR (atualmente Bruker) que realiza diversos ensaios de desgaste seguindo a padronização de normas internacionais, principalmente da ASTM.  ",
-        "Os principais ensaios são mostrados na tabela abaixo, assim como a respectiva norma.  "
+        "Os principais ensaios são mostrados na tabela abaixo, assim como a respectiva norma.  ",
+        "",
+        "Durante os ensaios, é possível obter o coeficiente de atrito dinâmico em tempo real. O desempenho dos materiais pode ser estimado a perda de massa, profundidade de trilha de desgaste ou perda volumétrica.  "
       
       ],
       "testing":[]
     },
-    "image": ["./src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg"],
-    "descricaoImg": ["Curva de tenacidade por hidrogênio"]
+    "image": [
+      
+      "https://github.com/Erikvilar/PrototypeEmbrapii/blob/onBuilding/src/images/outlet/equippment/LTAD_Equipamento_CETR1.jpg?raw=true",
+       "./src/images/others/ASTMG133.png",
+       "./src/images/others/ASTMG99.png",
+      "./src/images/others/ASTMG77.png",
+      "./src/images/outlet/equippment/LTAD_Equipamento_CETR2.png"   
+     
+    
+
+  ],
+    "descricaoImg": ["Esfera sobre plano ","Pino sobre disco ", "Bloco sobre anel "]
   },
   {
     "id": 4,
@@ -742,7 +754,7 @@
       "technical": [
         "Capacidade nominal de força: até 40 kN;",
         "Acoplado a sensor de fim de curso e horímetro;",
-        "c) A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
+        "A amostra fica isolada eletricamente da estrutura, podendo dessa forma, realizar ensaios de fragilização por hidrogênio in-situ, submetendo a amostra a proteção catódica."
       ],
 
       "usability": [
@@ -752,6 +764,8 @@
       "testing":[]
     },
     "image": [
+      "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg",
+      "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg",
       "./src/images/outlet/equippment/LTAD_Equipamento_Névoa Salina.jpg"
     ],
     "descricaoImg": [

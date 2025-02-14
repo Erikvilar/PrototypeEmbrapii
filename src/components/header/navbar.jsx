@@ -4,8 +4,8 @@ function nav_header() {
       <div>
         <div className="logo">
           <img
-            src="https://cdn.icon-icons.com/icons2/1694/PNG/512/brbrazilflag_111698.png"
-            alt=""
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/275px-Flag_of_Brazil.svg.png"
+            alt="Bandeira do Brasil"
           />
           <span href="#menu">Brasil</span>
         </div>

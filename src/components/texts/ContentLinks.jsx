@@ -51,7 +51,7 @@ const Links ={
     //FUNDEP
      {img:"https://www2.fundep.ufmg.br/wp-content/themes/fundep/assets/images/fundep-no-image.jpg", link:"https://www.fundep.ufmg.br/"},
      //ANP
-     {img:"https://yt3.googleusercontent.com/qS5dF7Jtg7-AGLMs09pWwN5x3DFNgni6pzArQwceWYh4puaHz_654nGnf9hIGZIlEqO1ogn2yQ=s900-c-k-c0x00ffffff-no-rj", link:"https://www.gov.br/anp/pt-br"},
+     {img:"https://upload.wikimedia.org/wikipedia/commons/9/96/Anp-logo-3.png", link:"https://www.gov.br/anp/pt-br"},
     //FAPEMIG
       {img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr_nHGh9QI2E-2VsETD5MtufA_2khWgIVKSA&s", link:"https://www.fapemig.br/pt/"},
     //CAPES
